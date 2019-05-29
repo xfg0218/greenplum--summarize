@@ -14,6 +14,11 @@
 		20190523 : 当前执行此脚本的日期
 			table-percent-hidden : 执行完此脚本存放csv格式的文件夹
 			temp-inspect-results : 存放临时的统计结果,包括每个schema的表并按照格式生成需要的新的文件，以便读取表
+# 执行脚本进度格式如下
+	sh greenplum-inspect-ao.sh
+	*******
+	"当前进度的百分比为:"10.00%   "当前的行"10 "总行" 100
+        *******
 
 # 生成的CSV格式如下
 	$ cat 20190523-finish.csv 
