@@ -28,14 +28,14 @@ temp_inspect_results=$inspect_ao_log"/"$currentDate"/temp-inspect-results"
 table_percent_hidden=$inspect_ao_log"/"$currentDate"/table-percent-hidden"
 
 # 以下为数据库的链接信息
-gpdatabase='chinadaas'
+gpdatabase='*****'
 scheamname='public'
-gpip='192.168.209.11'
+gpip='192.168.***.**'
 gpport='5432'
 gpuser='gpadmin'
 
 # 需要检查的schema,请以英文逗号分割
-schema_inspect='dim,ods,main,data_quality,datafix,history,summary'
+schema_inspect='dim,ods'
 
 # 允许膨胀的百分比,大于等于此膨胀的则需要清理
 percent_hidden='15'
