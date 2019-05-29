@@ -28,17 +28,17 @@ temp_inspect_results=$inspect_ao_log"/"$currentDate"/temp-inspect-results"
 table_percent_hidden=$inspect_ao_log"/"$currentDate"/table-percent-hidden"
 
 # 以下为数据库的链接信息
-gpdatabase='stagging'
+gpdatabase='chinadaas'
 scheamname='public'
-gpip='192.168.***.**'
+gpip='192.168.209.11'
 gpport='5432'
 gpuser='gpadmin'
 
 # 需要检查的schema,请以英文逗号分割
-schema_inspect='dim,ods'
+schema_inspect='dim,ods,main,data_quality,datafix,history,summary'
 
 # 允许膨胀的百分比,大于等于此膨胀的则需要清理
-percent_hidden='20'
+percent_hidden='15'
 
 # 删除日志文件并创建新文件
 if [ -d $inspect_ao_log ];then
@@ -76,8 +76,9 @@ done
 # 3、判断当前表的膨胀率与设置的值比较
 # 4、如果大于等于设置的值,则进行释放空间
 # 5、统计释放空间表的详细信息,包括表明,表的膨胀率,表的原始大小,表清楚后的大小
-
-for tablename in `cat $temp_inspect_results/$currentDate"-finish.txt"`
+finish_tablename=$temp_inspect_results/$currentDate"-finish.txt"
+filesumline=`cat $finish_tablename|wc -l`
+for tablename in `cat $finish_tablename`
 do
 
    cp $inspect_ao_expansivity_ori $inspect_ao_expansivity
@@ -85,6 +86,10 @@ do
    percent_result=`psql -d $gpdatabase  -h $gpip -p $gpport -U $gpuser -f  $inspect_ao_expansivity`
    percent_number=`echo $percent_result|awk -F '----------------' '{print $2}'|awk -F '('  '{print $1}'|awk '{print int($0)}'`
    
+   currentline=`cat $tablename|grep -w -n $finish_tablename|awk -F ':' '{print $1}'`
+   percentage=`awk 'BEGIN{printf "%.2f%\n",'$currentline'/'$filesumline'*100}'`
+   echo -e "当前进度的百分比为:"$percentage  "\t\t 当前的行"$currentline "总行" $filesumline
+
    # 1、获取原始表的大小
    # 2、vacuum释放表的空间
    # 3、获取释放后的表的空间
