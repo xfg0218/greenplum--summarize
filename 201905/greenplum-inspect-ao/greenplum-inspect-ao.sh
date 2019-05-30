@@ -86,7 +86,7 @@ do
    percent_result=`psql -d $gpdatabase  -h $gpip -p $gpport -U $gpuser -f  $inspect_ao_expansivity`
    percent_number=`echo $percent_result|awk -F '----------------' '{print $2}'|awk -F '('  '{print $1}'|awk '{print int($0)}'`
    
-   currentline=`cat $tablename|grep -w -n $finish_tablename|awk -F ':' '{print $1}'`
+   currentline=`cat $finish_tablename|grep -w -n $tablename|awk -F ':' '{print $1}'`
    percentage=`awk 'BEGIN{printf "%.2f%\n",'$currentline'/'$filesumline'*100}'`
    echo -e "当前进度的百分比为:"$percentage  "\t\t 当前的行"$currentline "总行" $filesumline
 
