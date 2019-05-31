@@ -12,3 +12,23 @@
 	2、需要准备大约250G大小的空间磁盘，在测试过程中会生成文件 
 	3、测试过程中在DISK WRITE TEST，DISK READ TEST这两个阶段比较耗时
 	4、测试完了会把gpcheckperf_$USER目录删掉
+
+# 1、greenplum  gpcheckperf  命令参数说明
+	以下列出了gpcheckperf  常用的一些参数
+
+	gpcheckperf -d test_directory [-d test_directory ...]
+	{-f hostfile_gpcheckperf | - h hostname [-h hostname ...]}
+	[-r ds] [-B block_size] [-S file_size] [-D] [-v|-V]
+
+	gpcheckperf -d temp_directory
+	{-f hostfile_gpchecknet | - h hostname [-h hostname ...]}
+	[ -r n|N|M [--duration time] [--netperf] ] [-D] [-v | -V]
+
+	gpcheckperf -?
+
+	gpcheckperf --version
+
+
+
+
+
