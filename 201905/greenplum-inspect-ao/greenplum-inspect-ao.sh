@@ -88,7 +88,7 @@ do
    
    currentline=`cat $finish_tablename|grep -w -n $tablename|awk -F ':' '{print $1}'`
    percentage=`awk 'BEGIN{printf "%.2f%\n",'$currentline'/'$filesumline'*100}'`
-   echo -e "当前进度的百分比为:"$percentage  "\t\t 当前的行"$currentline "总行" $filesumline
+   echo -e "当前进度的百分比为: $percentage \t 当前的行$currentline 总行 $filesumline \t 当前的表 $tablename"
 
    # 1、获取原始表的大小
    # 2、vacuum释放表的空间
