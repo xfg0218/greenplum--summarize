@@ -112,11 +112,16 @@ do
 
 done
 
+
+finsh_file=$table_percent_hidden/$currentDate"-finish.csv"
+if [[ -f $finsh_file ]];then
 # 添加文件的表头
-sed -i '1i\表名,最高膨胀率%,清除之前的大小,清除之后的大小'  $table_percent_hidden/$currentDate"-finish.csv"
+sed -i '1i\表名,最高膨胀率%,清除之前的大小,清除之后的大小'  $finsh_file
 
-echo -e "\n\n表空间回收完毕,请下载log/"$currentDate"/table-percent-hidden/"$currentDate"-finish.csv目录下的csv文件,以便分析结果......"
-
+echo -e "\n\n表空间回收完毕,请下载 $finsh_file csv文件,以便分析结果......"
+else
+ echo -e "\n\n 没有膨胀率大于等于 $percent_hidden %"
+fi
 
 # 正确退出脚本
 exit
