@@ -1,4 +1,8 @@
 # 历史知识点介绍
+## 201906
+greenplum-table-percentage [查看greenplum中的表膨胀率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
+
+
 ## 201905 月
 greenplum-inspect-ao [清理greenplum中的AO表的空间](https://github.com/xfg0218/greenplum--summarize/tree/master/201905/greenplum-inspect-ao)
 
