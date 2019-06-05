@@ -1,6 +1,7 @@
 # 更多关于Greenplum资料请查看以下链接
-	CSDN 中关于Greenplum的资料 [CSDN 中关于Greenplum资料](https://blog.csdn.net/xfg0218/article/category/7898386)
-	腾讯云 中关于Greenplum的资料 [腾讯云 中关于Greenplum的资料](https://cloud.tencent.com/developer/column/72497)
+	CSDN 中关于Greenplum的资料 https://blog.csdn.net/xfg0218/article/category/7898386
+
+	腾讯云 中关于Greenplum的资料 https://cloud.tencent.com/developer/column/72497
 
 
 # 历史greenplum知识点介绍
