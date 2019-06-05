@@ -1,9 +1,0 @@
-表名,最大segment的行,最小segment的行,倾斜率(%),表的大小,表的分布键
-datafix.enterp*******,10362661,84146,99,95GB, by (s_ext_nodenum)
-data_quality.dq_qg_*******,107,1,99,26kB, by (entid)
-data_quality.f_ent_*******,16495396,140377,99,5503MB, by (s_ext_nodenum)
-data_quality.f_ent_*******,12777242,107989,99,7824MB, by (s_ext_nodenum)
-data_quality.f_ent_*******,12759334,107950,99,7315MB, by (s_ext_nodenum)
-data_quality.gh_*******,1680,4,99,178kB, by (entid)
-data_quality.gh_*******,832,6,99,117kB, by (entid)
-data_quality.gh_*******,114,1,99,25kB, by (entid)
