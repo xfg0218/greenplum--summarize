@@ -1,5 +1,6 @@
-# 历史知识点介绍
-## 201906
+# 历史greenplum知识点介绍
+
+## 201906 月
 greenplum-table-percentage [查看greenplum中的表膨胀率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
 
 
