@@ -22,6 +22,12 @@
 	
 	table-percentage-sql
 
+		all-table.sql-ori
+			查看制定schema下的所有的表
+
+		table-percentage.sql-ori
+			查看制定表的膨胀率
+
 
 # 运行项目输出详细日志如下
 	time sh greenplum-table-percentage.sh
