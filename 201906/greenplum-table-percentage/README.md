@@ -1,5 +1,5 @@
 # greenplum-table-percentage 
-	此项目主要检测greenplum集群中膨胀的表,经过检测会生成一个csv文件，以便技术人员分析原因及解决问题
+	此项目主要检测greenplum集群中倾斜率比较高的表,经过检测会生成一个csv文件，以便技术人员分析原因及解决问题
 
 # 项目结构介绍
 	greenplum-table-percentage.sh

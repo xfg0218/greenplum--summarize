@@ -11,7 +11,7 @@ currentDate=`date +%Y%m%d`
 bashpath=$(cd `dirname $0`;pwd)
 basepath_parent=$(dirname $(pwd))
 
-# 执行查看AO表的SQL脚本
+# 执行查看schema下所有表的SQL脚本
 table_percentage_sql_ori=$bashpath"/table-percentage-sql/all-table.sql-ori"
 table_percentage_sql=$bashpath"/table-percentage-sql/all-table.sql"
 
@@ -36,8 +36,9 @@ gpuser='******'
 # 需要检查的schema,请以英文逗号分割
 schema_inspect='*************'
 
-# 允许倾斜的百分比,大于等于此膨胀的则需要清理
+# 允许倾斜的百分比,大于等于此倾斜率的则需要清理
 percent_hidden='1'
+
 
 # 删除日志文件并创建新文件
 if [ -d $percentage_log ];then
@@ -66,7 +67,7 @@ do
 done
 
 
-# 1、遍历合并的AO与堆表的文件
+# 1、遍历合并的表的文件
 # 2、根据表的名字查看表的倾斜率,倾斜率是向下取整
 # 3、生成当前处理的进度
 # 4、获取表的倾斜率与制定的数值进行比较
