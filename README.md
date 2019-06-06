@@ -7,7 +7,7 @@
 # 历史greenplum知识点介绍
 
 ## 201906 月
-greenplum-table-percentage [查看greenplum中的表膨胀率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
+greenplum-table-percentage [查看greenplum集群中表的倾斜率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
 
 
 ## 201905 月
