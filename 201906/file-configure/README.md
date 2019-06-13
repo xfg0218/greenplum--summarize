@@ -27,5 +27,5 @@
 	kernel.pid_max = 655360
 
 
-# 参数含义详解
-	/etc/sysctl.conf [参数详解请查看](https://github.com/xfg0218/greenplum--summarize/blob/master/images/greenplum-images/sysctl-conf.png)
+# /etc/sysctl.conf 参数含义详解
+![images](https://github.com/xfg0218/greenplum--summarize/blob/master/images/greenplum-images/sysctl-conf.png)
