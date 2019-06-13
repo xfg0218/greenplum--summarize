@@ -8,6 +8,7 @@
 
 ## 201906 月
 greenplum-table-percentage [查看greenplum集群中表的倾斜率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
+
 /etc/sysctl.conf [安装greenplum时sysctl参数详解](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/file-configure)
 
 
