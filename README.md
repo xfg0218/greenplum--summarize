@@ -11,6 +11,7 @@
 
 2、/etc/sysctl.conf [安装greenplum时对sysctl参数详解](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/file-configure)
 
+3、使用streamsets工具把oracle数据导入到greenplum [使用streamsets工具把oracle数据导入到greenplum](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/oracle-streamsets-greenplum)
 
 ## 201905 月
 1、greenplum-inspect-ao [清理greenplum中的AO表的空间](https://github.com/xfg0218/greenplum--summarize/tree/master/201905/greenplum-inspect-ao)
