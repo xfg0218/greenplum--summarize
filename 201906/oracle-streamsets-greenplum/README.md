@@ -13,6 +13,11 @@
 	select count(*) from F_ENT_XW_ZS_20181208;
 	-- 2630,9816
 
+	表的结构
+	entname	varchar2(400 byte)
+	xwqy	varchar2(2 byte)
+
+
 ## 2、查看streamsets数据源的配置
 ![images](https://github.com/xfg0218/greenplum--summarize/blob/master/images/streamsets-images/data-source.png)
 
