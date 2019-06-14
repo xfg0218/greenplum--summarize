@@ -4,8 +4,7 @@
 
 	1、streamsets 官网:https://streamsets.com/
 	2、streamsets 相关介绍:https://blog.csdn.net/xfg0218/article/details/80731557
-	3、streamsets 配置实例请查看xiaoxu_test.json文件 
-[下载地址](https://github.com/xfg0218/greenplum--summarize/blob/master/images/streamsets-images/xiaoxu_test.json)
+	3、streamsets 配置实例请查看xiaoxu_test.json文件,下载地址:https://github.com/xfg0218/greenplum--summarize/blob/master/images/streamsets-images/xiaoxu_test.json
 	4、把xiaoxu_test.json导入到streamsets中修改配置参数即可使用
 
 
@@ -24,5 +23,5 @@
 ![images](https://github.com/xfg0218/greenplum--summarize/blob/master/images/streamsets-images/streamsets.png)
 
 # 更多streamsets案例
-更多streamsets 的资料请查看 [更多streamsets 的资料] (https://blog.csdn.net/xfg0218/article/details/79403054)
+更多streamsets 的资料请查看:https://blog.csdn.net/xfg0218/article/details/79403054
 
