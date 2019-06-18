@@ -1,1 +1,0 @@
-SELECT (max(c)-min(c))*100.0/max(c) AS "percentage" FROM (SELECT count(*) c,gp_segment_id FROM tableName  GROUP BY 2) AS a;
