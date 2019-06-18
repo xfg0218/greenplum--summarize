@@ -28,11 +28,11 @@ temp_inspect_results=$inspect_ao_log"/"$currentDate"/temp-inspect-results"
 table_percent_hidden=$inspect_ao_log"/"$currentDate"/table-percent-hidden"
 
 # 以下为数据库的链接信息
-gpdatabase='chinadaas'
+gpdatabase='*********'
 scheamname='public'
-gpip='192.168.209.11'
+gpip='192.168.***.**'
 gpport='5432'
-gpuser='gpadmin'
+gpuser='*********'
 
 # 需要检查的schema,请以英文逗号分割
 schema_inspect='data_quality,datafix,dim,history,issues,main,ods,ods_spider,produce_check,riskbell,summary,vatel'
