@@ -13,6 +13,10 @@
 
 3、使用streamsets工具把oracle数据导入到greenplum [使用streamsets工具把oracle数据导入到greenplum](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/oracle-streamsets-greenplum)
 
+4、streamsets使用中常见错误PDF文档请查看 [streamsets使用错误常见文档](https://github.com/xfg0218/greenplum--summarize/blob/master/document/streamsets%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.pdf)
+
+
+
 ## 201905 月
 1、greenplum-inspect-ao [清理greenplum中的AO表的空间](https://github.com/xfg0218/greenplum--summarize/tree/master/201905/greenplum-inspect-ao)
 
