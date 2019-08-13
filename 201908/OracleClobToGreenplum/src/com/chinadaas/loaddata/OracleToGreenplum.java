@@ -12,7 +12,7 @@ import com.chinadaas.utils.AsciiTranUtils;
 import com.chinadaas.utils.ConfigureFileValue;
 
 /**
- * Êı¾İ¼ÓÔØÖ÷Àà
+ * æ•°æ®åŠ è½½ä¸»ç±»
  * 
  * @author xiaoxu 
  *
@@ -27,16 +27,16 @@ public class OracleToGreenplum {
 	 * 
 	 */
 	public static void loaddata() {
-		//  Êı¾İ¶àÉÙÌá½»Ò»´Î
+		//  æ•°æ®å¤šå°‘æäº¤ä¸€æ¬¡
 		int batchsize = Integer.parseInt(ConfigureFileValue.getConfigureValue("batchsize"));
-		// oracle ²éÑ¯Óï¾ä
+		// oracle æŸ¥è¯¢è¯­å¥
 		String oraclesql = ConfigureFileValue.getConfigureValue("oraclesql");
-		// gp ²éÑ¯Óï¾ä
+		// gp æŸ¥è¯¢è¯­å¥
 		String gpsql = ConfigureFileValue.getConfigureValue("gpsql");
 		
 		Integer index = 1;
-		String value1;
-		String value2;
+		String value1 = null;
+		String value2 = null;
 		Connection gpconnect = null;
 		Statement gpstmt = null;
 		long startTime = System.currentTimeMillis();
@@ -59,11 +59,11 @@ public class OracleToGreenplum {
 					value2 = oraclers.getString(2).replace("'", "");
 					Clob clob = (Clob) oraclers.getClob(3);
 					StringBuffer clobfiled = AsciiTranUtils.toStringBuffer(clob);
-					// Æ´½Ó×Ö·û´®
+					// æ‹¼æ¥å­—ç¬¦ä¸²
 					if(index % batchsize != 0){
 						suffix.append("('" + value1 + "','"+ value2 + "','" + clobfiled + "'),");
 					}
-					// µ½´ïÅú´ÎµÄ´óĞ¡ºóÌá½»ÊÂÎñ
+					// åˆ°è¾¾æ‰¹æ¬¡çš„å¤§å°åæäº¤äº‹åŠ¡
 					if (index % batchsize == 0) {
 						suffix.append("('" + value1 + "','"+ value2 + "','" + clobfiled + "'),");
 						insertsql = gpsql + suffix.substring(0, suffix.length() - 1);
@@ -71,12 +71,12 @@ public class OracleToGreenplum {
 						gpconnect.commit();
 						suffix = new StringBuffer();
 						long endTime = System.currentTimeMillis();
-						System.out.println("insert count:" + index + "ºÄÊ±  " + ((endTime - startTime) / 1000) + "s");
+						System.out.println("insert count:" + index + "è€—æ—¶  " + ((endTime - startTime) / 1000) + "s");
 					}
 					index++;
 				} catch (Exception e) {
 					e.printStackTrace();
-					System.out.println("µ±Ç°µÄSQL´íÎó:" + insertsql);
+					System.out.println("å½“å‰çš„SQLé”™è¯¯ï¼Œvalue1:" + value1 + "value2:" + value2);
 					continue;
 				}
 			}
@@ -84,7 +84,7 @@ public class OracleToGreenplum {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ¹Ø±ÕÁ¬½ÓÌá½»ÊÂÎñ
+				// å…³é—­è¿æ¥æäº¤äº‹åŠ¡
 				insertsql = gpsql + suffix.substring(0, suffix.length() - 1);
 				gpstmt.executeUpdate(insertsql);
 				gpconnect.commit();
@@ -94,7 +94,7 @@ public class OracleToGreenplum {
 				gpstmt.close();
 				gpconnect.close();
 				long endTime = System.currentTimeMillis();
-				System.out.println("insert count:"+index+"ÒÑÈ«²¿Èë¿âÍê±Ï,ºÄÊ±:" + ((endTime - startTime) / 1000) + "s");
+				System.out.println("insert count:"+index+"å·²å…¨éƒ¨å…¥åº“å®Œæ¯•,è€—æ—¶:" + ((endTime - startTime) / 1000) + "s");
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
