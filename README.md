@@ -7,7 +7,7 @@
 # 历史greenplum知识点介绍
 
 ## 201908月
-1、OracleClobToGreenplum [OracleClobToGreenplum 把Oracle的clob同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
+1、OracleClobToGreenplum [OracleClobToGreenplum 把Oracle的clob字段同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
 
 
 ## 201906 月
