@@ -6,6 +6,10 @@
 
 # 历史greenplum知识点介绍
 
+## 201908月
+1、OracleClobToGreenplum [OracleClobToGreenplum 把Oracle的clob同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
+
+
 ## 201906 月
 1、greenplum-table-percentage [查看greenplum集群中表的倾斜率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
 
