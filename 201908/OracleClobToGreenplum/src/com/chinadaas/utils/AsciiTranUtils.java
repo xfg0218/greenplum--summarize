@@ -4,7 +4,7 @@ import java.io.Reader;
 import java.sql.Clob;
 
 /**
- * ascii È¥³ýÀà
+ * ascii åŽ»é™¤ç±»
  * 
  * @author xiaoxu
  *
@@ -12,10 +12,10 @@ import java.sql.Clob;
 public class AsciiTranUtils {
 	
 	/**
-	 * È¥³ý»Ø³µ»»ÐÐ,ÒÔ¼°³£¼ûµÄascii·ûºÅ,ÒÔ¼°'·ûºÅ,Èç¹û¶à´Î×Ö·û×¢ÖØµÄÇë×¢Òâ
-	 * asciiÏêÇéÇë²é¿´:https://blog.csdn.net/xfg0218/article/details/80901752
+	 * åŽ»é™¤å›žè½¦æ¢è¡Œ,ä»¥åŠå¸¸è§çš„asciiç¬¦å·,ä»¥åŠ'ç¬¦å·,å¦‚æžœå¤šæ¬¡å­—ç¬¦æ³¨é‡çš„è¯·æ³¨æ„
+	 * asciiè¯¦æƒ…è¯·æŸ¥çœ‹:https://blog.csdn.net/xfg0218/article/details/80901752
 	 * 
-	 * @param clob clob ×Ö¶Î
+	 * @param clob clob å­—æ®µ
 	 * @return
 	 */
 	public static StringBuffer toStringBuffer(Clob clob) {
@@ -29,8 +29,9 @@ public class AsciiTranUtils {
 	        for (int i = reader.read(charbuf); i > 0; i = reader.read(charbuf)) {
 	            sb.append(charbuf, 0, i);
 	        }
-	     return new StringBuffer(sb.toString().replaceAll("'","").replaceAll("[\\x01-\\x1f]", ""));
+	     return new StringBuffer(sb.toString().replaceAll("'","").replaceAll("[\\x01-\\x1f]", "").replace("\0", ""));
 	    } catch (Exception e) {
+		    e.printStackTrace();
 	    }
 		return null;
 	}
