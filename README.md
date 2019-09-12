@@ -6,6 +6,10 @@
 
 # 历史greenplum知识点介绍
 
+## 201909月
+1、gpcrondump与gpdbrestore使用 [gpcrondump与gpdbrestore](https://github.com/xfg0218/greenplum--summarize/blob/master/201909/gpcrondump%E4%B8%8Egpdbrestore/README.md)
+
+
 ## 201908月
 1、OracleClobToGreenplum [OracleClobToGreenplum 把Oracle的clob字段同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
 
