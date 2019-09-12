@@ -19,7 +19,7 @@
 	2、gpcrondump 命令-s不能与-t或-T同事使用
 	3、gpcrondump备份增量表时会判断全量的表明,在文件gp_dump_<timestamp_key>_table_list
 	4、在gpdbrestore 恢复数据时如果重复恢复同一个时间戳的批次，会以此追加数据到表中,使用truncate即可解决
-	
+	   
 # 1、gpcrondump 详细介绍
 	1、使用gpcrondump来备份数据库、数据以及数据库角色和服务器配置文件之类的对象。
 	2、gpcrondump工具在Master和每个Segment上转储一个Greenplum数据库的内容为SQL脚本文件。
