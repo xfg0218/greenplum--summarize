@@ -266,15 +266,15 @@
 
 	5.1 查看日志分析gpcrondump执行过程
 	20190916:14:24:42:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Starting gpcrondump with args: -a -x stagging --table-file=tablename.txt
-	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Directory /greenplum/data/gpmaster/gpseg-1/db_dumps/20190916 not found, will try to create
-	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Created /greenplum/data/gpmaster/gpseg-1/db_dumps/20190916
-	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Checked /greenplum/data/gpmaster/gpseg-1 on master
+	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Directory $MASTER_DATA_DIRECTORY/db_dumps/20190916 not found, will try to create
+	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Created $MASTER_DATA_DIRECTORY/db_dumps/20190916
+	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Checked $MASTER_DATA_DIRECTORY on master
 	20190916:14:24:53:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Configuring for single-database, include-table dump
 	20190916:14:24:53:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Validating disk space
-	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Creating filter file: /greenplum/data/gpmaster/gpseg-1/db_dumps/20190916/gp_dump_20190916142443_table
+	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Creating filter file: $MASTER_DATA_DIRECTORY/db_dumps/20190916/gp_dump_20190916142443_table
 	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Adding compression parameter
 	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Adding --no-expand-children
-	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump process command line gp_dump -p 5432 -U gpadmin --gp-d=db_dumps/20190916 --gp-r=/greenplum/data/gpmaster/gpseg-1/db_dumps/20190916 --gp-s=p --gp-k=20190916142443 --no-lock --gp-c --no-expand-children "stagging" --table-file=/tmp/include_dump_tables_filej4bP1y
+	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump process command line gp_dump -p 5432 -U gpadmin --gp-d=db_dumps/20190916 --gp-r=$MASTER_DATA_DIRECTORY/db_dumps/20190916 --gp-s=p --gp-k=20190916142443 --no-lock --gp-c --no-expand-children "stagging" --table-file=/tmp/include_dump_tables_filej4bP1y
 	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Starting Dump process
 	20190916:14:25:07:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump process returned exit code 0
 	20190916:14:25:07:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Timestamp key = 20190916142443
