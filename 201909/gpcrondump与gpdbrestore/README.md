@@ -257,6 +257,80 @@
 		prefixname : 前缀的名字
 		<timestamp_key> : 时间戳
 
+# 5、详细解析备份与恢复过程
+
+	5.1 查看日志分析gpcrondump执行过程
+	20190916:14:24:42:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Starting gpcrondump with args: -a -x stagging --table-file=tablename.txt
+	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Directory /greenplum/data/gpmaster/gpseg-1/db_dumps/20190916 not found, will try to create
+	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Created /greenplum/data/gpmaster/gpseg-1/db_dumps/20190916
+	20190916:14:24:44:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Checked /greenplum/data/gpmaster/gpseg-1 on master
+	20190916:14:24:53:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Configuring for single-database, include-table dump
+	20190916:14:24:53:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Validating disk space
+	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Creating filter file: /greenplum/data/gpmaster/gpseg-1/db_dumps/20190916/gp_dump_20190916142443_table
+	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Adding compression parameter
+	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Adding --no-expand-children
+	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump process command line gp_dump -p 5432 -U gpadmin --gp-d=db_dumps/20190916 --gp-r=/greenplum/data/gpmaster/gpseg-1/db_dumps/20190916 --gp-s=p --gp-k=20190916142443 --no-lock --gp-c --no-expand-children "stagging" --table-file=/tmp/include_dump_tables_filej4bP1y
+	20190916:14:25:02:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Starting Dump process
+	20190916:14:25:07:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump process returned exit code 0
+	20190916:14:25:07:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Timestamp key = 20190916142443
+	20190916:14:25:07:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Checked master status file and master dump file.
+	20190916:14:25:08:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Releasing pg_class lock
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Inserted dump record into public.gpcrondump_history in stagging database
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump status report
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:----------------------------------------------------
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Target database                          = stagging
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump subdirectory                        = 20190916
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump type                                = Full database
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Clear old dump directories               = Off
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump start time                          = 14:24:43
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump end time                            = 14:25:07
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Status                                   = COMPLETED
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump key                                 = 20190916142443
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Dump file compression                    = On
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Vacuum mode type                         = Off
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-Exit code zero, no warnings generated
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:----------------------------------------------------
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[WARNING]:-Found neither /greenplum/soft/greenplum-db/./bin/mail_contacts nor /home/gpadmin/mail_contacts
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[WARNING]:-Unable to send dump email notification
+	20190916:14:25:16:245676 gpcrondump:gpmdw:gpadmin-[INFO]:-To enable email notification, create /greenplum/soft/greenplum-db/./bin/mail_contacts or /home/gpadmin/mail_contacts containing required email addresses
+	
+	
+	在以上日志可以看出:
+	1、校验命令的正确性
+	2、校验在master节点上$MASTER_DATA_DIRECTORY/db_dumps 目录下是否有日期的文件夹,否则则创建
+	3、校验master节点上磁盘的空间,并准备开始转储数据做准备
+	4、读取配置的文件,增加命令的参数，拼接成为gp_dump能够启动的命令
+	5、开启gp_dump的进程获取当前批次的Timestamp key,释放pg_class的锁并插入到当前数据库下的表public.gpcrondump_history的操作记录
+	6、汇总转储状态报告
+	7、查看是否配置数据库邮件参数，如果有则发送邮件
+	5.2 查看master储存的文件
+	 
+	
+	$  ls  $MASTER_DATA_DIRECTORY/db_dumps/20190916
+	
+	gp_cdatabase_-1_1_20190916142443          gp_dump_20190916142443_ao_state_file   gp_dump_20190916142443.rpt
+	gp_dump_-1_1_20190916142443.gz            gp_dump_20190916142443_co_state_file   gp_dump_20190916142443_table
+	gp_dump_-1_1_20190916142443_post_data.gz  gp_dump_20190916142443_last_operation  gp_dump_status_-1_1_20190916142443
+	
+	
+	gp_dump_20190916142443_table : 需要备份表的列表，在上一步的日志中有所体现
+	gp_cdatabase_-1_1_20190916142443 : 按照数据库template0的模板创建当前的数据库
+	gp_dump_20190916142443_ao_state_file : AO表的状态的文件
+	gp_dump_20190916142443_co_state_file : CO表的状态的文件
+	gp_dump_20190916142443_last_operation : 上一次的操作记录
+	gp_dump_20190916142443.rpt : 每个segment执行的过程及结果
+	gp_dump_-1_1_20190916142443.gz : gz后缀的使用gzip -d命令进行解压，此压缩包主要保存表的schema信息，包括创建语句及加载数据的COPY语句，使用的是stdin表进行临时转换的条件
+	gp_dump_-1_1_20190916142443_post_data.gz : 保存恢复压缩文件，里面主要有一个储存过程，内容为:
+	
+	create or replace function pg_temp.drop_table_constraint_only_if_exists(sch text,tbl text,constr text) returns void as
+	$$
+	begin
+		EXECUTE  'ALTER TABLE ONLY '||sch||'.'||tbl||' DROP CONSTRAINT '||constr||'';
+		return;
+	exception when undefined_object then
+		return;
+	end;
+	$$ language plpgsql;
 
 
 
