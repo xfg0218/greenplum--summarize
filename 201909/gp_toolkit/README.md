@@ -1,5 +1,9 @@
 # gp_toolkit 说明
-	Greenplum数据库提供了一个名为gp_tooikit的管理schema,该schema下有关于查询系统目录,日志文件,用户创建(databases,schema,table,indexs,view,function)等信息,也可以查询资源队列,表的膨胀表,表的倾斜,系统自己维护的ID等的相关信息。注意不要在该schema下创建任何对象,否则会影响系统对元数据维护的错误问题,同时再使用gpcrondump和gpdbrestore程序进行备份和恢复数据时,之前维护的元数据会发生更改。
+
+	Greenplum数据库提供了一个名为gp_tooikit的管理schema,该schema下有关于查询系统目录,日志文件,
+	用户创建(databases,schema,table,indexs,view,function)等信息,也可以查询资源队列,表的膨胀表,表的倾斜,
+	系统自己维护的ID等的相关信息。注意不要在该schema下创建任何对象,否则会影响系统对元数据维护的错误问题,
+	同时再使用gpcrondump和gpdbrestore程序进行备份和恢复数据时,之前维护的元数据会发生更改。
 
 ## 1、表膨胀相关查询
 
