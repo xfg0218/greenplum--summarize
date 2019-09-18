@@ -9,6 +9,10 @@
 ## 201909月
 1、gpcrondump与gpdbrestore使用 [gpcrondump与gpdbrestore](https://github.com/xfg0218/greenplum--summarize/blob/master/201909/gpcrondump%E4%B8%8Egpdbrestore/README.md)
 
+2、greenplum常用的gp_toolkit监控语句[greenplum常用的gp_toolkit监控语句](https://github.com/xfg0218/greenplum--summarize/tree/master/201909/gp_toolkit)
+
+3、greenplum常用的pg_catalog监控语句[greenplum常用的pg_catalog监控语句](https://github.com/xfg0218/greenplum--summarize/tree/master/201909/pg_catalog)
+
 
 ## 201908月
 1、OracleClobToGreenplum [OracleClobToGreenplum 把Oracle的clob字段同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
