@@ -1,6 +1,6 @@
 # Greenplum  基本查询信息
 
-	## Greenplum 常用查询
+## Greenplum 常用查询
 	
 	--  pg_constraint 对存储对表的检查,主键,唯一和外键约束。
 	select * from pg_catalog.pg_constraint;
@@ -48,7 +48,7 @@
 	select * from pg_catalog.pg_auth_members;
 	
 	
-	##  Greenplum 触发器,锁,类型等相关信息
+##  Greenplum 触发器,锁,类型等相关信息
 	
 	--  pg_trigger 触发器查询信息。
 	select * from pg_catalog.pg_trigger;
@@ -66,7 +66,7 @@
 	select * from pg_catalog.pg_window;
 	
 	
-	##  Greenplum 故障检测相关的信息
+##  Greenplum 故障检测相关的信息
 	
 	--  gp_configuration_history 包含有关故障检测和恢复操作的系统更改的信息。
 	select * from pg_catalog.gp_configuration_history order by time desc;
@@ -75,7 +75,7 @@
 	select * from pg_catalog.gp_fault_strategy;
 
 
-	## Greenplum 分布式事务有关信息
+## Greenplum 分布式事务有关信息
 	
 	--  gp_distributed_log 包含有关分布式事务及其关联的本地事务的状态信息。
 	select * from pg_catalog.gp_distributed_log;
@@ -84,7 +84,7 @@
 	select * from pg_catalog.gp_distributed_xacts;
 	
 	
-	## Greenplum  segment 有关信息
+## Greenplum  segment 有关信息
 	
 	--  gp_distribution_policy 包含有关Greenplum数据库表及其segment分发表数据的策略的信息。
 	select * from pg_catalog.gp_distribution_policy;
@@ -96,7 +96,7 @@
 	select * from pg_catalog.gp_global_sequence;
 
 
-	## Greenplum 数据文件状态有关信息
+## Greenplum 数据文件状态有关信息
 	
 	--  gp_persistent_database_node 跟踪与数据库对象的事务状态相关的文件系统对象的信息。
 	select * from pg_catalog.gp_persistent_database_node;
@@ -111,7 +111,7 @@
 	select * from pg_catalog.gp_pgdatabase;
 
 
-	## Greenplum 有关储存的信息
+## Greenplum 有关储存的信息
 	
 	--  gp_transaction_log 包含有关特定segment本地事务的状态信息。
 	select * from pg_catalog.gp_transaction_log;
@@ -226,7 +226,7 @@
 
 # Greenplum 表,视图,索引等有关信息
 
-	## Greenplum 中支持的索引
+## Greenplum 中支持的索引
 	
 	--  pg_am 有关索引方法的信息(btree,hash,gist,gin,bitmap索引)
 	select * from pg_catalog.pg_am;
@@ -244,7 +244,7 @@
 	select * from pg_catalog.pg_opclass;
 
 
-	## Greenplum 表的关系信息
+## Greenplum 表的关系信息
 	
 	--  pg_tablespace系统目录表存储有关可用表空间的信息。
 	select * from pg_catalog.pg_tablespace;
@@ -268,7 +268,7 @@
 
 # Greenplum 系统目录存储基本信息
 
-	## Greenplum 储存database,schema,table,view等的信息
+## Greenplum 储存database,schema,table,view等的信息
 	
 	--  pg_database里系统目录表存储有关可用数据库的信息。
 	select * from pg_catalog.pg_database;
