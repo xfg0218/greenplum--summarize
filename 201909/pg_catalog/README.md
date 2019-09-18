@@ -1,3 +1,22 @@
+# 目录
+	1、Greenplum  基本查询信息
+		1.1、Greenplum 常用查询
+		1.2、Greenplum 触发器,锁,类型等相关信息
+		1.3、Greenplum 故障检测相关的信息
+		1.4、Greenplum 分布式事务有关信息
+		1.5、 Greenplum  segment 有关信息
+		1.6、Greenplum 数据文件状态有关信息
+		1.7、Greenplum 有关储存的信息
+	2、Greenplum 插件相关信息
+	3、Greenplum 分区表的相关信息
+	4、Greenplum 资源队列相关信息  
+	5、Greenplum 表,视图,索引等有关信息
+		5.1、Greenplum 中支持的索引
+		5.2、Greenplum 表的关系信息
+	6、Greenplum 系统目录存储基本信息
+		6.1、Greenplum 储存database,schema,table,view等的信息
+	7、以下只有在进入到gpexpand扩展时,才可以查询
+
 # Greenplum  基本查询信息
 
 ## Greenplum 常用查询
