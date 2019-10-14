@@ -6,6 +6,9 @@
 
 # 历史greenplum知识点介绍
 
+## 201910月
+1、《Greenplum 从大数据战略到实现》的总结[《Greenplum 从大数据战略到实现》的总结](https://github.com/xfg0218/greenplum--summarize/blob/master/201910/greenplum%E4%BB%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%88%98%E7%95%A5%E5%88%B0%E5%AE%9E%E7%8E%B0/README.md)
+
 ## 201909月
 1、gpcrondump与gpdbrestore使用 [gpcrondump与gpdbrestore](https://github.com/xfg0218/greenplum--summarize/blob/master/201909/gpcrondump%E4%B8%8Egpdbrestore/README.md)
 
