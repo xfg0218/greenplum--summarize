@@ -110,7 +110,7 @@
 	)with (appendonly = true, compresstype = zlib, compresslevel = 5
 	,orientation=column, checksum = false,blocksize = 2097152)
 	Distributed by (customer_id)
-	15.2.4 使用gpkafka命令插入数据
+### 15.2.4 使用gpkafka命令插入数据
 	参数详解
 	$ gpkafka load --help
 	Load data from kafka into greenplum
@@ -125,7 +125,7 @@
 	
 	
 	加载数据命令
-	#  gpkafka load --quit-at-eof  firstload_cfg.yaml
+	gpkafka load --quit-at-eof  firstload_cfg.yaml
 	20190410:15:37:50.641 gpkafkaload:gpadmin:gpdev152:164064-[INFO]:-target column (customer_id, expenses, tax_due), ext column cust_id, expenses, expenses * .0725
 	20190410:15:37:51.774 gpkafkaload:gpadmin:gpdev152:164064-[INFO]:-Check insert SQL: EXPLAIN INSERT INTO "kafka_test"."data_from_kafka" (customer_id, expenses, tax_due) SELECT cust_id, expenses, expenses * .0725 FROM "kafka_test"."gpkafkaloadext_f392d7b099f89be0c047f8872aee4fa2"
 	20190410:15:37:51.887 gpkafkaload:gpadmin:gpdev152:164064-[INFO]:-gpfdist listening on gpdev152:8080
