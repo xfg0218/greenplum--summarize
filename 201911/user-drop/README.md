@@ -1,6 +1,13 @@
 # user-drop
 	主要介绍在Greenplum数据库中删除已经赋权的用户，涉及到database，schema，table，function权限的撤销操作
 
+# 目录结构
+	目录
+	1、撤销用户在数据库上的权限
+	2、撤销用户在schema上的权限
+	3、撤销用户在table上的权限
+	4、撤销用户在function上的权限
+	5、删除角色
 
 # 1、撤销用户在数据库上的权限
 	-- 移除数据库的权限
