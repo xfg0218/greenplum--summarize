@@ -11,6 +11,9 @@
 
 2、[Greenplum删除集群中赋权的用户](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/user-drop)
 
+3、[gptransfer命令同集群与异集群同步数据](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/gptransfer)
+
+
 ## 201910月
 1、[《Greenplum 从大数据战略到实现》的总结](https://github.com/xfg0218/greenplum--summarize/blob/master/201910/greenplum%E4%BB%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%88%98%E7%95%A5%E5%88%B0%E5%AE%9E%E7%8E%B0/README.md)
 
