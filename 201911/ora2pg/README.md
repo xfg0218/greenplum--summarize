@@ -6,21 +6,27 @@
 	2 Ora2pg支持的导出对象	2
 	3 Ora2pg数据类型转换对照	2
 	4 Ora2pg 安装	3
-	4.1 安装需要的驱动包	3
-	4.2 下载并安装Oracle 客户端	3
-	4.3 安装 DBI	4
-	4.4 安装 DBD-Oracle客户端	4
-	4.4.1 在当前用户配置一下环境变量	4
-	4.4.2 安装DBD-Oracle	4
-	4.5 安装 Ora2pg 客户端	4
-	4.6 ora2pg 参数说明	5
+		4.1 安装需要的驱动包	3
+		4.2 下载并安装Oracle 客户端	3
+		4.3 安装 DBI	4
+		4.4 安装 DBD-Oracle客户端	4
+			4.4.1 在当前用户配置一下环境变量	4
+			4.4.2 安装DBD-Oracle	4
+		4.5 安装 Ora2pg 客户端	4
+		4.6 ora2pg 参数说明	5
 	5 Ora2pg 使用案例	6
-	5.1 ora2pg 数据导入到pg案例	6
-	5.1.1 编写配置案例	6
-	5.1.2 使用ora2pg 把数据下载到本地	7
-	5.1.3 查看文件的大小与行数	8
-	5.1.4 把数据导入到postgres中	8
-	5.1.5 校验pg中数据的准确性	8
+		5.1 ora2pg 数据导入到pg案例	6
+		5.1.1 编写配置案例	6
+		5.1.2 使用ora2pg 把数据下载到本地	7
+		5.1.3 查看文件的大小与行数	8
+		5.1.4 把数据导入到postgres中	8
+		5.1.5 校验pg中数据的准确性	8
+	6 把PG数据加载到GP中	9
+		6.1 把postgres的数据下载到磁盘	9
+		6.2 把磁盘上的数据加载到GP的数据库中	9
+		6.3 在GP中修改表的分布键	9
+
+
 
 # 1 Ora2pg特性
 	1、导出整个数据库模式（表、视图、序列、索引），以及唯一性，主键、外键和检查约束。
@@ -270,3 +276,14 @@
 	-- 541243
 	
 	tablename : 表的名字
+	
+
+# 6 把PG数据加载到GP中
+## 6.1 把postgres的数据下载到磁盘
+	psql -d chinadaas -h 192.168.***.** -p 5432 -U postgres -c "copy tablename to 'filepath' WITH DELIMITER AS E'\u0001' NULL as 'null string' "
+
+## 6.2 把磁盘上的数据加载到GP的数据库中
+	psql -d stagging -h 192.168.***.** -p 5432 -U gpadmin -c "copy tablename from 'filepath' WITH DELIMITER AS E'\u0001' NULL as 'null string' "
+
+## 6.3 在GP中修改表的分布键
+	alter table tablename set with(REORGANIZE=true) distributed by(filedname);
