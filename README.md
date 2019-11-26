@@ -32,6 +32,7 @@
 
 ## 201908月
 1、[OracleClobToGreenplum 把Oracle的clob字段同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
+
 2、[Greenplum生产环境信息同步到test环境中](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/pro-to-test)
 
 ## 201906 月
