@@ -1,4 +1,4 @@
-# gptransfer命令同步数据(统计群与异集群)
+# gptransfer命令同步数据(同集群与异集群)
 	主要介绍作者使用gptransfer的总结，个人感觉比较66666，分享给大家
 
 # gptransfer目录
