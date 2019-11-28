@@ -1,5 +1,7 @@
 # greenplum 对连接池pgbouncer的使用
 
+pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgbouncer-sandeep-katta-/?articleId=6128769027482402816
+
 # 目录结构
 	1 pgbouncer 介绍
 		1.1 greenplum对pgbouncer的介绍
