@@ -8,6 +8,7 @@
 
 ## 201912月
 1、[Greenplum 查看最新创建的表及大小](https://github.com/xfg0218/greenplum--summarize/tree/master/201912/%E6%9F%A5%E7%9C%8B%E6%9C%80%E6%96%B0%E7%9A%84%E8%A1%A8%E5%8F%8A%E5%A4%A7%E5%B0%8F)
+
 2、[《Greenplum数据库使用总结(5.11版本).pdf》开源](https://github.com/xfg0218/greenplum--summarize/tree/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3)
 
 
