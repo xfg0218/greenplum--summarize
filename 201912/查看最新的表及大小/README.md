@@ -20,4 +20,4 @@
 	tablesizegb : 字段的单位是GB
 	
 # Greenplum 查看最新创建的表及大小图片案例
-[](https://github.com/xfg0218/greenplum--summarize/blob/master/images/greenplum-images/%E6%9C%80%E6%96%B0%E7%9A%84%E8%A1%A8%E4%B8%8E%E5%A4%A7%E5%B0%8F.png)
+[Greenplum 查看最新创建的表及大小图片案例](https://github.com/xfg0218/greenplum--summarize/blob/master/images/greenplum-images/%E6%9C%80%E6%96%B0%E7%9A%84%E8%A1%A8%E4%B8%8E%E5%A4%A7%E5%B0%8F.png)
