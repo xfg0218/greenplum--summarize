@@ -6,6 +6,11 @@
 
 # 历史greenplum知识点介绍
 
+## 201912月
+1、[Greenplum 查看最新创建的表及大小](https://github.com/xfg0218/greenplum--summarize/tree/master/201912/%E6%9F%A5%E7%9C%8B%E6%9C%80%E6%96%B0%E7%9A%84%E8%A1%A8%E5%8F%8A%E5%A4%A7%E5%B0%8F)
+
+
+
 ## 201911月
 1、[《PostgreSQL指南内部探究》一书总结](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/PostgresQL%E6%8C%87%E5%8D%97)
 
