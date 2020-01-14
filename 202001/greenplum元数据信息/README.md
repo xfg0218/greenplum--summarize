@@ -1,6 +1,7 @@
 # Greenplum 元数据信息
-	Greenplum 元数据信息.pdf 是对Greenplum常用的查询语句,查看的GP版本是PostgreSQL 8.3.23 (Greenplum Database 5.11.1),如有不足的地方请大家指正
-	下载请到:https://github.com/xfg0218/greenplum--summarize/tree/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3
+	Greenplum 元数据信息.pdf 是对Greenplum常用的查询语句,查看的GP版本是PostgreSQL 8.3.23 (Greenplum Database 5.11.1),
+	如有不足的地方请大家指正下载请到:
+	https://github.com/xfg0218/greenplum--summarize/tree/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3
 	
 # Greenplum 元数据信息目录
 	Greenplum 元数据信息
