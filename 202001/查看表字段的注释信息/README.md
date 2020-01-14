@@ -17,7 +17,7 @@
 	ORDER  BY a.attnum;
 
 
-tablename : 表的名字
+	tablename : 表的名字
 
 # 展示效果如下
 |table_name|column_name|data_type|description|attnum|notnull|primary_key|default_val|
