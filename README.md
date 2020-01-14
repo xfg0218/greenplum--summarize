@@ -9,6 +9,8 @@
 ## 202001月
 1、[greenplum元数据常用查询语句](https://github.com/xfg0218/greenplum--summarize/tree/master/202001/greenplum%E5%85%83%E6%95%B0%E6%8D%AE%E4%BF%A1%E6%81%AF)
 
+2、[greenplum查看表字段的注释信息](https://github.com/xfg0218/greenplum--summarize/tree/master/202001/%E6%9F%A5%E7%9C%8B%E8%A1%A8%E5%AD%97%E6%AE%B5%E7%9A%84%E6%B3%A8%E9%87%8A%E4%BF%A1%E6%81%AF)
+
 
 ## 201912月
 1、[Greenplum 查看最新创建的表及大小](https://github.com/xfg0218/greenplum--summarize/tree/master/201912/%E6%9F%A5%E7%9C%8B%E6%9C%80%E6%96%B0%E7%9A%84%E8%A1%A8%E5%8F%8A%E5%A4%A7%E5%B0%8F)
