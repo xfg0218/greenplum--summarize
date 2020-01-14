@@ -23,7 +23,7 @@ tablename : 表的名字
 |table_name|column_name|data_type|description|attnum|notnull|primary_key|default_val|
 |---|---|---|---|---|---|---|---
 log_history.table_mapping|record_id|character varying(50)|表的唯一键|1|f|f|
-log_history.table_mapping|create_table|character varying(2000)|创建的新表|2	f|f|
+log_history.table_mapping|create_table|character varying(2000)|创建的新表|2|f|f|
 log_history.table_mapping|create_user|character varying(50)|新表的创建者|3|f|f|
 
 
