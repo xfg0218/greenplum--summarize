@@ -6,6 +6,10 @@
 
 # 历史greenplum知识点介绍
 
+## 202002月
+1、[Greenplum架构和核心引擎](https://github.com/xfg0218/greenplum--summarize/tree/master/202002/Greenplum%E6%9E%B6%E6%9E%84%E5%92%8C%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E)
+
+
 ## 202001月
 1、[greenplum元数据常用查询语句](https://github.com/xfg0218/greenplum--summarize/tree/master/202001/greenplum%E5%85%83%E6%95%B0%E6%8D%AE%E4%BF%A1%E6%81%AF)
 
