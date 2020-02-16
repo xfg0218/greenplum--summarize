@@ -1,5 +1,6 @@
 # postgreSQL窗口函数总结说明
-	postgreSQL窗口函数总结是平常使用的窗口函数，pdf文档请下载(Greenplum窗口函数总结.pdf):https://github.com/xfg0218/greenplum--summarize/tree/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3
+	postgreSQL窗口函数总结是平常使用的窗口函数，
+	pdf文档请下载(Greenplum窗口函数总结.pdf):https://github.com/xfg0218/greenplum--summarize/tree/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3
 
 # postgreSQL窗口函数总结目录如下
 
