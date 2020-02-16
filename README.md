@@ -9,6 +9,7 @@
 ## 202002月
 1、[Greenplum架构和核心引擎](https://github.com/xfg0218/greenplum--summarize/tree/master/202002/Greenplum%E6%9E%B6%E6%9E%84%E5%92%8C%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E)
 
+2、[postgreSQL窗口函数总结](https://github.com/xfg0218/greenplum--summarize/tree/master/202002/Greenplum%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0%E6%80%BB%E7%BB%93)
 
 ## 202001月
 1、[greenplum元数据常用查询语句](https://github.com/xfg0218/greenplum--summarize/tree/master/202001/greenplum%E5%85%83%E6%95%B0%E6%8D%AE%E4%BF%A1%E6%81%AF)
