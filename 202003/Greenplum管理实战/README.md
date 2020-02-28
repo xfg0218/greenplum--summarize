@@ -1,5 +1,5 @@
 # Greenplum 管理实战
-	目录
+	以下展示《Greenplum 管理实战》目录,详细文档下载:https://github.com/xfg0218/greenplum--summarize/tree/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A
 # 1 catalog 管理
 ## 1.1 catalog 基本原理
 	1.1.1 仅在master保存的元数据
