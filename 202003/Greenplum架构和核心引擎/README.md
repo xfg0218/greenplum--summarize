@@ -1,5 +1,5 @@
 # Greenplum 架构和核心引擎
-	与喜爱主要是《 Greenplum 架构和核心引擎》的目录，
+	以下主要是《 Greenplum 架构和核心引擎》的目录，
 	详细的文档请查看:https://github.com/xfg0218/greenplum--summarize/tree/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A
 # 1 Greenplum 架构概述
 	1.1 概述简介
