@@ -1,5 +1,5 @@
-# Greenplum窗口函数总结
-	Greenplum窗口函数总结.pdf主要是作者对GP用户权限的总结，
+# Greenplum权限管理
+	Greenplum权限管理.pdf主要是作者对GP用户权限的总结，
 	欢迎查看与交流，详细的文档PDF请下载:
 	https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.pdf
 	
