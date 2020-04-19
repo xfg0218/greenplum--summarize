@@ -9,6 +9,7 @@
 ## 202004月
 1、[Greenplum数据库权限管理](https://github.com/xfg0218/greenplum--summarize/tree/master/202004/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86)
 
+2、[Greenplum数据库巡检报告](https://github.com/xfg0218/greenplum--summarize/tree/master/202004/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E5%B7%A1%E6%A3%80%E6%8A%A5%E5%91%8A)
 
 ## 202003月
 1、[Greenplum集群安装配置及最佳实践](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E9%9B%86%E7%BE%A4%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E5%8F%8A%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
