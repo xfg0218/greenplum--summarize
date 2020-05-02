@@ -6,6 +6,10 @@
 
 # 历史greenplum知识点介绍
 
+## 202005月
+1、[PostgreSQL中的多版本并发控制-MVCC](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/mvcc%E8%AF%A6%E8%A7%A3)
+
+
 ## 202004月
 1、[Greenplum数据库权限管理](https://github.com/xfg0218/greenplum--summarize/tree/master/202004/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86)
 
