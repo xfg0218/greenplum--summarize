@@ -6,6 +6,10 @@
 
 # 历史greenplum知识点介绍
 
+## 202006月
+1、[修改Greenplum默认的CST时区](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E6%97%B6%E5%8C%BA%E9%81%BF%E5%9D%91)
+
+
 ## 202005月
 1、[PostgreSQL中的多版本并发控制-MVCC](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/mvcc%E8%AF%A6%E8%A7%A3)
 
