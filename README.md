@@ -30,6 +30,8 @@
 
 5、[Greenplum管理实战](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E7%AE%A1%E7%90%86%E5%AE%9E%E6%88%98)
 
+6、[Greenplum内核揭秘之执行引擎](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/Greenplum%E5%86%85%E6%A0%B8%E6%8F%AD%E7%A7%98%E4%B9%8B%E6%89%A7%E8%A1%8C%E5%BC%95%E6%93%8E.pdf)
+
 ## 202002月
 1、[Greenplum架构和核心引擎](https://github.com/xfg0218/greenplum--summarize/tree/master/202002/Greenplum%E6%9E%B6%E6%9E%84%E5%92%8C%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E)
 
