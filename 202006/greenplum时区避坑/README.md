@@ -7,6 +7,6 @@
 	3、导致国内时区为CST的服务器在事件计算时出现意外结果
 	4、解决方法
 	     4.1 修改GP安装目录下/share/postgresql/timezonesets/Default
-	     4.2  找到CST - 21600这行，修改为CST 28800
-	     4.3 所有Segment和Master服务器全部修改
-	    4.4 重新启动GODB
+	     4.2 在文件的84行找到CST -21600内容，修改为CST -28800
+	     4.3 gpstop -u同步Master与Segment之间的配置文件
+	     4.4 重新启动GPDB
