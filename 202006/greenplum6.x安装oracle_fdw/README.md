@@ -1,16 +1,16 @@
 # Greenplum使用oralce_fdw连接oracle
 
-	1 下载oracle客户端,放到/data目录下(主节点)	1
-	2 在root和gpadmin用户下配置环境变量(主节点)	2
-		2.1 配置环境变量	2
-		2.2 建立软连接	2
-		2.3 修改权限	2
-	3 下载编译oracle_fdw(主节点)	2
-	4 编译(主节点)	2
-	5 复制编译文件到所有节点	4
-	6 分发oracle客户端到所有节点	4
-	7 动态连接库增加oracle客户端地址(所有节点执行)	4
-	8 创建oracle_fdw并测试结果(主节点)	5
+	1 下载oracle客户端,放到/data目录下(主节点)
+	2 在root和gpadmin用户下配置环境变量(主节点)
+		2.1 配置环境变量
+		2.2 建立软连接
+		2.3 修改权限
+	3 下载编译oracle_fdw(主节点)
+	4 编译(主节点)
+	5 复制编译文件到所有节点
+	6 分发oracle客户端到所有节点
+	7 动态连接库增加oracle客户端地址(所有节点执行)
+	8 创建oracle_fdw并测试结果(主节点)
 	
 # 1 下载oracle客户端,放到/data目录下(主节点)
 	instantclient-basic-linux.x64-12.2.0.1.0.zip 
