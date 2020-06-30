@@ -10,8 +10,8 @@
 1、[修改Greenplum默认的CST时区](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E6%97%B6%E5%8C%BA%E9%81%BF%E5%9D%91)
 
 2、[greenplum元数据管理](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E5%85%83%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86)
- 
-3、[Greenplum6.x安装PXF插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum6.x%E5%AE%89%E8%A3%85PXF%E6%8F%92%E4%BB%B6)
+
+3、[greenplum6.x安装PXF插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum6.x%E5%AE%89%E8%A3%85PXF%E6%8F%92%E4%BB%B6)
 
 4、[greenplum6.x安装oracle_fdw插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum6.x%E5%AE%89%E8%A3%85oracle_fdw)
 
