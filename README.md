@@ -15,6 +15,7 @@
 
 4、[greenplum6.x安装oracle_fdw插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum6.x%E5%AE%89%E8%A3%85oracle_fdw)
 
+5、[greenplum6.x安装mysql_fdw插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006)
 
 ## 202005月
 1、[PostgreSQL中的多版本并发控制-MVCC](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/mvcc%E8%AF%A6%E8%A7%A3)
