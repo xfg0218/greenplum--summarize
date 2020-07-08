@@ -31,6 +31,9 @@
 2、[Greenplum数据库巡检报告](https://github.com/xfg0218/greenplum--summarize/tree/master/202004/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E5%B7%A1%E6%A3%80%E6%8A%A5%E5%91%8A)
 
 ## 202003月
+
+[Greenplum官方资料学习地址](https://space.bilibili.com/489184136)
+
 1、[Greenplum集群安装配置及最佳实践](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E9%9B%86%E7%BE%A4%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E5%8F%8A%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
 
 2、[Greenplum应用开发](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91)
@@ -42,6 +45,7 @@
 5、[Greenplum管理实战](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E7%AE%A1%E7%90%86%E5%AE%9E%E6%88%98)
 
 6、[Greenplum内核揭秘之执行引擎](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/Greenplum%E5%86%85%E6%A0%B8%E6%8F%AD%E7%A7%98%E4%B9%8B%E6%89%A7%E8%A1%8C%E5%BC%95%E6%93%8E.pdf)
+
 
 ## 202002月
 1、[Greenplum架构和核心引擎](https://github.com/xfg0218/greenplum--summarize/tree/master/202002/Greenplum%E6%9E%B6%E6%9E%84%E5%92%8C%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E)
