@@ -102,9 +102,9 @@
 
 	事务隔离级别                脏读	不可重复读	幻读
 	读未提交(READ_UNCOMMITTED)  允许	允许		允许
-	读已提交(READ_COMMITTED)	禁止	允许		允许
-	可重复读(REPEATABLE_READ)	禁止	禁止		允许
-	顺序读(SERIALIZABLE)		禁止	禁止		禁止
+	读已提交(READ_COMMITTED)    禁止	允许		允许
+	可重复读(REPEATABLE_READ)   禁止	禁止		允许
+	顺序读(SERIALIZABLE)        禁止	禁止		禁止
 
 
 	4种事务隔离级别从上到下，级别越高，并发性越差，安全性就越来越高。一般数据默认级别是读已提交或可重复读。
