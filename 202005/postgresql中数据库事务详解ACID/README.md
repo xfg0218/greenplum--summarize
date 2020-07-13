@@ -113,3 +113,19 @@
 	事务的持久性是指事务一旦提交后，数据库的数据必须被永久的保存下来，及时服务器系统崩溃或服务器宕机等故障。
 	只要数据库重新启动。那么一定能够将其恢复到事务成功结束后的状态。
 	
+	
+## 查看隔离级别
+	1、查看postgresql默认隔离级别
+	==> show default_transaction_isolation;
+	default_transaction_isolation
+	---------------------------------
+	read   committed
+	(1 row)
+
+		
+	2、查看当前隔离级别
+	===> show transaction_isolation;
+	transaction_isolation
+	----------------------------------
+	read  committed
+	
