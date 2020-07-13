@@ -6,6 +6,10 @@
 
 # 历史greenplum知识点介绍
 
+## 202007月
+1、[greenplum对JSON的支持](https://github.com/xfg0218/greenplum--summarize/tree/master/202007/greenplum%E5%AF%B9JSON%E7%9A%84%E6%94%AF%E6%8C%81)
+
+
 ## 202006月
 1、[修改Greenplum默认的CST时区](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E6%97%B6%E5%8C%BA%E9%81%BF%E5%9D%91)
 
