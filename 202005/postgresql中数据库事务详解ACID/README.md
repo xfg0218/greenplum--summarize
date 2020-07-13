@@ -100,8 +100,8 @@
 
 ### 事务隔离级别对比
 
-	事务隔离级别				脏读	不可重复读	幻读
-	读未提交(READ_UNCOMMITTED)	允许	允许		允许
+	事务隔离级别                脏读	不可重复读	幻读
+	读未提交(READ_UNCOMMITTED)  允许	允许		允许
 	读已提交(READ_COMMITTED)	禁止	允许		允许
 	可重复读(REPEATABLE_READ)	禁止	禁止		允许
 	顺序读(SERIALIZABLE)		禁止	禁止		禁止
