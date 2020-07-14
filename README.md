@@ -116,6 +116,19 @@
 
 2、[gpcheckperf 测试集群详细信息](https://github.com/xfg0218/greenplum--summarize/blob/master/201905/gpcheckperf/README.md)
 
+# 收集Greenplum常用的资料
+1、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
+
+2、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
+
+3、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
+
+4、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
+
+5、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+
+
+
 # greenplum--summarize 项目介绍
 	项目主要介绍作者在项目上使用过的相关greenplum的相关的技术，欢迎大家相互交流,请关注以下的作者公众号或留言
 
