@@ -127,6 +127,7 @@
 
 5、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
+6、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
 
 # greenplum--summarize 项目介绍
