@@ -56,6 +56,7 @@
 
 [Greenplum官方资料学习地址](https://space.bilibili.com/489184136)
 
+
 1、[Greenplum应用开发](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91)
 
 2、[Greenplum管理实战](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E7%AE%A1%E7%90%86%E5%AE%9E%E6%88%98)
