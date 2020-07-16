@@ -10,7 +10,8 @@
 
 # 表级锁
 先用一张图总结一下八种锁的冲突关系
-![image]https://github.com/xfg0218/greenplum--summarize/blob/master/images/postgreSQL-images/postgreSQL%E5%85%AB%E7%A7%8D%E9%94%81%E7%9A%84%E5%86%B2%E7%AA%81%E5%85%B3%E7%B3%BB%E5%9B%BE.jpg
+
+[八种锁的冲突关系图](https://github.com/xfg0218/greenplum--summarize/blob/master/images/postgreSQL-images/postgreSQL%E5%85%AB%E7%A7%8D%E9%94%81%E7%9A%84%E5%86%B2%E7%AA%81%E5%85%B3%E7%B3%BB%E5%9B%BE.jpg)
 
 # 这八种锁的使用场景：
 
