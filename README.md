@@ -37,13 +37,15 @@
 5、[greenplum6.x安装mysql_fdw插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006)
 
 ## 202005月
-1、[PostgreSQL中的多版本并发控制-MVCC](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/mvcc%E8%AF%A6%E8%A7%A3)
 
-2、[postgresql常用索引](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/postgresql%E7%B4%A2%E5%BC%95)
+1、[postgresql常用索引](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/postgresql%E7%B4%A2%E5%BC%95)
+
+2、[PostgreSQL中的八级锁](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/postgresql%E4%B8%AD%E7%9A%84%E5%85%AB%E7%BA%A7%E9%94%81)
 
 3、[postgresql中数据库事务详解ACID](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/postgresql%E4%B8%AD%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1%E8%AF%A6%E8%A7%A3ACID)
 
-4、[PostgreSQL中的八级锁](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/postgresql%E4%B8%AD%E7%9A%84%E5%85%AB%E7%BA%A7%E9%94%81)
+4、[PostgreSQL中的多版本并发控制-MVCC](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/mvcc%E8%AF%A6%E8%A7%A3)
+
 
 ## 202004月
 1、[Greenplum数据库权限管理](https://github.com/xfg0218/greenplum--summarize/tree/master/202004/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86)
