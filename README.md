@@ -26,7 +26,7 @@
 
 
 ## 202006月
-1、[修改Greenplum默认的CST时区](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E6%97%B6%E5%8C%BA%E9%81%BF%E5%9D%91)
+1、[greenplum修改CST时区](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E6%97%B6%E5%8C%BA%E9%81%BF%E5%9D%91)
 
 2、[greenplum元数据管理](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E5%85%83%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86)
 
@@ -56,18 +56,17 @@
 
 [Greenplum官方资料学习地址](https://space.bilibili.com/489184136)
 
-1、[Greenplum集群安装配置及最佳实践](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E9%9B%86%E7%BE%A4%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E5%8F%8A%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
+1、[Greenplum应用开发](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91)
 
-2、[Greenplum应用开发](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91)
+2、[Greenplum管理实战](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E7%AE%A1%E7%90%86%E5%AE%9E%E6%88%98)
 
 3、[Greenplum数据库调优](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E8%B0%83%E4%BC%98)
 
 4、[Greenplum架构和核心引擎](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E6%9E%B6%E6%9E%84%E5%92%8C%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E)
 
-5、[Greenplum管理实战](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E7%AE%A1%E7%90%86%E5%AE%9E%E6%88%98)
+5、[Greenplum内核揭秘之执行引擎](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/Greenplum%E5%86%85%E6%A0%B8%E6%8F%AD%E7%A7%98%E4%B9%8B%E6%89%A7%E8%A1%8C%E5%BC%95%E6%93%8E.pdf)
 
-6、[Greenplum内核揭秘之执行引擎](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/Greenplum%E5%86%85%E6%A0%B8%E6%8F%AD%E7%A7%98%E4%B9%8B%E6%89%A7%E8%A1%8C%E5%BC%95%E6%93%8E.pdf)
-
+6、[Greenplum集群安装配置及最佳实践](https://github.com/xfg0218/greenplum--summarize/tree/master/202003/Greenplum%E9%9B%86%E7%BE%A4%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E5%8F%8A%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
 
 ## 202002月
 1、[Greenplum架构和核心引擎](https://github.com/xfg0218/greenplum--summarize/tree/master/202002/Greenplum%E6%9E%B6%E6%9E%84%E5%92%8C%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E)
@@ -87,22 +86,23 @@
 
 
 ## 201911月
-1、[《PostgreSQL指南内部探究》一书总结](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/PostgresQL%E6%8C%87%E5%8D%97)
 
-2、[Greenplum删除集群中赋权的用户](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/user-drop)
+1、[Greenplum删除集群中赋权的用户](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/user-drop)
 
-3、[gptransfer命令同集群与异集群同步数据](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/gptransfer)
+2、[Ora2pg把oracle数据导入到postgres](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/ora2pg)
 
-4、[Ora2pg把oracle数据导入到postgres](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/ora2pg)
+3、[《PostgreSQL指南内部探究》一书总结](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/PostgresQL%E6%8C%87%E5%8D%97)
 
-5、[greenplum 对连接池pgbouncer的使用](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/pgbouncer)
+4、[greenplum 对连接池pgbouncer的使用](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/pgbouncer)
 
+5、[gptransfer命令同集群与异集群同步数据](https://github.com/xfg0218/greenplum--summarize/tree/master/201911/gptransfer)
 
 
 ## 201910月
-1、[《Greenplum 从大数据战略到实现》的总结](https://github.com/xfg0218/greenplum--summarize/blob/master/201910/greenplum%E4%BB%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%88%98%E7%95%A5%E5%88%B0%E5%AE%9E%E7%8E%B0/README.md)
 
-2、[greenplum链接kafka导入与导出数据](https://github.com/xfg0218/greenplum--summarize/tree/master/201910/greenplum-kafka)
+1、[greenplum链接kafka导入与导出数据](https://github.com/xfg0218/greenplum--summarize/tree/master/201910/greenplum-kafka)
+
+2、[《Greenplum 从大数据战略到实现》的总结](https://github.com/xfg0218/greenplum--summarize/blob/master/201910/greenplum%E4%BB%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%88%98%E7%95%A5%E5%88%B0%E5%AE%9E%E7%8E%B0/README.md)
 
 
 ## 201909月
@@ -114,19 +114,19 @@
 
 
 ## 201908月
-1、[OracleClobToGreenplum 把Oracle的clob字段同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
 
-2、[Greenplum生产环境信息同步到test环境中](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/pro-to-test)
+1、[Greenplum生产环境信息同步到test环境中](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/pro-to-test)
+
+2、[OracleClobToGreenplum 把Oracle的clob字段同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
 
 ## 201906 月
 1、[查看greenplum集群中表的倾斜率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
 
 2、[安装greenplum时对sysctl参数详解](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/file-configure)
 
-3、[使用streamsets工具把oracle数据导入到greenplum](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/oracle-streamsets-greenplum)
+3、[streamsets使用中常见错误PDF文档请查看 ](https://github.com/xfg0218/greenplum--summarize/blob/master/document/streamsets%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.pdf)
 
-4、[streamsets使用中常见错误PDF文档请查看 ](https://github.com/xfg0218/greenplum--summarize/blob/master/document/streamsets%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.pdf)
-
+4、[使用streamsets工具把oracle数据导入到greenplum](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/oracle-streamsets-greenplum)
 
 
 ## 201905 月
