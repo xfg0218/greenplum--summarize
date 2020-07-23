@@ -1,3 +1,16 @@
+# 系统配置参数优化目录
+	1.1 查看每个segment的内存配置参数
+	1.2 查看shared_buffers(共享缓冲区)的内存
+	1.3 查看max_connections(最大连接数)
+	1.4 查看block_size(磁盘块)的大小
+	1.5 查看work_mem的值
+	1.6 查看statement_mem的值
+	1.7 查看gp_workfile_limit_files_per_query的值
+	1.8 查看gp_resqueue_priority_cpucores_per_segment的值
+	1.9 查看gp_interconnect_setup_timeout的值
+	1.10 查看effective_cache_size的值
+	1.11 查看temp_buffers参数
+	
 # 1 系统配置参数优化
 ## 1.1 查看每个segment的内存配置参数
 ### 1.1.1 查看分配内存信息
