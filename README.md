@@ -24,6 +24,7 @@
 ## 202007月
 1、[greenplum对JSON的支持](https://github.com/xfg0218/greenplum--summarize/tree/master/202007/greenplum%E5%AF%B9JSON%E7%9A%84%E6%94%AF%E6%8C%81)
 
+2、[greenplum系统配置参数优化](https://github.com/xfg0218/greenplum--summarize/tree/master/202007/greenplum%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96)
 
 ## 202006月
 1、[greenplum修改CST时区](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E6%97%B6%E5%8C%BA%E9%81%BF%E5%9D%91)
