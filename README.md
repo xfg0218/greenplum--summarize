@@ -4,19 +4,19 @@
 	腾讯云中关于Greenplum的资料 https://cloud.tencent.com/developer/column/72497
 
 #  关于Greenplum常用的资料
-1、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
+1、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
-2、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
+2、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
 
 3、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
 
-4、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
+4、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
 
-5、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+5、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
 
-6、[BiliBili学习地址](https://space.bilibili.com/489184136)
+6、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
 
-7、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
+7、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
 
 # 历史greenplum知识点介绍
