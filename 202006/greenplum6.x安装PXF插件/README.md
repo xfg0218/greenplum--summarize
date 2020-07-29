@@ -12,8 +12,9 @@
 		3.2 创建新的文件夹
 		3.3 修改pxf-env.sh配置文件
 		3.4 把配置文件复制到目录下
-		3.5 PXF 同步文件
-		3.6 开启PXF
+		3.5 把相关的JAR包复制到PXF目录下的lib下
+		3.6 PXF 同步文件
+		3.7 开启PXF
 	4 测试PXF
 		4.1 查看hive与hdfs数据
 		4.1 测试PXF连接Hive
@@ -115,11 +116,19 @@
 	2、把hive相关的hive-env.sh/hive-site.xml/mapred-site.xml复制到$PXF_HOME/servers/hdp-prod与$PXF_HOME/conf/servers/conf下
 	
 	3、把hbase相关的hbase-env.sh/hbase-site.xml复制到$PXF_HOME/servers/hdp-prod与$PXF_HOME/conf/servers/conf下
+
+## 3.5 把相关的JAR包复制到PXF目录下的lib下
+		
+	1、把hive的JAR复制到pxf的lib目录下
+	cp  -r  $HIVE_HOME/lib    $PXF_HOME/lib
 	
-## 3.5 PXF 同步文件
+	2、把hadoop的jar复制到pxf的lib目录下
+	cp  -r  $HADOOP_HOME/lib    $PXF_HOME/lib
+	
+## 3.6 PXF 同步文件
 	[gpadmin@***~]$ pxf cluster sync
 
-## 3.6 开启PXF
+## 3.7 开启PXF
 	[gpadmin@***  ~]$ pxf cluster start
 
 # 4 测试PXF
