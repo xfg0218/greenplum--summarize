@@ -32,9 +32,27 @@
 	
 	
 # 查看系统中的参数
+	gpconfig -s 参数的名字，例如
+	
 
-
-
+	$ gpconfig -s enable_bitmapscan
+	Values on all segments are consistent
+	GUC          : enable_bitmapscan
+	Master  value: on
+	Segment value: on
+	
 
 # 修改系统参数
+	gpconfig -c 参数的名字  -v  修改的值,例如
+	
+	$ gpconfig -c  enable_bitmapscan -v off
+	2020****:10:52:06:233613 gpconfig:gpmaster:gpadmin-[INFO]:-completed successfully with parameters '-c enable_bitmapscan -v off'
+
+# 查看修改之后的配置
+	$ gpconfig -s enable_bitmapscan
+	Values on all segments are consistent
+	GUC          : enable_bitmapscan
+	Master  value: off
+	Segment value: off
+
 
