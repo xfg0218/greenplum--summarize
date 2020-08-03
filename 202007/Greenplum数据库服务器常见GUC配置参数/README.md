@@ -48,6 +48,10 @@
 	$ gpconfig -c  enable_bitmapscan -v off
 	2020****:10:52:06:233613 gpconfig:gpmaster:gpadmin-[INFO]:-completed successfully with parameters '-c enable_bitmapscan -v off'
 
+# 重新加载配置
+	$ gpstop -u 
+	
+
 # 查看修改之后的配置
 	$ gpconfig -s enable_bitmapscan
 	Values on all segments are consistent
