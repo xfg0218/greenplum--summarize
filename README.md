@@ -26,7 +26,7 @@
 
 2、[greenplum系统配置参数优化](https://github.com/xfg0218/greenplum--summarize/tree/master/202007/greenplum%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96)
 
-3、[Greenplum数据库服务器常见GUC配置参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202007/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B8%B8%E8%A7%81GUC%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0)
+3、[greenplum数据库服务器常见GUC配置参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202007/Greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B8%B8%E8%A7%81GUC%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0)
 
 ## 202006月
 1、[greenplum修改CST时区](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum%E6%97%B6%E5%8C%BA%E9%81%BF%E5%9D%91)
