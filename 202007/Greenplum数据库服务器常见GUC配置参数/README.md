@@ -59,4 +59,8 @@
 	Master  value: off
 	Segment value: off
 
+# 在当前session中设置选项
+	set session enable_seqscan = off;
+
+
 
