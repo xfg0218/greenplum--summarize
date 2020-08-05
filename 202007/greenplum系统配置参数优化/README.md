@@ -160,10 +160,10 @@
 	(1)全局死锁检测开关
 	在Greenplum 6中其默认关闭，需要打开它才可以支持并发更新/删除操作；
 	gpconfig -c gp_enable_global_deadlock_detector -v on
-​	
+	
 	(2) 禁用GPORCA优化器（据说GPDB6默认的优化器为：GPORCA）
 	gpconfig -c optimizer -v off
-​	
+	
 	(3)关闭日志
 	此GUC减少不必要的日志，避免日志输出对I/O性能的干扰。
 	gpconfig -c log_statement -v none
