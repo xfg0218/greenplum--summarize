@@ -10,6 +10,7 @@
 	1.9 查看gp_interconnect_setup_timeout的值
 	1.10 查看effective_cache_size的值
 	1.11 查看temp_buffers参数
+	1.12 JDBC数据插入参数修改
 	
 # 1 系统配置参数优化
 ## 1.1 查看每个segment的内存配置参数
@@ -143,3 +144,31 @@
 	即临时缓冲区，拥有数据库访问临时数据，GP中默认值为1M，在访问比较到大的临时表时，对性能提升有很大帮助。
 ### 1.11.3 修改参数
 	gpconfig -c temp_buffers  -v  2GB
+	
+## 1.12 JDBC数据插入参数优化
+
+	参考地址:
+	https://weibo.com/ttarticle/p/show?id=2309404455258339279060
+
+	
+	greenplum-jdbc-5.1.4.jar 下载地址
+	https://network.pivotal.io/products/pivotal-gpdb#/releases/526878/file_groups/2340
+	
+	
+	Greenplum调整的参数如下：
+	
+	(1)全局死锁检测开关
+	在Greenplum 6中其默认关闭，需要打开它才可以支持并发更新/删除操作；
+	gpconfig -c gp_enable_global_deadlock_detector -v on
+​	
+	(2) 禁用GPORCA优化器（据说GPDB6默认的优化器为：GPORCA）
+	gpconfig -c optimizer -v off
+​	
+	(3)关闭日志
+	此GUC减少不必要的日志，避免日志输出对I/O性能的干扰。
+	gpconfig -c log_statement -v none
+
+	
+	
+	
+	
