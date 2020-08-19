@@ -16,7 +16,10 @@
 
 6、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
 
-7、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+7、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
+
+8、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+
 
 
 # 历史greenplum知识点介绍
