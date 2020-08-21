@@ -16,7 +16,7 @@
 ## 命名规范
 	数据模型规范要求的层次       GP Scheam         物理模型层次名称       物理表前缀
 	ODS（数据接入层）              ODS                贴源层	            ODSS_
-	                                                 数据准备层             ODSP_
+	                                                 数据准备层            ODSP_
 														
 	CDM（公共数据层）	           CDM	               DWD 数据明细层	     DWD_
 			                       DWS                 数据汇总层	         DWS_
