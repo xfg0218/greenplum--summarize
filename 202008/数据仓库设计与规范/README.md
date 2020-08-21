@@ -3,12 +3,12 @@
 
 	名词                             解释                               范围
 	DW (Data Warehouse)             数据仓库主体	
-	ODS (Operational Data Store)	数据接入层、数据操作层 	            外部数据的接入的贴原表，ETL处理后的表，处理使用的存储过程等
+	ODS (Operational Data Store)	数据接入层、数据操作层              外部数据的接入的贴原表，ETL处理后的表，处理使用的存储过程等
 	DIM                             公共纬度层                          公共码表等公共纬度数据
 	CDM                             公共数据层	
-	DWD (Data Warehouse Detail)     CDM子层，数据明细层	                合并标准化之后的明细数据，
+	DWD (Data Warehouse Detail)     CDM子层，数据明细层                 合并标准化之后的明细数据，
 	DWS (Data Warehouse Service)	CDM子层，数据汇总层、数据服务层	    根据不同主题、维度、事实进行数据汇总之后的表
-	DWH (Data Warehouse History)	历史数据层	                        拉链表，历史记录表
+	DWH (Data Warehouse History)	历史数据层                          拉链表，历史记录表
 	DWE(Data Warehouse  Exception)	异常数据处理层	                    异常数据处理使用的相关表、存储过程
 	ADS(Application Data Service)	应用数据服务层	                    ES、MongoDB、Neo4j、Redis等业务数据库
 
