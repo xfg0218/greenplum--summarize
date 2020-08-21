@@ -19,7 +19,7 @@
 	                                                 数据准备层           ODSP_
 														
 	CDM（公共数据层）              CDM                DWD 数据明细层        DWD_
-                                   DWS                数据汇总层            DWS_
+                                  DWS                数据汇总层            DWS_
 								   
 	DWH（历史数据层）	           DWH	               ZT 拉链层	         ZT_
 			                                           AC归档层	             AC_
