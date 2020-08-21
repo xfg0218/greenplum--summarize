@@ -22,10 +22,10 @@
                                   DWS                数据汇总层            DWS_
 								   
 	DWH（历史数据层）              DWH                ZT 拉链层             ZT_
-                                                      AC归档层              AC_
+                                                     AC归档层              AC_
 														
 	DIM （公共纬度层）             DIM                 CT码表               CT_
-                                                       SYS系统层            SYS_
+                                                      SYS系统层            SYS_
 													   
 	DWE（问题数据处理层）          DWE                 待定                 待定
 	
