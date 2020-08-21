@@ -2,11 +2,11 @@
 ## 名词解释
 
 	名词                             解释                               范围
-	DW (Data Warehouse)	            数据仓库主体	
+	DW (Data Warehouse)             数据仓库主体	
 	ODS (Operational Data Store)	数据接入层、数据操作层 	            外部数据的接入的贴原表，ETL处理后的表，处理使用的存储过程等
 	DIM                             公共纬度层                          公共码表等公共纬度数据
-	CDM	                            公共数据层	
-	DWD (Data Warehouse Detail)	    CDM子层，数据明细层	                合并标准化之后的明细数据，
+	CDM                             公共数据层	
+	DWD (Data Warehouse Detail)     CDM子层，数据明细层	                合并标准化之后的明细数据，
 	DWS (Data Warehouse Service)	CDM子层，数据汇总层、数据服务层	    根据不同主题、维度、事实进行数据汇总之后的表
 	DWH (Data Warehouse History)	历史数据层	                        拉链表，历史记录表
 	DWE(Data Warehouse  Exception)	异常数据处理层	                    异常数据处理使用的相关表、存储过程
@@ -67,13 +67,13 @@
 	1、规则1: TRG_表名_操作。
 	
 ## 7、函数过程命名
-1.、数据处理的过程使用proc_开头
-2、公共方法等函数使用fn_开头
-3、采用动词+名词的形式表达其含义。
+	1.、数据处理的过程使用proc_开头
+	2、公共方法等函数使用fn_开头
+	3、采用动词+名词的形式表达其含义。
 	
 	
 ## 8、序列命名
-1、SEQ_表名
+	1、SEQ_表名
 	
 	
 	
