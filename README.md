@@ -3,7 +3,7 @@
 
 	腾讯云中关于Greenplum的资料 https://cloud.tencent.com/developer/column/72497
 
-#  关于Greenplum常用的资料
+#  常用Greenplum学习网站资料
 1、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
 2、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
@@ -20,6 +20,11 @@
 
 8、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
+
+# 常用Greenplum学习PDF资料
+1、[Greenplum企业应用实战](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E5%B8%B8%E7%94%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/Greenplum%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98.pdf)
+
+2、[greenplum--orca查询优化器详解](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E5%B8%B8%E7%94%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/greenplum--orca%E6%9F%A5%E8%AF%A2%E4%BC%98%E5%8C%96%E5%99%A8%E8%AF%A6%E8%A7%A3.pdf)
 
 
 # 历史greenplum知识点介绍
