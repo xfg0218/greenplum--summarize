@@ -26,7 +26,7 @@
 
 ## 202008月
 
-1、[数据仓库设计与规范](https://github.com/xfg0218/greenplum--summarize/tree/master/202008/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%A7%84%E8%8C%83)
+1、[greenplum数据仓库设计与规范](https://github.com/xfg0218/greenplum--summarize/tree/master/202008/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%A7%84%E8%8C%83)
 
 ## 202007月
 1、[greenplum对JSON的支持](https://github.com/xfg0218/greenplum--summarize/tree/master/202007/greenplum%E5%AF%B9JSON%E7%9A%84%E6%94%AF%E6%8C%81)
