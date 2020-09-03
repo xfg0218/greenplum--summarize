@@ -29,6 +29,11 @@
 
 # 历史greenplum知识点介绍
 
+## 202009月
+
+1、[greenplum备份安全与高可用](https://github.com/xfg0218/greenplum--summarize/tree/master/202009/greenplum%E5%A4%87%E4%BB%BD%E5%AE%89%E5%85%A8%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8)
+
+
 ## 202008月
 
 1、[greenplum快速上手总结](https://github.com/xfg0218/greenplum--summarize/tree/master/202008/geenplum%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B)
