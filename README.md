@@ -4,15 +4,16 @@
 	腾讯云中关于Greenplum的资料 https://cloud.tencent.com/developer/column/72497
 
 #  常用Greenplum学习网站资料
-1、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
 
-2、[BiliBili学习地址](https://space.bilibili.com/489184136)
+1、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
-3、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
+2、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
 
-4、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
+3、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
 
-5、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
+4、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
+
+5、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
 
 6、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
 
