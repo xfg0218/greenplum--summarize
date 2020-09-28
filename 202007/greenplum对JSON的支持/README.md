@@ -1,4 +1,3 @@
-# Greenplum 对JSON的支持
 [toc]
 
 # 1 JSON与JSONB概述
