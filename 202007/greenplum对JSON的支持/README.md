@@ -29,8 +29,9 @@
 	
 	1、使用->>操作符查询出来的数据为text格式而使用->查询出来的是json对象
 	2、使用#>>查询出来的数据是text格式的数据，而使用#>查询出来的数据为json数据
-	
-	
+
+
+​	
 ## 2.2 JSON常用的创建函数
 	to_json(anyelement)
 	array_to_json(anyarray [, pretty_bool])
@@ -39,13 +40,14 @@
 	json_build_object(VARIADIC "any")
 	json_object(text[])
 	json_object(keys text[], values text[])
-	
+
 ## 2.3 JSON聚合函数
 
 	json_agg(record)
 	json_object_agg(name, value)
-	
-	
+
+
+​	
 ## 2.4 JSON处理函数
 	json_array_length(json)
 	jsonb_array_length(jsonb)
@@ -73,7 +75,7 @@
 	jsonb_to_record(jsonb)
 	json_to_recordset(json)
 	jsonb_to_recordset(jsonb)
-	
+
 ## 2.5 JSONB操作符
 	操作符	操作类型	描述
 	@>	jsonb	左边的JSON值是否包含顶层右边JSON路径/值项
@@ -97,7 +99,7 @@
 	>=	大于等于
 	=	等于
 	<>或！=	不相等
-	
+
 ## 2.7 Greenplum对JSONB支持的说明
 	目前Greenplum对JSONB格式的数据只支持简单的查询，接下来就不过多的介绍JSONB数据了。
 
@@ -116,7 +118,7 @@
 	----------
 	2
 	(1 row)
-	
+
 ## 3.3 复杂的JSON解析
 ### 3.3.1 多个JSON子集的解析
 	select '[{"a":"foo"},{"b":"bar"},{"c":"baz"}]'::json->2  as jsondata;
@@ -124,10 +126,11 @@
 	-------------
 	{"c":"baz"}
 	(1 row)
-	
-	
+
+
+​	
 	注意以上结果查询的坐标是从0开始的，查询条件必须是索引
-	
+
 ### 3.3.2 获取JSON子集的数据
 	select '{"a": {"b":{"c": "foo"}}}'::json#>'{a,b}'  as jsondata;
 	jsondata   
@@ -143,17 +146,18 @@
 	----------
 	3
 	(1 row)
-	
-	
+
+
+​	
 	注意这个JSON写的格式，以及获取的顺序
-	
+
 ### 3.3.4 获取数值进行判断
 	select '{"a":[1,2,3],"b":[4,5,6]}'::json#>>'{a,2}'='3';
 	?column? 
 	----------
 	t
 	(1 row)
-	
+
 # 4 JSON 创建函数的使用
 ## 4.1 创建int类型的JSON格式数据
 	select array_to_json('{{1,5},{99,100}}'::int[])  as jsondata;
@@ -161,8 +165,9 @@
 	------------------
 	[[1,5],[99,100]]
 	(1 row)
-	
-	
+
+
+​	
 	注意int数组的json数据已经把原本的格式转换了。
 
 ## 4.2 把行的数据转化为JSON类型的数据
@@ -171,12 +176,13 @@
 	----------------------------
 	{"f1":1,"f2":2,"f3":"foo"}
 	(1 row)
-	
-	
+
+
+​	
 	注意查看以上的结果可以看出row是行的数据，结果中f1,f2,f3是默认的字段的名，在后面将会介绍怎样获取字段名转化为JSON。
-	
+
 ## 4.3 把字段转化为json类型
-	
+
 	dw=# create table test_table(id int,name varchar(50)) DISTRIBUTED BY(id); 
 	CREATE TABLE
 	dw=# insert into test_table values(1,'xiaozhang'),(2,'xiaowang'),(3,'xiaoli');
@@ -187,7 +193,7 @@
 	[{"id":1,"name":"xiaozhang"},{"id":3,"name":"xiaoli"},{"id":2,"name":"xiaowang"}]
 	
 	(1 row)
-	
+
 # 5 JSON处理函数的使用
 ## 5.1 json_each(json) 把一个Json 最外层的Object拆成key-value的形式
 	select * from json_each('{"a":"foo", "b":"bar"}');
@@ -196,10 +202,11 @@
 	a   | "foo"
 	b   | "bar"
 	(2 rows)
-	
-	
+
+
+​	
 	以上结果只显示出了key与value的值，value返回的是带双引号的值。
-	
+
 ## 5.2 获取JSON中的数据(去除双引号)
 	select * from json_each_text('{"a":"foo", "b":"bar"}')
 	;
@@ -228,7 +235,7 @@
 	foo
 	bar
 	(2 rows)
-	
+
 # 6 查询JSON数据的方式
 ## 6.1 创建支持JSON数据的表
 ### 6.1.1 创建表的SQL
@@ -238,7 +245,7 @@
 		id serial not null primary key,
 		info json not null
 	) DISTRIBUTED BY(id);
-	
+
 ### 6.1.2 插入数据SQL
 	insert into test_json (info)
 	values
@@ -254,7 +261,7 @@
 		(
 			'{ "customer": "mary clark", "items": {"product": "toy train","qty": 2}}'
 		);
-		
+
 ### 6.1.3 获取JSON数据的KEY值
 	SELECT info -> 'customer' AS customer FROM test_json;
 		customer    
@@ -264,12 +271,14 @@
 	"john doe"
 	"lily bush"
 	(4 rows)
-	
-	
+
+
+​	
 	以上数据只把制定KEY的VALUE获取出来，注意使用-> 是不把双引号去掉的。
-	
-	
-	
+
+
+​	
+​	
 	SELECT info ->> 'customer' AS customer FROM test_json;
 	customer   
 	--------------
@@ -278,8 +287,9 @@
 	josh william
 	mary clark
 	(4 rows)
-	
-	
+
+
+​	
 	使用->> 就可以把双引去掉了。
 
 ## 6.2 按照条件查询数据
@@ -288,35 +298,40 @@
 	-----------
 	lily bush
 	(1 row)
-	
-	
+
+
+​	
 	查询条件也可以作为解析的对象。
-	
-	
-	
+
+
+​	
+​	
 	也可以写成以下的形式
 	
 	select info ->> 'customer' as customer,info -> 'items' ->> 'product' as product from test_json where cast ( info -> 'items' ->> 'qty' as integer ) = 2;
-	
-	
+
+
+​	
 	customer  |  product  
 	------------+-----------
 	mary clark | toy train
 	(1 row)
-	
-	
+
+
+​	
 	info -> 'items' ->> 'qty' AS INTEGER  是获取json集合中元素是qty的数据 转化为INTEGER,
 	case() 是把数值转化为int4类型 
 
 ## 6.3 集合函数查询JSON数据
 	select min(cast( info -> 'items' ->> 'qty' as integer)), max (cast (info -> 'items' ->> 'qty' as integer)), sum (cast (info -> 'items' ->> 'qty' as integer)), avg (cast (info -> 'items' ->> 'qty' as integer)) from test_json;
-	
-	
+
+
+​	
 	min | max | sum |        avg         
 	-----+-----+-----+--------------------
 	1 |  24 |  33 | 8.2500000000000000
 	(1 row)
-	
+
 
 ## 6.4 获取JSON结构中的数据
 	select info -> 'items' ->> 'product' as product from test_json order by product;
@@ -330,7 +345,7 @@
 	(4 rows)
 	
 	SQL中可以->与->>一起使用，区别就是结果有无双引的问题。
-	
+
 ## 6.5 使用默认的函数查找数据
 ### 6.5.1 JSON_EACH 函数的使用
 	select json_each(info) from test_json;
@@ -348,7 +363,7 @@
 	(8 rows)
 	
 	json_each 函数把含有key与value的数据全部取了出来，如果一行有多个key与value则会把分行显示出来。
-	
+
 ### 6.5.2 JSON_OBJECT_KEYS 函数的使用
 	select json_object_keys (info->'items') as jsondata from test_json;
 	jsondata 
@@ -362,8 +377,9 @@
 	product
 	qty
 	(8 rows)
-	
-	
+
+
+​	
 ## 6.6 把查询数据转化为JSON
 	创建表并构造数据
 	
@@ -373,15 +389,16 @@
 	return uuid.uuid1()
 	$BODY$
 	LANGUAGE 'plpythonu' VOLATILE COST 100;
-	
-	
+
+
+​	
 	create table test_json_data(
 	filed1 varchar(50),
 	filed2 varchar(50)
 	) DISTRIBUTED BY(filed1);
 	
 	insert into test_json_data select md5(uuid_python()) as filed1, md5(uuid_python()) as  filed2 from generate_series(1,10);
-	
+
 ### 6.6.1 查看原始数据
 	select * from test_json_data;
 				filed1              |              filed2              
@@ -392,7 +409,7 @@
 	d4b9576198948233d95ac6495e332fdb | 603b5c38fdd577c6ba43cd791e01c6ae
 	
 	(4 rows)
-	
+
 ### 6.6.2 把查询的数据转化为JSON
 #### 6.6.2.1 把字段的名字作为JSON对象
 	select row_to_json(test_json_data) from test_json_data;
@@ -405,7 +422,7 @@
 	(4 rows)
 	
 	把 test_json_data表全部转化成了json的格式了
-	
+
 ##### 6.6.2.2 使用默认的JSON字段名字
 	select row_to_json(row(filed1, filed2)) from test_json_data;
 										row_to_json                                    
@@ -417,8 +434,9 @@
 	(4 rows)
 	
 	可以看出已使用默认的字段作为JSON的对象了。
-	
-	
+
+
+​	
 	或写成一下的形式
 	select row_to_json(t) from  (select filed1 f1,filed2 f2 from test_json_data ) t;
 										row_to_json                                    
