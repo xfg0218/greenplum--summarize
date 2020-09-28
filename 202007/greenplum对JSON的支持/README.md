@@ -1,4 +1,50 @@
-[toc]
+# Greenplum对JSON的支持
+
+	1 JSON与JSONB概述
+		1.1 JSON 的概述
+		1.2 JSONB的概述
+		1.3 JSON与JSONB的区别
+	2 JSON与JSONB常用操作符与函数
+		2.1 JSON与JSONB常用操作符
+		2.2 JSON常用的创建函数 to_json(anyelement)
+		2.3 JSON聚合函数
+		2.4 JSON处理函数
+		2.5 JSONB操作符
+		2.6 常用的操作运算符
+		2.7 Greenplum对JSONB支持的说明
+	3 JSON 运算符常用实例
+		3.1 单组JSON解析
+		3.2 多组JSON解析
+		3.3 复杂的JSON解析
+			3.3.1 多个JSON子集的解析
+			3.3.2 获取JSON子集的数据
+			3.3.3 获取一个JSON集合的子元素
+			3.3.4 获取数值进行判断
+	4 JSON 创建函数的使用
+		4.1 创建int类型的JSON格式数据
+		4.2 把行的数据转化为JSON类型的数据
+		4.3 把字段转化为json类型
+	5 JSON处理函数的使用
+		5.1 json_each(json) 把一个Json 最外层的Object拆成key-value的形式
+		5.2 获取JSON中的数据(去除双引号)
+		5.3 获取JSON数据中的KEY的值
+		5.4 返回JSON的文本值
+	6 查询JSON数据的方式
+		6.1 创建支持JSON数据的表
+			6.1.1 创建表的SQL
+			6.1.2 插入数据SQL
+			6.1.3 获取JSON数据的KEY值
+		6.2 按照条件查询数据
+		6.3 集合函数查询JSON数据
+		6.4 获取JSON结构中的数据
+		6.5 使用默认的函数查找数据
+			6.5.1 JSON_EACH 函数的使用
+			6.5.2 JSON_OBJECT_KEYS 函数的使用
+		6.6 把查询数据转化为JSON
+			6.6.1 查看原始数据
+			6.6.2 把查询的数据转化为JSON
+				6.6.2.1 把字段的名字作为JSON对象
+				6.6.2.2 使用默认的JSON字段名字
 
 # 1 JSON与JSONB概述
 ## 1.1 JSON 的概述
