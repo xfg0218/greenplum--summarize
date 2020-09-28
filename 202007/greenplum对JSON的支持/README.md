@@ -480,9 +480,7 @@
 	(4 rows)
 	
 	可以看出已使用默认的字段作为JSON的对象了。
-
-
-​	
+	
 	或写成一下的形式
 	select row_to_json(t) from  (select filed1 f1,filed2 f2 from test_json_data ) t;
 										row_to_json                                    
