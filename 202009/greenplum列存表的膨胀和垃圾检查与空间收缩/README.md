@@ -127,9 +127,6 @@
 	test_ao : schema的名字
 	ao_table_test:当前schema下的表
 	gp_appendonly_compaction_threshold: AO的压缩进程，目前设置的是10
-
-
-​	
 	content:对应gp_configuration.content表示greenplum每个节点的唯一编号。
 	datafile:这条记录对应的这个表的其中一个数据文件的编号，每个数据文件假设1GB。
 	hidden_tupcount:有多少条记录已更新或删除（不可见）。
