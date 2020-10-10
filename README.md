@@ -36,6 +36,7 @@
 
 1、[greenplum备份安全与高可用](https://github.com/xfg0218/greenplum--summarize/tree/master/202009/greenplum%E5%A4%87%E4%BB%BD%E5%AE%89%E5%85%A8%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8)
 
+2、[Greenplum 列存表(AO表)的膨胀和垃圾检查与空间收缩](https://github.com/xfg0218/greenplum--summarize/tree/master/202009/greenplum%E5%88%97%E5%AD%98%E8%A1%A8%E7%9A%84%E8%86%A8%E8%83%80%E5%92%8C%E5%9E%83%E5%9C%BE%E6%A3%80%E6%9F%A5%E4%B8%8E%E7%A9%BA%E9%97%B4%E6%94%B6%E7%BC%A9)
 
 ## 202008月
 
