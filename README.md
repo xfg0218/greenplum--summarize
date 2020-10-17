@@ -32,6 +32,11 @@
 
 # 历史greenplum知识点介绍
 
+## 202010月
+
+1、[Greenplum集群Master与Standby相互切换](https://github.com/xfg0218/greenplum--summarize/tree/master/202010/greenplum%E9%9B%86%E7%BE%A4Master%E4%B8%8EStandby%E7%9B%B8%E4%BA%92%E5%88%87%E6%8D%A2)
+
+
 ## 202009月
 
 1、[greenplum备份安全与高可用](https://github.com/xfg0218/greenplum--summarize/tree/master/202009/greenplum%E5%A4%87%E4%BB%BD%E5%AE%89%E5%85%A8%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8)
