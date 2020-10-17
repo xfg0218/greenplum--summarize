@@ -1,5 +1,5 @@
 	Greenplum集群Master与Standby相互切换
-	1  概述	1
+	1  概述
 	2 查看集群的基本信息
 		2.1 查看集群的配置信息
 		2.2 快速查看down segments节点
