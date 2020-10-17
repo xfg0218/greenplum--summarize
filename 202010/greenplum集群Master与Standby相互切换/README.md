@@ -1,4 +1,4 @@
-Greenplum集群Master与Standby相互切换
+	Greenplum集群Master与Standby相互切换
 	1  概述	1
 	2 查看集群的基本信息
 		2.1 查看集群的配置信息
