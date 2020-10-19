@@ -1,3 +1,6 @@
+# Greenplum集群扩容总结.pdf文档请查看
+[Greenplum集群扩容总结](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E9%9B%86%E7%BE%A4%E6%89%A9%E5%AE%B9%E6%80%BB%E7%BB%93.pdf)
+
 # Greenplum集群扩容总结
 	1 概述
 	2 扩容前准备
