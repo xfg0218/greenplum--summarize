@@ -30,6 +30,18 @@
 2、[greenplum--orca查询优化器详解](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E5%B8%B8%E7%94%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/greenplum--orca%E6%9F%A5%E8%AF%A2%E4%BC%98%E5%8C%96%E5%99%A8%E8%AF%A6%E8%A7%A3.pdf)
 
 
+# 数据同步到Greenplum方案
+
+1、[使用PXF插件同步HDFS和Hive数据到Greenplum中](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum6.x%E5%AE%89%E8%A3%85PXF%E6%8F%92%E4%BB%B6)
+
+2、[使用mysql_fdw插件同步mysql数据到Greenplum中](https://github.com/xfg0218/greenplum--summarize/tree/master/202006)
+
+3、[使用oracle_fdw插件同步Oracle数据到Greenplum中](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum6.x%E5%AE%89%E8%A3%85oracle_fdw)
+
+4、[使用maxwell+Kafka+bireme方案同步mysql数据到Greenplum中](https://cloud.tencent.com/developer/article/1573296)
+
+
+
 # 历史greenplum知识点介绍
 
 ## 202010月
