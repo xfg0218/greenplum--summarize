@@ -48,7 +48,7 @@
 
 1、[Greenplum集群扩容](https://github.com/xfg0218/greenplum--summarize/tree/master/202010/greenplum%E9%9B%86%E7%BE%A4%E6%89%A9%E5%AE%B9)
 
-2、[Greenplum常见的链接驱动](https://github.com/xfg0218/greenplum--summarize/tree/master/202010/greenplum%E9%93%BE%E6%8E%A5%E9%A9%B1%E5%8A%A8)
+2、[Greenplum常见的客户端链接驱动](https://github.com/xfg0218/greenplum--summarize/tree/master/202010/greenplum%E9%93%BE%E6%8E%A5%E9%A9%B1%E5%8A%A8)
 
 3、[Greenplum集群Master与Standby相互切换](https://github.com/xfg0218/greenplum--summarize/tree/master/202010/greenplum%E9%9B%86%E7%BE%A4Master%E4%B8%8EStandby%E7%9B%B8%E4%BA%92%E5%88%87%E6%8D%A2)
 
