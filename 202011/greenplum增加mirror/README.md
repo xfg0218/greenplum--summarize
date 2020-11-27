@@ -36,7 +36,7 @@
 	=> 
 
 	
-#  生产mirror映射的文件
+#  生成mirror映射的文件
 	[gpadmin@gpmaster gpconfigs]$ gpaddmirrors -o ./addmirror
 	********:255135 gpaddmirrors:gpmaster:gpadmin-[INFO]:-Starting gpaddmirrors with args: -o ./addmirror
 	********:255135 gpaddmirrors:gpmaster:gpadmin-[INFO]:-local Greenplum Version: 'postgres (Greenplum Database) 6.7.0 build commit:2fbc274bc15a19b5de3c6e44ad5073464cd4f47b'
