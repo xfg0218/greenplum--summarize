@@ -44,6 +44,11 @@
 
 # 历史greenplum知识点介绍
 
+## 202011月
+
+1、[Greenplum增加mirror镜像](https://github.com/xfg0218/greenplum--summarize/tree/master/202011/greenplum%E5%A2%9E%E5%8A%A0mirror)
+
+
 ## 202010月
 
 1、[Greenplum集群扩容](https://github.com/xfg0218/greenplum--summarize/tree/master/202010/greenplum%E9%9B%86%E7%BE%A4%E6%89%A9%E5%AE%B9)
