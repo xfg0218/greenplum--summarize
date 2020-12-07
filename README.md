@@ -48,6 +48,10 @@
 
 1、[Greenplum增加mirror镜像](https://github.com/xfg0218/greenplum--summarize/tree/master/202011/greenplum%E5%A2%9E%E5%8A%A0mirror)
 
+2、[Greenplum常用给用户付权语句](https://github.com/xfg0218/greenplum--summarize/tree/master/202011/greenplum%E5%B8%B8%E7%94%A8%E7%BB%99%E7%94%A8%E6%88%B7%E4%BB%98%E6%9D%83%E8%AF%AD%E5%8F%A5)
+
+
+
 
 ## 202010月
 
