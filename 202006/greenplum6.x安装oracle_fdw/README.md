@@ -157,7 +157,6 @@
     ***********	
 	)SERVER oradb OPTIONS (schema 'ORACLESCHEMA', table 'ORACLETABLENAME');
 	
-	
 	GPTABLENAME：GP外部表的名字
 	ORACLESCHEMA: oracle的schema名字
 	ORACLETABLENAME: ORACLE中的表的名字
