@@ -149,7 +149,7 @@
 	1
 	
 # 9 常见查询Oracle数据方式
-	9.1 查询全部表的数据
+## 9.1 查询全部表的数据
 	
 	CREATE FOREIGN TABLE GPTABLENAME(
 	period	varchar,
@@ -162,7 +162,7 @@
 	ORACLESCHEMA: oracle的schema名字
 	ORACLETABLENAME: ORACLE中的表的名字
 	
-	9.2 按照条件查询数据
+## 9.2 按照条件查询数据
 	CREATE FOREIGN TABLE GPTABLENAME(
 	period	varchar,
 	guid	varchar
