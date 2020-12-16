@@ -11,6 +11,10 @@
 	6 分发oracle客户端到所有节点
 	7 动态连接库增加oracle客户端地址(所有节点执行)
 	8 创建oracle_fdw并测试结果(主节点)
+	9 常见查询Oracle数据方式
+	10 删除关联的内表
+	11 oracle数据库字段与PG字段类型的对比
+	
 	
 # 1 下载oracle客户端,放到/data目录下(主节点)
 	instantclient-basic-linux.x64-12.2.0.1.0.zip 
@@ -143,3 +147,68 @@
 	id 
 	----
 	1
+	
+# 9 常见查询Oracle数据方式
+	9.1 查询全部表的数据
+	
+	CREATE FOREIGN TABLE GPTABLENAME(
+	period	varchar,
+	guid	varchar,
+    ***********	
+	)SERVER oradb OPTIONS (schema 'ORACLESCHEMA', table 'ORACLETABLENAME');
+	
+	
+	GPTABLENAME：GP外部表的名字
+	ORACLESCHEMA: oracle的schema名字
+	ORACLETABLENAME: ORACLE中的表的名字
+	
+	9.2 按照条件查询数据
+	CREATE FOREIGN TABLE GPTABLENAME(
+	period	varchar,
+	guid	varchar
+	)SERVER oradb OPTIONS (table '(SELECT fileds FROM schemanem.tablename where filed=''filedvalue'')');
+
+	GPTABLENAME：GP外部表的名字
+	fileds : 需要查询的字段信息
+	schemanem：需要查询的oracle的schema
+	tablename ：需要查询的表名
+	filedvalue：字段的条件
+	
+# 10 删除关联的内表
+	drop FOREIGN TABLE tablename;
+	
+	tablename ：需要查询的表名
+	
+# 11 oracle数据库字段与GP字段类型的对比
+
+	Oracle type              | Possible PostgreSQL types
+	-------------------------+--------------------------------------------------
+	CHAR                     | char, varchar, text
+	NCHAR                    | char, varchar, text
+	VARCHAR                  | char, varchar, text
+	VARCHAR2                 | char, varchar, text, json
+	NVARCHAR2                | char, varchar, text
+	CLOB                     | char, varchar, text, json
+	LONG                     | char, varchar, text
+	RAW                      | uuid, bytea
+	BLOB                     | bytea
+	BFILE                    | bytea (read-only)
+	LONG RAW                 | bytea
+	NUMBER                   | numeric, float4, float8, char, varchar, text
+	NUMBER(n,m) with m<=0    | numeric, float4, float8, int2, int4, int8,
+							|    boolean, char, varchar, text
+	FLOAT                    | numeric, float4, float8, char, varchar, text
+	BINARY_FLOAT             | numeric, float4, float8, char, varchar, text
+	BINARY_DOUBLE            | numeric, float4, float8, char, varchar, text
+	DATE                     | date, timestamp, timestamptz, char, varchar, text
+	TIMESTAMP                | date, timestamp, timestamptz, char, varchar, text
+	TIMESTAMP WITH TIME ZONE | date, timestamp, timestamptz, char, varchar, text
+	TIMESTAMP WITH           | date, timestamp, timestamptz, char, varchar, text
+	LOCAL TIME ZONE       |
+	INTERVAL YEAR TO MONTH   | interval, char, varchar, text
+	INTERVAL DAY TO SECOND   | interval, char, varchar, text
+	XMLTYPE                  | xml, char, varchar, text
+	MDSYS.SDO_GEOMETRY       | geometry (see "PostGIS support" below)
+		
+
+	
