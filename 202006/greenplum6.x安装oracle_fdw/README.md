@@ -13,7 +13,8 @@
 	8 创建oracle_fdw并测试结果(主节点)
 	9 常见查询Oracle数据方式
 	10 删除关联的内表
-	11 oracle数据库字段与PG字段类型的对比
+	11 同步数据实例
+	12 oracle数据库字段与PG字段类型的对比
 	
 	
 # 1 下载oracle客户端,放到/data目录下(主节点)
@@ -177,8 +178,28 @@
 	drop FOREIGN TABLE tablename;
 	
 	tablename ：需要查询的表名
+
+# 11 同步数据实例
+
+
+	create table tablename with (appendonly = true, compresstype = zlib, compresslevel = 9
+	,orientation=column, checksum = false,blocksize = 2097152) as
+	select * from tablename
+	DISTRIBUTED BY (period);
 	
-# 11 oracle数据库字段与GP字段类型的对比
+	耗时时间: 313.672s
+
+	select count(*) from tablename;
+	-- 13071872
+
+	select pg_size_pretty(pg_relation_size('tablename')); 
+	-- 124 MB
+	
+	
+	tablename ：需要查询的表名
+	
+
+# 12 oracle数据库字段与PG字段类型的对比
 
 	Oracle type              | Possible PostgreSQL types
 	-------------------------+--------------------------------------------------
