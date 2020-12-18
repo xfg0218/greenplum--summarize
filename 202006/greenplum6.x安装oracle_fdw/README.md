@@ -195,6 +195,9 @@
 	select pg_size_pretty(pg_relation_size('tablename')); 
 	-- 124 MB
 	
+	在oracle中占用的空间大小 
+	select round(sum(BYTES)/1024/1024,2)||'M' from dba_segments where segment_name='tablename';
+	-- 1856M
 	
 	tablename ：需要查询的表名
 	
