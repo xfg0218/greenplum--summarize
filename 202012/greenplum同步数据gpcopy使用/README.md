@@ -83,40 +83,49 @@
 	
 	
 # gpcopy 命令实例
-	1、此命令使用以下命令将源系统中所有用户创建的数据库复制到目标系统： -full 选项。如果目标中已经存在该表，则删除该表并再次创建它
+	1、此命令使用以下命令将源系统中所有用户创建的数据库复制到目标系统： 
+	-full 选项。如果目标中已经存在该表，则删除该表并再次创建它
 	gpcopy --source-host mytest --source-port 1234 --source-user gpuser \ 
 		--dest-host demohost --dest-port 1234 --dest-user gpuser \ 
 		--full --drop
 	
-	2、此命令使用以下命令将源系统中的指定数据库复制到目标系统： --dbname选项。--truncate 选项从源表复制表数据之前将其截断。
+	2、此命令使用以下命令将源系统中的指定数据库复制到目标系统： --dbname选项。
+	--truncate 选项从源表复制表数据之前将其截断。
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
 	--dbname database1, database2 --truncate
 		
-	3、此命令使用以下命令将源系统中的指定表复制到目标系统： --include-table选项。的 --skip-existing 如果目标数据库中已经存在该表，则该选项将跳过该表。
+	3、此命令使用以下命令将源系统中的指定表复制到目标系统： --include-table选项。
+	的 --skip-existing 如果目标数据库中已经存在该表，则该选项将跳过该表。
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
 	--include-table database.schema.table1, database.schema.table2 --skip-existing
 		
-	4、该命令将表从源数据库复制到目标系统，但不包括在 /home/gpuser/mytables与 --exclude-table-file 选项。--truncate选项会截断目标系统中已经存在的表。带有--analyze and --validate count，该实用程序对复制的表执行ANALYZE操作，并通过比较源表和目标表之间的行数来验证复制的表数据。
+	4、该命令将表从源数据库复制到目标系统，但不包括在 /home/gpuser/mytables与 --exclude-table-file选项。--truncate选项会截断目标系统中已经存在的表。带有--analyze and --validate count，该实用程序对复制的表执行ANALYZE操作，并通过比较源表和目标表之间的行数来验证复制的表数据。
 		
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
 	--dbname database1 --exclude-table-file /home/gpuser/mytables \
 	--truncate --analyze --validate count
 	
-	5、此命令指定 --full 和  --metadata-only 复制所有数据库模式的选项，包括所有源数据库中的所有表，索引，视图，用户定义的类型（UDT）和用户定义的函数（UDF）。没有数据被复制，  --drop选项指定如果表在源数据库和目标数据库中都存在，则在重新创建该表之前将其删除到目标数据库中。
+	5、此命令指定 --full 和  --metadata-only 复制所有数据库模式的选项，包括所有源数据库中的所有表，
+	索引，视图，用户定义的类型（UDT）和用户定义的函数（UDF）。没有数据被复制，  --drop选项指定如果表在源数据库和目标数据库中都存在，则在重新创建该表之前将其删除到目标数据库中。
 		
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
 	--full --metadata-only --drop
 	
-	6、此命令使用以下命令将源系统中的指定数据库复制到目标系统： --dbname 选项，并指定8个并行进程 --jobs选项。该命令指定--truncate 选项以截断该表，如果目标数据库中已存在该表，则重新创建该表，并使用2000-2010范围内的端口进行并行进程连接。
+	6、此命令使用以下命令将源系统中的指定数据库复制到目标系统： --dbname 选项，
+	并指定8个并行进程 --jobs选项。该命令指定--truncat选项以截断该表，如果目标数据库中已存在该表，
+	则重新创建该表，并使用2000-2010范围内的端口进行并行进程连接。
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
 	--dbname database1, database2 --truncate --jobs 8 --data-port-range 2000-2010
 		
-	7、此命令使用以下命令将源系统中的指定数据库复制到目标系统： --dbname 选项，并指定16个并行进程 --jobs选项。--truncate如果目标数据库中已经存在该选项，则该选项将截断该表并再次创建它。的 --truncate-source-after 该选项在目标数据库中验证了表数据之后，将截断源数据库中的表。
+	7、此命令使用以下命令将源系统中的指定数据库复制到目标系统： --dbname 选项，
+	并指定16个并行进程 --jobs选项。--truncate如果目标数据库中已经存在该选项，
+	则该选项将截断该表并再次创建它。的 --truncate-source-after 该选项在目标数据库中验证了表数据之后，
+	将截断源数据库中的表。
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
 	--dbname database1 --truncate --jobs 16 --truncate-source-after --validate count
