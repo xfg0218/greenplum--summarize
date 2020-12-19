@@ -14,7 +14,7 @@
 	gpcopy 该实用程序将对象从源Greenplum数据库系统中的数据库复制到目标Greenplum数据库系统中的数据库。
 	
 	该gpcopy 该实用程序仅在Pivotal Greenplum数据库的商业版本中可用
-
+ 
 # gpcopy 命令安装
 	1、解压
 	tar xzvf gpcopy-version.tar.gz
