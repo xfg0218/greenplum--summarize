@@ -101,7 +101,9 @@
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
 	--include-table database.schema.table1, database.schema.table2 --skip-existing
 		
-	4、该命令将表从源数据库复制到目标系统，但不包括在 /home/gpuser/mytables与 --exclude-table-file选项。--truncate选项会截断目标系统中已经存在的表。带有--analyze and --validate count，该实用程序对复制的表执行ANALYZE操作，并通过比较源表和目标表之间的行数来验证复制的表数据。
+	4、该命令将表从源数据库复制到目标系统，但不包括在/home/gpuser/mytables与--exclude-table-file选项。
+	--truncate选项会截断目标系统中已经存在的表。带有--analyze and 
+	--validat count，该实用程序对复制的表执行ANALYZE操作，并通过比较源表和目标表之间的行数来验证复制的表数据。
 		
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
@@ -109,7 +111,8 @@
 	--truncate --analyze --validate count
 	
 	5、此命令指定 --full 和  --metadata-only 复制所有数据库模式的选项，包括所有源数据库中的所有表，
-	索引，视图，用户定义的类型（UDT）和用户定义的函数（UDF）。没有数据被复制，  --drop选项指定如果表在源数据库和目标数据库中都存在，则在重新创建该表之前将其删除到目标数据库中。
+	索引，视图，用户定义的类型（UDT）和用户定义的函数（UDF）。没有数据被复制，
+	--drop选项指定如果表在源数据库和目标数据库中都存在，则在重新创建该表之前将其删除到目标数据库中。
 		
 		gpcopy --source-host mytest --source-port 1234 --source-user gpuser \
 	--dest-host demohost --dest-port 1234 --dest-user gpuser \
