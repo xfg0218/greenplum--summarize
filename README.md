@@ -48,7 +48,7 @@
 
 1、[Greenplum同步工具gpcopy使用](https://github.com/xfg0218/greenplum--summarize/tree/master/202012/greenplum%E5%90%8C%E6%AD%A5%E6%95%B0%E6%8D%AEgpcopy%E4%BD%BF%E7%94%A8)
 
-
+2、[Greenplum数据库集群配置参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202012/greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9B%86%E7%BE%A4%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0)
 
 ## 202011月
 
