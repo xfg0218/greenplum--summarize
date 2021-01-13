@@ -19,12 +19,15 @@
 
 7、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
 
-8、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
+8、[greenplum-syscat-ref 系统表关系可视化图](https://stephendotcarter.github.io/greenplum-syscat-ref/diagram.html)
 
-9、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+9、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
+
+10、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
 
 # 常用Greenplum学习PDF资料
+
 1、[Greenplum企业应用实战](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E5%B8%B8%E7%94%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/Greenplum%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E5%AE%9E%E6%88%98.pdf)
 
 2、[greenplum--orca查询优化器详解](https://github.com/xfg0218/greenplum--summarize/blob/master/greenplum%E5%AD%A6%E4%B9%A0pdf%E6%96%87%E6%A1%A3/Greenplum%E5%B8%B8%E7%94%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/greenplum--orca%E6%9F%A5%E8%AF%A2%E4%BC%98%E5%8C%96%E5%99%A8%E8%AF%A6%E8%A7%A3.pdf)
