@@ -1,5 +1,6 @@
 # Greenplum数据库集群配置参数
 | 参数名字 | 默认值 | 参数含义 |
+|:----:|:----|:----|
 | enable_bitmapscan | on | 启用或禁用位图查询优化器。|
 | enable_groupagg								on					启用或禁用组聚集计划优化器。
 | enable_hashagg								on					启用或禁用哈希优化器。
