@@ -2,11 +2,11 @@
 | 参数名字 | 默认值 | 参数含义 |
 |:----:|:----|:----|
 | enable_bitmapscan | on | 启用或禁用位图查询优化器。|
-| enable_groupagg								on					启用或禁用组聚集计划优化器。
-| enable_hashagg								on					启用或禁用哈希优化器。
-| enable_hashjoin								on					启用或者禁用散列聚集优化器。
-| enable_indexscan							on					启用或者禁用索引优化器。
-| enable_mergejoin							off					启用或者禁用合并优化器。
+| enable_groupagg | on | 启用或禁用组聚集计划优化器。|
+| enable_hashagg | on | 启用或禁用哈希优化器。|
+| enable_hashjoin | on | 启用或者禁用散列聚集优化器。|
+| enable_indexscan | on | 启用或者禁用索引优化器。|
+| enable_mergejoin | off | 启用或者禁用合并优化器。|
 | enable_nestloop								off					启用或者禁用嵌套循环优化器。
 | enable_seqscan								on					启用或者禁用顺序扫描优化器。
 | enable_sort									on					启用或者禁用显示的排序优化器。
