@@ -1,3 +1,54 @@
+# 目录
+	第一节 排查问题的方法
+	目录
+		1、 不能只看表象，要去看日志，找规律，去复现
+		2、去哪看日志，有哪些日志
+		3、管理工具的日志
+		4、GP数据库日志
+		5、 CSV日志
+		6、遇到问题解决方式
+	第二节 数据库启动停止的问题分析
+		1、gpstop 有哪些几步操作
+		2、too many clients alrrady
+		3、database is in recovery mode / is starting up
+		4、gpstart 有哪些几步操作
+		5、postmaster.pid 不存在
+		6、postmaster.pid 不存在--原因分析及解决方法
+		7、启动过程卡住
+		8、启动过程卡住--配置文件有问题
+		9、启动过程卡住--Segment启动问题排查
+		10、启动过程卡住--分析Segment日志
+		11、gpstart error:Do not have enough valid  segments to start the array
+	第三节 数据库状态不正常分析及处理
+		1、gpstate 检查segment状态 -- gpstate
+		2、发现segment down后分析和收集日志方法
+		3、 segment状态异常常见问题分析
+		4、segment状态异常常见问题分析
+		5、gprecoverseg 过程中无法启动被恢复的实例
+		6、gprecoverseg 过程服务器再次宕机
+		7、gprecoverseg 过程实例状态再变为down
+		8、gpstate检查Standby master -- gpstate  -f
+		9、Standby master 状态异常 -- 未启动
+		10、Standby master状态异常  -- 未同步
+	第四节 扩容问题分析及处理
+		1、gpexpand -- 集群新增segment的操作
+		2、gpexpand 新增segment时一些常见问题处理
+		3、gpexpand 新增segment时一些常见问题处理
+	第五节 运行中几类常见问题分析
+		5.1 内存相关问题
+			5.1.1 out of shared memory
+			5.1.2 insufficient memory
+			5.1.3 out of memory
+			5.1.4 应用优化
+		5.2 PANIC
+			5.2.1 什么是PANIC
+			5.2.2 发生PANIC 后，数据库实例会做什么
+			5.2.3 PAINC 可能是BUG或认为kill进程货其他外部因素引起的
+			5.2.4 发生PAINC 后如何应对
+			5.2.5 如何定位问题
+			5.2.6 辅助分析PANIC的方法
+		5.3 Interconnect  encountered a network error
+	
 # 第一节 排查问题的方法
 	1、 不能只看表象，要去看日志，找规律，去复现
 	2、去哪看日志，有哪些日志
