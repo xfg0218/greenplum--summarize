@@ -44,10 +44,20 @@
 4、[使用maxwell+Kafka+bireme方案同步mysql数据到Greenplum中](https://cloud.tencent.com/developer/article/1573296)
 
 
-
 # 历史greenplum知识点介绍
 
-## 202012 月
+## 202101月
+
+1、[Greenplum迁移指南](https://github.com/xfg0218/greenplum--summarize/tree/master/202101/greenplum%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97)
+
+2、[Greenplum生态与工具](https://github.com/xfg0218/greenplum--summarize/tree/master/202101/greenplum%E7%94%9F%E6%80%81%E4%B8%8E%E5%B7%A5%E5%85%B7)
+
+3、[Greenplum数据库快速调优](https://github.com/xfg0218/greenplum--summarize/tree/master/202101/greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E5%BF%AB%E9%80%9F%E8%B0%83%E4%BC%98)
+
+4、[Greenplum常见问题的分析与处理](https://github.com/xfg0218/greenplum--summarize/tree/master/202101/greenplum%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%A4%84%E7%90%86)
+
+
+## 202012月
 
 1、[Greenplum同步工具gpcopy使用](https://github.com/xfg0218/greenplum--summarize/tree/master/202012/greenplum%E5%90%8C%E6%AD%A5%E6%95%B0%E6%8D%AEgpcopy%E4%BD%BF%E7%94%A8)
 
