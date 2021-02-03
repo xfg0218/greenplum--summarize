@@ -25,6 +25,32 @@
 
 10、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
+# 常用Greenplum客户端链接工具
+
+1、[客户端管理工具datagrip](https://www.jetbrains.com/datagrip/)
+
+2、[客户端管理工具dbeaver](https://dbeaver.io/)
+
+3、[客户端管理工具navicat](http://www.navicat.com.cn/download/navicat-for-postgresql)
+
+4、各自的特点比较
+| 产品名称 | 版权 | 兼容性 | 是否支持开源版本 | 函数 | 分区表 | 流畅性 | 资源占用 |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| DBeaver | 商业/开源 | GPDB5/6 | 支持 | 支持良好 | 支持 | 一般 | 较大 |
+| DataGrip | 商业 | GPDB5/6 | 支持 | 支持良好 | 支持 | 较好 | 较大 |
+| Navicat | 商业 | GPDB5/6 | 支持 | 支持一般 | 不支持 | 很好 | 一般 |
+
+
+	1、有条件的公司或者个人，推荐有限使用DataGrip，如果已经使用JetBrains家的其他工具如：IDEA，那么可以直接安装一个数据插件即可。
+	2、崇尚开源免费的用户，推荐选用DBeaver，用起来功能也挺全，除了可以连接Greenplum，也可以连接几乎你所知道的所有的数据库，如果不支持，还可以自行扩展所需要的内容。
+	3、Nvicat,pgadmin等，只要支持Postgresql，都能连接上，但是存在各种不同情况的不兼容的问题，只适合临时使用。
+
+
+
+
+链接：https://pan.baidu.com/s/13Z6PFV7j626pLsrkTFwnoQ  提取码：xx9v
+
+
 
 # 常用Greenplum学习PDF资料
 
