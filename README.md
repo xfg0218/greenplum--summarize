@@ -61,6 +61,12 @@
 
 # 历史greenplum知识点介绍
 
+## 202102月
+
+1、[Greenplum常见数据类型修改](https://github.com/xfg0218/greenplum--summarize/tree/master/202102/Greenplum%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%BF%AE%E6%94%B9)
+
+2、[Greenplum转换DATE数据类型问题](https://github.com/xfg0218/greenplum--summarize/tree/master/202102/Greenplum%E8%BD%AC%E6%8D%A2DATE%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E9%97%AE%E9%A2%98)
+
 ## 202101月
 
 1、[Greenplum迁移指南](https://github.com/xfg0218/greenplum--summarize/tree/master/202101/greenplum%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97)
