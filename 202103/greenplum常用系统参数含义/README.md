@@ -210,5 +210,5 @@
 | xmloption | content | 设置隐式解析和序列化操作中的XML数据是否被视为文档或内容片段。 | Sets whether XML data in implicit parsing and serialization operations is to be considered as documents or content fragments. |
 | krb_server_keyfile | FILE:/usr/local/greenplum-db-devel/etc/postgresql/krb5.keytab | 设置Kerberos服务器密钥文件的位置。 | Sets the location of the Kerberos server key file. |
 | shared_preload_libraries | $libdir/metrics_collector,$libdir/gp_wlm | 列出要预加载到服务器的共享库 | Lists shared libraries to preload into server. |
-| gp_default_storage_options | appendonly=false,blocksize=32768,
-compresstype=none,checksum=true,orientation=row | 户创建表时添加的后缀信息 | Default options for appendonly storage. |
+| gp_default_storage_options | appendonly=false,blocksize=32768,compresstype=none,| 户创建表时添加的后缀信息 | Default options for appendonly storage. |
+| | checksum=true,orientation=row | | |
