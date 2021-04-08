@@ -66,7 +66,21 @@
 
 ## 202103月
 
-1、[pg_dump循环备份表数据](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/pg_dump%E5%BE%AA%E7%8E%AF%E5%A4%87%E4%BB%BD%E8%A1%A8%E6%95%B0%E6%8D%AE)
+1、[Greenplum常用log参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenplum%E5%B8%B8%E7%94%A8log%E5%8F%82%E6%95%B0)
+
+2、[Greenplum常用email参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenplum%E5%B8%B8%E7%94%A8email%E5%8F%82%E6%95%B0)
+
+3、[Greenplum常用vacuum参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenplum%E5%B8%B8%E7%94%A8vacuum%E5%8F%82%E6%95%B0)
+
+4、[Greenplum常用enable参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenplum%E5%B8%B8%E7%94%A8enable%E5%8F%82%E6%95%B0)
+
+5、[Greenlum常用optimizer参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenlum%E5%B8%B8%E7%94%A8optimizer%E5%8F%82%E6%95%B0)
+
+6、[Greenplum常用resource参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenplum%E5%B8%B8%E7%94%A8resource%E5%8F%82%E6%95%B0)
+
+7、[Greenplum常用系统参数含义](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenplum%E5%B8%B8%E7%94%A8%E7%B3%BB%E7%BB%9F%E5%8F%82%E6%95%B0%E5%90%AB%E4%B9%89)
+
+8、[Greenplum常用interconnect参数](https://github.com/xfg0218/greenplum--summarize/tree/master/202103/greenplum%E5%B8%B8%E7%94%A8interconnect%E5%8F%82%E6%95%B0)
 
 
 ## 202102月
