@@ -1,6 +1,6 @@
 # Greenplum常用log参数含义
 | 参数名字 | 默认值 | 参数中文含义 | 参数英文含义 |
-|:----|:----|:----|:----|
+|:----|:----|:----|:----| 
 | log_autostats | off | 记录发布的自动统计分析的详细信息。 | Logs details of auto-stats issued ANALYZEs. |
 | log_autovacuum_min_duration | -1 | 设置记录自动真空操作的最短执行时间。 | Sets the minimum execution time above which autovacuum actions will be logged. |
 | log_checkpoints | off | 记录每个checkpoint点。 | Logs each checkpoint. |
