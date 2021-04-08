@@ -1,4 +1,7 @@
-# Greenplum常用系统参数含义| 参数名字 | 默认值 | 参数中文含义 | 参数英文含义 ||:----|:----|:----|:----|| add_missing_from | off | 自动向FROM子句添加缺少的表引用 | Automatically adds missing table references to FROM clauses. |
+# Greenplum常用系统参数含义
+| 参数名字 | 默认值 | 参数中文含义 | 参数英文含义 |
+|:----|:----|:----|:----|
+| add_missing_from | off | 自动向FROM子句添加缺少的表引用 | Automatically adds missing table references to FROM clauses. |
 | application_name |  | 设置要在统计信息和日志中报告的应用程序名称。 | Sets the application name to be reported in statistics and logs. |
 | archive_mode | off | 允许使用archive_command命令存档WAL文件。 | Allows archiving of WAL files using archive_command. |
 | array_nulls | on | 启用数组中空元素的输入 | Enable input of NULL elements in arrays. |
@@ -205,3 +208,4 @@
 | writable_external_table_bufsize | 64kB | 在将数据写入gpfdist之前，可写外部表的缓冲区大小（KB） | Buffer size in kilo bytes for writable external table before writing data to gpfdist. |
 | xmlbinary | base64 | 设置二进制值在XML中的编码方式。 | Sets how binary values are to be encoded in XML. |
 | xmloption | content | 设置隐式解析和序列化操作中的XML数据是否被视为文档或内容片段。 | Sets whether XML data in implicit parsing and serialization operations is to be considered as documents or content fragments. |
+| krb_server_keyfile | FILE:/usr/local/greenplum-db-devel/etc/postgresql/krb5.keytab | 设置Kerberos服务器密钥文件的位置。 | Sets the location of the Kerberos server key file. |
