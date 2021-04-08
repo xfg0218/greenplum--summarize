@@ -12,7 +12,7 @@
 | enable_sort | on | 启用或者禁用显示的排序优化器。 | Enables the planner's use of explicit sort steps. |
 | enable_tidscan | on | 启用或者禁用使用元组标识符优化器。 | Enables the planner's use of TID scan plans. |
 | gp_enable_agg_distinct | on | 启用或者禁用两阶段聚合以计算单个不同合格的聚合。 | Enable 2-phase aggregation to compute a single distinct-qualified aggregate. |
-| | gp_enable_agg_distinct_pruning | on | 启用或者禁用第三阶段聚合和连接来计算单个不同合格的聚合。 | Enable 3-phase aggregation and join to compute distinct-qualified aggregates. |
+| gp_enable_agg_distinct_pruning | on | 启用或者禁用第三阶段聚合和连接来计算单个不同合格的聚合。 | Enable 3-phase aggregation and join to compute distinct-qualified aggregates. |
 | gp_enable_direct_dispatch | on | 启用或者禁用针对访问单个段上的数据查询的目标查询计划的分派。 | Enable dispatch for single-row-insert targetted mirror-pairs. |
 | gp_enable_exchange_default_partition | off | 控制 ALTER TABLE 的EXCHANGE DEFAULT PARTITION 子句的可用性。 | Allow DDL that will exchange default partitions. |
 | gp_enable_fallback_plan | on | 允许使用禁用计划类型，当查询没有该类型不可行的时候。 | Plan types which are not enabled may be used when a query would be infeasible without them. |
