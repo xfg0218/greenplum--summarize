@@ -57,7 +57,6 @@
 | gp_create_table_random_default_distribution | off | 将表的默认分布设置为随机 | Set the default distribution of a table to RANDOM. |
 | gp_dbid | 1 | 此服务器使用的dbid | The dbid used by this server. |
 | gp_debug_linger | 0 | 在致命内部错误之后，Greenplum进程停留的秒数。 | Number of seconds for QD/QE process to linger upon fatal internal error. |
-| gp_default_storage_options | appendonly=false,blocksize=32768,compresstype=none,checksum=true,orientation=row | 户创建表时添加的后缀信息 | Default options for appendonly storage. |
 | gp_dynamic_partition_pruning | on | 启用可以动态消除分区扫描的计划。 | This guc enables plans that can dynamically eliminate scanning of partitions. |
 | gp_external_enable_exec | on | 启用或禁用在segment主机上执行os命令或脚本的外部表的使用 | Enable selecting from an external table with an EXECUTE clause. |
 | gp_external_max_segs | 64 | 设置在外部表操作期间将扫描外部表数据段的数量，目的是不使系统因扫描数据过载，并从其他并发操作中夺取资源。 | Maximum number of segments that connect to a single gpfdist URL. |
@@ -93,7 +92,7 @@
 | gp_safefswritesize | 0 | 最小FS安全写入大小 | Minimum FS safe write size. |
 | gp_segment_connect_timeout | 10min | 新工作进程启动或镜像响应所允许的最长时间（秒）。 | Maximum time (in seconds) allowed for a new worker process to start or a mirror to respond. |
 | gp_segments_for_planner | 0 | 如果>0，计划人员在其成本和规模估计中要承担的分段dbs数量。 | If >0, number of segment dbs for the planner to assume in its cost and size estimates. |
-| gp_server_version | 5.7.0 build commit:f7c6eb5cc61b25a7ff9c5a657d6f903befbae013 | 显示Greenplum服务器版本 | Shows the Greenplum server version. |
+| gp_server_version | 5.7.0 build commit:f7c | 显示Greenplum服务器版本 | Shows the Greenplum server version. |
 | gp_server_version_num | 50000 | 将Greenplum服务器版本显示为整数 | Shows the Greenplum server version as an integer. |
 | gp_session_id | 236760 | 用于唯一标识Greenplum数据库数组中特定会话的全局ID | Global ID used to uniquely identify a particular session in an Greenplum Database array |
 | gp_set_proc_affinity | off | 在postmaster启动时，尝试将postmaster绑定到处理器 | On postmaster startup, attempt to bind postmaster to a processor |
@@ -123,7 +122,6 @@
 | IntervalStyle | postgres | 设置间隔值的显示格式。 | Sets the display format for interval values. |
 | join_collapse_limit | 20 | 设置从列表大小超出其连接结构不平坦的设置。 | Sets the FROM-list size beyond which JOIN constructs are not flattened. |
 | krb_caseins_users | off | 设置是否应将Kerberos和GSSAPI用户名视为不区分大小写。 | Sets whether Kerberos and GSSAPI user names should be treated as case-insensitive. |
-| krb_server_keyfile | FILE:/usr/local/greenplum-db-devel/etc/postgresql/krb5.keytab | 设置Kerberos服务器密钥文件的位置。 | Sets the location of the Kerberos server key file. |
 | krb_srvname | postgres | 设置Kerberos服务的名称。 | Sets the name of the Kerberos service. |
 | lc_collate | en_US.utf8 | 显示排序规则顺序区域设置。 | Shows the collation order locale. |
 | lc_ctype | en_US.utf8 | 显示字符分类和大小写转换区域设置。 | Shows the character classification and case conversion locale. |
@@ -175,7 +173,6 @@
 | server_version_num | 80323 | 将服务器版本显示为整数 | Shows the server version as an integer. |
 | session_replication_role | origin | 为触发器和重写规则设置会话的行为 | Sets the session's behavior for triggers and rewrite rules. |
 | shared_buffers | 125MB | 设置服务器使用的共享内存缓冲区数 | Sets the number of shared memory buffers used by the server. |
-| shared_preload_libraries | $libdir/metrics_collector,$libdir/gp_wlm | 列出要预加载到服务器的共享库 | Lists shared libraries to preload into server. |
 | ssl | off | 启用SSL连接 | Enables SSL connections. |
 | ssl_ciphers | ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH | 设置允许的SSL密码列表 | Sets the list of allowed SSL ciphers. |
 | ssl_renegotiation_limit | 512MB | 在重新协商加密密钥之前，设置要发送和接收的通信量。 | Set the amount of traffic to send and receive before renegotiating the encryption keys. |
