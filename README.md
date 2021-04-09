@@ -3,6 +3,11 @@
 
 	腾讯云中关于Greenplum的资料 https://cloud.tencent.com/developer/column/72497
 
+# Greenplum 新版本特性
+
+1、[当谈起Greenplum 7时,我们在谈什么?之组件篇](https://mp.weixin.qq.com/s/a2t8DjJVL9ZB-jC3DmnJQA)
+
+
 #  常用Greenplum学习网站资料
 
 1、[BiliBili学习地址](https://space.bilibili.com/489184136)
@@ -63,6 +68,11 @@
 
 
 # 历史greenplum知识点介绍
+
+## 202104月
+
+
+
 
 ## 202103月
 
