@@ -7,6 +7,15 @@
 | (appendonly=true) | 列存 | (compresstype=zlib,COMPRESSLEVEL=5) |
 | | (orientation=column) | |
 
+
+| 类型 | 创建说明 | 特点 |
+|:----:|:----:|:----:|
+| 堆表(heap) | 默认或appendonly=false | 表中数据不能压缩,堆表只能是行存表,适合数据经常更新,删除,的oltp类型的负载,通常表中的数据量不大,适合用作维度表 |
+| 追加优化表 | appendonly=true | 表中数据可以压缩,通常用户只读类型的查询,针对数据批量插入做了优化,不推荐以插入单条数据的方式载入数据。适合用于事务表 |
+| 行存表 | 默认或orientation=row | 适合用于oltp类型的工作负载 |
+| 列存表 | orientation=column | 适合用于数据仓库负载,必须同时制定该表为append optimized,表中数据可以压缩 |
+
+
 ## 储存大小对比
 
 | 类型 | 文件 | 堆储存 | AO表行存 | AO表列存 | AO表行存压缩 | AO表列存压缩 |
