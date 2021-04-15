@@ -7,6 +7,7 @@
 
 1、[当谈起Greenplum 7时,我们在谈什么?之组件篇](https://mp.weixin.qq.com/s/a2t8DjJVL9ZB-jC3DmnJQA)
 
+2、[当谈起Greenplum 7时,我们在谈什么?之内核篇](https://mp.weixin.qq.com/s/sI7Fk-up3VlufP2UJ-IRvQ)
 
 #  常用Greenplum学习网站资料
 
