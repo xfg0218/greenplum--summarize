@@ -74,6 +74,7 @@
 
 1、[Greenplum修改系统参数对性能的影响](https://github.com/xfg0218/greenplum--summarize/tree/master/202104/greenplum%E7%B3%BB%E7%BB%9F%E5%8F%82%E6%95%B0%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D)
 
+2、[Greenplum数据库常见调优参数对性能的影响](https://github.com/xfg0218/greenplum--summarize/tree/master/202104/greenplum%E6%95%B0%E6%8D%AE%E5%BA%93%E5%B8%B8%E8%A7%81%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D)
 
 ## 202103月
 
