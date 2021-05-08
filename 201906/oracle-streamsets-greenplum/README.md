@@ -30,3 +30,5 @@
 # 更多streamsets案例
 更多streamsets 的资料请查看:https://blog.csdn.net/xfg0218/article/details/79403054
 
+streamsets 中文介绍:http://streamsets.vip/?page_id=523
+
