@@ -182,7 +182,7 @@
 	prometheus的服务端通过pull向各个node_exporter节点端抓取信息，需要在各个node上安装exporter。可以利用 Prometheus 的 static_configs 来拉取 node_exporter 的数据。
 ## 6.1 编辑prometheus.yml文件 
 
-```vb 
+```shell 
 编辑一下文件，主要修改scrape_configs模块即可
 
 # vim  /usr/local/prometheus/prometheus.yml 
