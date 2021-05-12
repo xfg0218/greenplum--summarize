@@ -1,4 +1,14 @@
 # Greenplum监控
+
+#  greenplum_exporter 展示效果图
+![image](https://github.com/xfg0218/greenplum--summarize/blob/master/images/greenplum_exporter/greenplum_exporter.png)
+
+# Node Exporter for Prometheus Dashboard 展示效果图
+
+![image](https://github.com/xfg0218/greenplum--summarize/blob/master/images/greenplum_exporter/node_exporter_1.png)
+![image](https://github.com/xfg0218/greenplum--summarize/blob/master/images/greenplum_exporter/node_exporter_2.png)
+
+
 # 1  Prometheus与Grafana简介
 	Prometheus官网介绍：https://prometheus.io/
 	Grafana官网介绍:  https://grafana.com/
