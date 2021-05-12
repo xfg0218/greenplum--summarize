@@ -70,6 +70,11 @@
 
 # 历史greenplum知识点介绍
 
+## 202105 月
+
+1、[Greenplum_exporter监控Greenplum](https://github.com/xfg0218/greenplum--summarize/tree/master/202105/greenplum_exporter%E7%9B%91%E6%8E%A7Greenplum)
+
+
 ## 202104月
 
 1、[Greenplum修改系统参数对性能的影响](https://github.com/xfg0218/greenplum--summarize/tree/master/202104/greenplum%E7%B3%BB%E7%BB%9F%E5%8F%82%E6%95%B0%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D)
