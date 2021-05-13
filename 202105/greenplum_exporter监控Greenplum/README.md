@@ -225,11 +225,40 @@ scrape_configs:
   - job_name: 'gpsdw1'
     static_configs:
     - targets: ['192.168.***.***:9100']
-  - job_name: 'greenplum_'
+  - job_name: 'greenplum_export'
     static_configs:
-    - targets: ['192.168.48.176:9297']
+    - targets: ['192.168.***.**:9297']
+	
+	
+----------  或者使用分组的形式划分节点 -------------------------
+
+  - job_name: 'node_prometheus'
+    static_configs:
+    - targets: ['192.168.***.***:9100']
+      labels:
+        app: node1
+        nodename: master
+        role: master
+    - targets: ['192.168.***.***:9100']
+      labels:
+        app: node3
+        nodename: gpsdw2
+        role: gpsdw2
+  - job_name: 'greenplum'
+    static_configs:
+    - targets: ['192.168.***.***:9297']
+	
+	
+	
 	
 ```
+
+
+
+
+
+
+
 
 ## 6.2 重启prometheus
 	
