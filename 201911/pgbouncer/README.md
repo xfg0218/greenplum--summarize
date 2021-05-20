@@ -48,10 +48,15 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	logfile = pgbouncer.log
 	pidfile = pgbouncer.pid
 	admin_users = gpadmin
+	default_pool_size = 500
+	max_client_conn = 3000
+	
 	
 	说明
 	1、postgres/mydb 分别是数据库的名字,可以配置多个
 	2、auth_type 有两种认证方式,md5和plain方式
+	3、default_pool_size：每个用户/数据库对允许多少个服务器连接。
+	4、max_client_conn：允许的最大客户端连接数
 	
 ## 2.2 创建users.txt用户名与密码映射文件
 	1、创建一个认证文件。该文件的名称必须匹配pgbouncer.ini文件中的 auth_file参数，在这个例子中是 users.txt。每一行包含一个用户名和口令。口令串的格式匹配PgBouncer配置文件中的auth_type参数。如果auth_type参数是plain，口令串就是一个明文口令，例如：
@@ -80,7 +85,7 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	-h, --help             显示帮助并退出
   
 ## 3.2 启动pgbouncer连接池
-	pgbouncer pgbouncer.ini
+	pgbouncer -d  pgbouncer.ini
 	2019-11-27 17:03:19.024 108629 LOG File descriptor limit: 524288 (H:524288), max_client_conn: 100, max fds possible: 150
 	2019-11-27 17:03:19.025 108629 LOG Stale pidfile, removing
 	2019-11-27 17:03:19.025 108629 LOG listening on 192.168.***.**:65**
@@ -90,6 +95,7 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	1、在以上显示了最大的连接数,以及最大的fds
 	2、显示了启动的基本信息
 	3、显示了pgbouncer的版本信息
+	4、-d 参数是后台启动
 
 
 ## 3.3 链接测试
