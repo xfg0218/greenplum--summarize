@@ -14,6 +14,7 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 		3.1 查看pgbouncer参数
 		3.2 启动pgbouncer连接池
 		3.3 链接测试
+	4  unsupported startup parameter: extra_float_digits 问题解答
 
 # 说明
 	以下网站已经对pgbouncer有想西的介绍了，在这里几部废话了，之谈三个共享链接:
@@ -106,3 +107,9 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	在以上日志中可以看出
 	1、有一个login与closing的一个连接
 	2、有一个新的链接是在43271端口与43429与greenplum的5432进行连接
+
+# 4  unsupported startup parameter: extra_float_digits
+[unsupported startup parameter: extra_float_digits 问题解答](https://blog.csdn.net/cdnight/article/details/90476382)
+
+
+
