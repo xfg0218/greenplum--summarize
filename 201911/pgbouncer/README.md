@@ -17,7 +17,7 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	4  unsupported startup parameter: extra_float_digits 问题解答
 
 # 说明
-	以下网站已经对pgbouncer有想西的介绍了，在这里几部废话了，之谈三个共享链接:
+	pool_mode支持三种连接池模型:
 	1、Session pooling:当一个客户端连接时，只要它保持连接状态，就分配给它一个连接。当该客户端断开连接时，该连接才被放回到池中。
 	2、Transaction pooling: 在一个事务运行期间，分配一个连接给客户端。当PgBouncer发现事务完成，该连接就被放回到池中。这种模式只能被用于不使用依赖于会话的特性的应用。
 	3、Statement pooling:语句池化类似于事务池化，但是不允许多语句事务。这种模式的目标是为了在客户端强制自动提交模式，且它的定位是PostgreSQL上的PL/Proxy
