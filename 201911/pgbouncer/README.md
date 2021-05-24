@@ -39,6 +39,7 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	[databases]
 	postgres = host=192.168.***.** port=54** dbname=postgres  pool_mode=statement
 	mydb = host=192.168.***.** port=54** dbname=mydb pool_mode=transaction
+	testdb = host=192.168.***.**  port=54** dbname=mydb pool_mode=transaction user=dbuser  password=yourpassword connect_query='SELECT 1'
 	[pgbouncer]
 	pool_mode = session
 	listen_port = 6540
@@ -54,9 +55,14 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	
 	说明
 	1、postgres/mydb 分别是数据库的名字,可以配置多个
-	2、auth_type 有两种认证方式,md5和plain方式
-	3、default_pool_size：每个用户/数据库对允许多少个服务器连接。
-	4、max_client_conn：允许的最大客户端连接数
+	2、auth_type 有md5和plain和trust方式
+	3、default_pool_size：默认池大小，表示建立多少个pgbouncer到数据库的连接。
+	4、max_client_conn：最大连接用户数，客户端到pgbouncer的链接数量。
+	5、pool_mode支持三种连接池模型：
+		session，会话级连接，连接生命周期里，连接池分配一个数据库连接，客户端断开连接时，连接放回连接池。
+		transaction， 事务级连接，客户端的每个事务结束时，数据库连接就会重新释放回连接池，在执行一个事务时，就需要从连接池重新获得一个连接。
+		statement，语句级别连接 ，执行完一个SQL语句时，连接就会释放回连接池，再次执行一个SQL语句时，需要重新从连接池里获取连接，这种模式意味客户端需要强制“autocommit”模式。
+
 	
 ## 2.2 创建users.txt用户名与密码映射文件
 	1、创建一个认证文件。该文件的名称必须匹配pgbouncer.ini文件中的 auth_file参数，在这个例子中是 users.txt。每一行包含一个用户名和口令。口令串的格式匹配PgBouncer配置文件中的auth_type参数。如果auth_type参数是plain，口令串就是一个明文口令，例如：
@@ -71,6 +77,13 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	
 	4、这里是PgBouncer认证文件中用于gpadmin用户的MD5编码过的条目：
 	"gpadmin" "md53ce96652dedd8226c498e09ae2d26220"
+	
+	5、查看pg_shadow表里面保存的密码
+	select usename,passwd from pg_shadow order by 1;
+	
+	导出用户名和密码并修改成以上的格式
+	copy (select usename, passwd from pg_shadow order by 1) to 'saveFilePath';
+	
 	
 # 3 启动pgBouncer连接池
 
