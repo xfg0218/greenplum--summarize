@@ -74,6 +74,7 @@
 
 1、[Greenplum_exporter监控Greenplum](https://github.com/xfg0218/greenplum--summarize/tree/master/202105/greenplum_exporter%E7%9B%91%E6%8E%A7Greenplum)
 
+2、[Greenplum_exporter配置邮件告警](https://github.com/xfg0218/greenplum--summarize/tree/master/202105/greenplum_exporter%E9%85%8D%E7%BD%AE%E9%82%AE%E4%BB%B6%E5%91%8A%E8%AD%A6)
 
 ## 202104月
 
