@@ -3,10 +3,6 @@
 
 	腾讯云中关于Greenplum的资料 https://cloud.tencent.com/developer/column/72497
 
-## 目录
-
-[toc]
-
 # Greenplum 新版本特性
 
 1、[当谈起Greenplum 7时,我们在谈什么?之组件篇](https://mp.weixin.qq.com/s/a2t8DjJVL9ZB-jC3DmnJQA)
