@@ -70,7 +70,13 @@
 
 # 历史greenplum知识点介绍
 
-## 202105 月
+## 202106月
+
+1、[Greenplum无处不在](https://github.com/xfg0218/greenplum--summarize/tree/master/202106/Greenplum%E6%97%A0%E5%A4%84%E4%B8%8D%E5%9C%A8)
+
+2、[Greenplum从准实时BI到敏捷AI](https://github.com/xfg0218/greenplum--summarize/tree/master/202106/Greenplum%E4%BB%8E%E5%87%86%E5%AE%9E%E6%97%B6BI%E5%88%B0%E6%95%8F%E6%8D%B7AI)
+
+## 202105月
 
 1、[Greenplum_exporter监控Greenplum](https://github.com/xfg0218/greenplum--summarize/tree/master/202105/greenplum_exporter%E7%9B%91%E6%8E%A7Greenplum)
 
