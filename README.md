@@ -70,6 +70,12 @@
 
 # 历史greenplum知识点介绍
 
+## 202107 月
+
+1、[2021中国数据库行业研究报告](https://github.com/xfg0218/greenplum--summarize/tree/master/202107/2021%E4%B8%AD%E5%9B%BD%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%8C%E4%B8%9A%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A)
+
+
+
 ## 202106月
 
 1、[Greenplum无处不在](https://github.com/xfg0218/greenplum--summarize/tree/master/202106/Greenplum%E6%97%A0%E5%A4%84%E4%B8%8D%E5%9C%A8)
