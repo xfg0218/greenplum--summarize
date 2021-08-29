@@ -284,6 +284,23 @@
 2、[gpcheckperf 测试集群详细信息](https://github.com/xfg0218/greenplum--summarize/blob/master/201905/gpcheckperf/README.md)
 
 
+## 统计信息：
+
+<div align="right">
+    <a href="https://github.com/xfg0218/greenplum--summarize" target="_blank">
+            <img src="https://starchart.cc/xfg0218/greenplum--summarize.svg" alt="关注曲线">
+    </a>
+    <a href="https://github.com/xfg0218" target="_blank">   
+            <img src="https://github-readme-stats.vercel.app/api?username=xfg0218&show_icons=true&theme=monokai" alt="个人概况">
+    </a>
+    <a href="https://github.com/xfg0218/greenplum--summarize" target="_blank">   
+            <img src="https://github-readme-stats.vercel.app/api/pin?username=xfg0218&repo=greenplum--summarize&show_icons=true&theme=monokai&show_owner=true" alt="仓库概况">
+    </a>
+    <a href="https://www.jetbrains.com/?from=https://github.com/xfg0218/greenplum--summarize" target="_blank">   
+            <img src="https://www.jetbrains.com/company/brand/img/logo1.svg" alt="赞助伙伴">
+    </a>
+</div>
+
 # greenplum--summarize 项目介绍
 	项目主要介绍作者在项目上使用过的相关greenplum的相关的技术，欢迎大家相互交流,请关注以下的作者公众号或留言
 
