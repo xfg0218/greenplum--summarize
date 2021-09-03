@@ -70,6 +70,12 @@
 
 # 历史greenplum知识点介绍
 
+## 202108 月
+
+1、[Greenplum优化技巧与实践](https://github.com/xfg0218/greenplum--summarize/tree/master/202108/Greenplum%E4%BC%98%E5%8C%96%E6%8A%80%E5%B7%A7%E4%B8%8E%E5%AE%9E%E8%B7%B5)
+
+
+
 ## 202107 月
 
 1、[艾瑞--2021中国数据库行业研究报告](https://github.com/xfg0218/greenplum--summarize/tree/master/202107/2021%E4%B8%AD%E5%9B%BD%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%8C%E4%B8%9A%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A)
@@ -284,7 +290,7 @@
 2、[gpcheckperf 测试集群详细信息](https://github.com/xfg0218/greenplum--summarize/blob/master/201905/gpcheckperf/README.md)
 
 
-## 统计信息：
+# 统计信息
 
 <div align="right">
     <a href="https://github.com/xfg0218/greenplum--summarize" target="_blank">
