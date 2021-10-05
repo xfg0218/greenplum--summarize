@@ -248,17 +248,7 @@ scrape_configs:
     static_configs:
     - targets: ['192.168.***.***:9297']
 	
-	
-	
-	
 ```
-
-
-
-
-
-
-
 
 ## 6.2 重启prometheus
 	
@@ -280,3 +270,6 @@ scrape_configs:
 ## 7.3 加载node_exporter监控指标
 	1、node_exporter的JSON文件下载地址: https://grafana.com/grafana/dashboards/8919
 	2、按照以上的步骤加载JSON文件即
+## 7.4 更多资料请查看
+       1、greenplum_exporter详细介绍及SQL查看:https://github.com/tangyibo/greenplum_exporter
+       2、基于Promethues与Grafana的Greenplum分布式数据库监控的实现:https://blog.csdn.net/inrgihc/article/details/108686638
