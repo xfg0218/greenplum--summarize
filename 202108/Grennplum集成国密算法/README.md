@@ -24,6 +24,9 @@
 /***
 国密sm2加密，返回的是b64加密后的值
 ***/
+
+create extension plpython3u;
+
 CREATE or replace FUNCTION enc_str(str varchar) 
   RETURNS varchar
 AS $$
