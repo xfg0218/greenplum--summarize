@@ -1,6 +1,7 @@
 # 国密算法的介绍
 
 | 序号 | 算法种类 | 算法是否公开 | 算法的长度 | 算法特点 | JAVA算法制作方法 | 国家密码管理局资料 |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | 1 | SM1 | 不公开 | 分组128bit | 需要通过加密芯片的接口进行调用 | https://download.csdn.net/download/ererfei/9474502 | |
 | 2 | SM2 | 公开	ECC 256位 | "故其签名速度与秘钥生成速度都快于RSA，安全强度比RSA 2048位高，但运算速度快于RSA"	 | https://blog.csdn.net/kimwu/article/details/14452913 | http://www.oscca.gov.cn/sca/xxgk/2012-11/22/content_1002397.shtml |
 | 3 | SM3 | 公开 | 校验结果为256位 | SM3算法的安全性要高于MD5算法和SHA-1算法 | https://blog.csdn.net/ye_xiao_yu/article/details/80600159 | http://www.oscca.gov.cn/sca/xxgk/2010-12/17/content_1002389.shtml |
