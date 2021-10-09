@@ -72,6 +72,7 @@
 
 ## 202109 月
 
+1、[Paillier半动态加密](https://github.com/xfg0218/greenplum--summarize/tree/master/202109/Paillier%E5%8D%8A%E5%8A%A8%E6%80%81%E5%8A%A0%E5%AF%86)
 
 
 ## 202108 月
