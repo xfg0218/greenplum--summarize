@@ -2,7 +2,9 @@
 
 ## 什么是同态加密
 1、[阿里巴巴解读为什么要用同态加密](https://mp.weixin.qq.com/s/zF-0KAAtaiNDB6TAa6t89Q)
+
 2、[同态加密与共享协同过滤](https://blog.angelmsger.com/%E5%90%8C%E6%80%81%E5%8A%A0%E5%AF%86%E4%B8%8E%E5%85%B1%E4%BA%AB%E5%8D%8F%E5%90%8C%E8%BF%87%E6%BB%A4/)
+
 3、[腾讯云同态加密支持说明](https://cloud.tencent.com/document/product/663/37648)
 
 
