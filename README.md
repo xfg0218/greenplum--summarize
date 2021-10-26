@@ -74,6 +74,7 @@
 
 1、[Paillier半动态加密](https://github.com/xfg0218/greenplum--summarize/tree/master/202109/Paillier%E5%8D%8A%E5%8A%A8%E6%80%81%E5%8A%A0%E5%AF%86)
 
+2、[kmeans算法](https://github.com/xfg0218/greenplum--summarize/tree/master/202109/greenplum%E9%9B%86%E6%88%90kmeans%E7%AE%97%E6%B3%95)
 
 ## 202108 月
 
