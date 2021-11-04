@@ -1,13 +1,13 @@
 # 详细对比步骤请查看
 
 | 序号 | 说明 | 连接 |
-|:----:|:----:|:----:|
+|:----:|:----:|:----|
 | 1 | 腾讯云 | https://cloud.tencent.com/developer/article/1893978 |
 | 2 | csdn | https://blog.csdn.net/xfg0218/article/details/120991525?spm=1001.2014.3001.5501 |
 
 # 参考matrixdb资料
 | 序号 | 说明 | 连接 |
-|:----:|:----:|:----:|
+|:----:|:----:|:----|
 | 1 | 时序数据库加载性能测试过程 | https://ymatrix.cn/blog/load-test-steps |
 | 2 | MatrixDB是InfluxDB的78倍 | https://www.ymatrix.cn/blog/20210524-MatrixDB-insertperformance |
 
