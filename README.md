@@ -70,6 +70,11 @@
 
 # 历史greenplum知识点介绍
 
+## 202110 月
+
+1、[mxgate是gpcopy数据同步速度的2倍](https://github.com/xfg0218/greenplum--summarize/tree/master/202110/mxgate%E4%B8%8Egpcopy%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94)
+
+
 ## 202109 月
 
 1、[Paillier半动态加密](https://github.com/xfg0218/greenplum--summarize/tree/master/202109/Paillier%E5%8D%8A%E5%8A%A8%E6%80%81%E5%8A%A0%E5%AF%86)
