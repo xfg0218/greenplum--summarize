@@ -75,12 +75,16 @@
 
 # 历史greenplum知识点介绍
 
+## 202111 月
+
+1、[greenplum常见错误及解答方法](https://github.com/xfg0218/greenplum--summarize/tree/master/202111/greenplum%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E7%AD%94%E6%96%B9%E6%B3%95)
+
+
 ## 202110 月
 
 1、[gdb离线编译安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202110/gdb%E7%A6%BB%E7%BA%BF%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85)
 
 2、[mxgate是gpcopy数据同步速度的2倍](https://github.com/xfg0218/greenplum--summarize/tree/master/202110/mxgate%E4%B8%8Egpcopy%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94)
-
 
 ## 202109 月
 
