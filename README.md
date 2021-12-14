@@ -14,7 +14,7 @@
 1、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
 2、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
-
+  
 3、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
 
 4、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
