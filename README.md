@@ -72,7 +72,9 @@
 
 ## 202110 月
 
-1、[mxgate是gpcopy数据同步速度的2倍](https://github.com/xfg0218/greenplum--summarize/tree/master/202110/mxgate%E4%B8%8Egpcopy%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94)
+1、[gdb离线编译安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202110/gdb%E7%A6%BB%E7%BA%BF%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85)
+
+2、[mxgate是gpcopy数据同步速度的2倍](https://github.com/xfg0218/greenplum--summarize/tree/master/202110/mxgate%E4%B8%8Egpcopy%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94)
 
 
 ## 202109 月
