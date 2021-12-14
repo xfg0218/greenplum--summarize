@@ -67,6 +67,8 @@
 
 4、[使用maxwell+Kafka+bireme方案同步mysql数据到Greenplum中](https://cloud.tencent.com/developer/article/1573296)
 
+5、[使用sqlines同步数据到Greenpum或MatrixDB中](https://github.com/dmtolpeko/sqlines)
+
 
 # 历史greenplum知识点介绍
 
