@@ -39,12 +39,15 @@
 
 3、[客户端管理工具navicat下载](http://www.navicat.com.cn/download/navicat-for-postgresql)
 
-4、各自的特点比较
+4、[HHDBCS 恒辉通用数据库管理桌面软件](https://www.deskui.com/)
+
+5、各自的特点比较
 | 产品名称 | 版权 | 兼容性 | 是否支持开源版本 | 函数 | 分区表 | 流畅性 | 资源占用 |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | DBeaver | 商业/开源 | GPDB5/6 | 支持 | 支持良好 | 支持 | 一般 | 较大 |
 | DataGrip | 商业 | GPDB5/6 | 支持 | 支持良好 | 支持 | 较好 | 较大 |
 | Navicat | 商业 | GPDB5/6 | 支持 | 支持一般 | 不支持 | 很好 | 一般 |
+| HHDBCS  | 开源 | GPDB5/6 | 支持 | 支持良好 | 支持 | 很好 | 一般 |
 
 
 # 常用Greenplum学习PDF资料
