@@ -72,6 +72,7 @@
 
 5、[使用sqlines同步数据到Greenpum或MatrixDB中](https://github.com/dmtolpeko/sqlines)
 
+6、[dbswitch提供源端数据库向目的端数据的全量与增量迁移同步功能](https://dbswitch.gitee.io/docs-site/#/)
 
 # 历史greenplum知识点介绍
 
