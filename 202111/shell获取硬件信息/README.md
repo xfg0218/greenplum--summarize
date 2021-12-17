@@ -1,3 +1,5 @@
+``` shell
+
 #!bin/bash
 
 echo -e "------ os release ------"
@@ -55,3 +57,6 @@ lscpu | grep -i 'L2 缓存\|L2 cache' | awk -F '：|:' '{print $2}'
 
 echo -e "------ L3 cahce ------"
 lscpu | grep -i 'L3 缓存\|L3 cache' | awk -F '：|:' '{print $2}'
+
+```
+
