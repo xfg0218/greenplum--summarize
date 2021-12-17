@@ -78,7 +78,9 @@
 
 ## 202111 月
 
-1、[greenplum常见错误及解答方法](https://github.com/xfg0218/greenplum--summarize/tree/master/202111/greenplum%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E7%AD%94%E6%96%B9%E6%B3%95)
+1、[SHELL获取硬件信息](https://github.com/xfg0218/greenplum--summarize/tree/master/202111/shell%E8%8E%B7%E5%8F%96%E7%A1%AC%E4%BB%B6%E4%BF%A1%E6%81%AF)
+
+2、[greenplum常见错误及解答方法](https://github.com/xfg0218/greenplum--summarize/tree/master/202111/greenplum%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E7%AD%94%E6%96%B9%E6%B3%95)
 
 
 ## 202110 月
