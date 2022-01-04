@@ -44,6 +44,19 @@ Copyright (C) 2013 Free Software Foundation, Inc.
 解决方式： 编译安装 perl-5.34.0
 ```
 
+
+## 使用gdb
+``` shell
+gdb  `which postgres` PID
+(gdb) bt
+(gdb) p debug_query_string
+(gdb) p print
+(gdb) help all 
+
+
+```
+
+
 ## core 打包语法
 ``` shell
 分析core原因
@@ -58,9 +71,18 @@ gdb  `which postgres` /data/mxdata/primary/mxseg11/core.50912
 ```
 
 
+
 ## 参考资料
 	1、https://ftp.gnu.org/gnu/termcap/
 	2、https://blog.csdn.net/xian_dao_zhang/article/details/119425809?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-119425809.pc_agg_new_rank&utm_term=gdb%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85&spm=1000.2123.3001.4430
+	3、https://wiki.postgresql.org/wiki/Pgsrcstructure
+	4、https://en.wikipedia.org/wiki/GNU_Debugger
+
+
+
+
+
+
 
 
 
