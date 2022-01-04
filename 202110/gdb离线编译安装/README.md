@@ -53,7 +53,6 @@ gdb  `which postgres` PID
 (gdb) p print
 (gdb) help all 
 
-
 ```
 
 
