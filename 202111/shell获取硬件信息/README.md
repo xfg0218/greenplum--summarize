@@ -39,6 +39,10 @@ lspci | grep "Ethernet controller"
 echo -e "\n ------ os free ------"
 free -h
 
+echo -e " ------ proc  meminfo ------"
+cat /proc/meminfo |grep Comm
+
+
 echo -e "------ os disk ------"
 df -h
 
