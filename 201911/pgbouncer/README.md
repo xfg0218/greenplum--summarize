@@ -49,8 +49,8 @@ pgbouncer详情请查看:https://www.linkedin.com/pulse/scaling-greenplum-pgboun
 	logfile = pgbouncer.log
 	pidfile = pgbouncer.pid
 	admin_users = gpadmin
-	default_pool_size = 500
-	max_client_conn = 3000
+	default_pool_size = 100
+	max_client_conn = 300
 	
 	
 	说明
