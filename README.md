@@ -76,6 +76,10 @@
 
 # 历史greenplum知识点介绍
 
+## 202112 月
+
+1、[greenplum处理defunct进程](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/greenplum%E5%A4%84%E7%90%86defunct%E8%BF%9B%E7%A8%8B)
+
 ## 202111 月
 
 1、[SHELL获取硬件信息](https://github.com/xfg0218/greenplum--summarize/tree/master/202111/shell%E8%8E%B7%E5%8F%96%E7%A1%AC%E4%BB%B6%E4%BF%A1%E6%81%AF)
