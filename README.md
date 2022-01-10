@@ -80,7 +80,7 @@
 
 1、[greenplum处理defunct进程](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/greenplum%E5%A4%84%E7%90%86defunct%E8%BF%9B%E7%A8%8B)
 
-2、greenplum安装端口冲突节点异常处理[](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/greenplum%E5%AE%89%E8%A3%85%E7%AB%AF%E5%8F%A3%E5%86%B2%E7%AA%81%E8%8A%82%E7%82%B9%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
+2、[greenplum安装端口冲突节点异常处理](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/greenplum%E5%AE%89%E8%A3%85%E7%AB%AF%E5%8F%A3%E5%86%B2%E7%AA%81%E8%8A%82%E7%82%B9%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
 
 ## 202111 月
 
