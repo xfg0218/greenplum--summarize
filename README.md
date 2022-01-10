@@ -80,6 +80,8 @@
 
 1、[greenplum处理defunct进程](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/greenplum%E5%A4%84%E7%90%86defunct%E8%BF%9B%E7%A8%8B)
 
+2、greenplum安装端口冲突节点异常处理[](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/greenplum%E5%AE%89%E8%A3%85%E7%AB%AF%E5%8F%A3%E5%86%B2%E7%AA%81%E8%8A%82%E7%82%B9%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
+
 ## 202111 月
 
 1、[SHELL获取硬件信息](https://github.com/xfg0218/greenplum--summarize/tree/master/202111/shell%E8%8E%B7%E5%8F%96%E7%A1%AC%E4%BB%B6%E4%BF%A1%E6%81%AF)
