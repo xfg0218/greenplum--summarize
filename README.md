@@ -31,7 +31,7 @@
 
 10、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
-11、[gitee 常用学习资料，更新频次快，内容全，不着详细](https://gitee.com/ysys_95533/ysys/tree/master)
+11、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
 
 # 常用Greenplum客户端链接工具
 
