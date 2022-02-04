@@ -78,6 +78,13 @@
 
 # 历史greenplum知识点介绍
 
+## 202201 月
+
+1、[greenplum在单机麒麟V10×86架构上安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202201/greenplum%E5%9C%A8%E9%BA%92%E9%BA%9FV10%C3%9786%E5%AE%89%E8%A3%85)
+
+
+
+
 ## 202112 月
 
 1、[greenplum处理defunct进程](https://github.com/xfg0218/greenplum--summarize/tree/master/202112/greenplum%E5%A4%84%E7%90%86defunct%E8%BF%9B%E7%A8%8B)
