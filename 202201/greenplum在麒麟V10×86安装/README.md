@@ -1,9 +1,10 @@
 # greenplum在麒麟V10×86架构上安装
 ## 系统下载
+```
 麒麟V10×86 系统下载 https://pan.baidu.com/s/1VEP7X9eMcMtUBJX3LmXMeA 提取码: 5u41
 需要的安装包下载: https://pan.baidu.com/s/11W_0u4Ssj_kiWyO9l5CIUQ 提取码: bmui
 GP6.7.0 下载：https://www.aliyundrive.com/s/dCsDWku7mTN
-
+```
 
 ## 查看安装后的系统信息
 ```
