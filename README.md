@@ -80,9 +80,9 @@
 
 ## 202201 月
 
-1、[greenplum在单机麒麟V10×86架构上安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202201/greenplum%E5%9C%A8%E9%BA%92%E9%BA%9FV10%C3%9786%E5%AE%89%E8%A3%85)
+1、[CPU降频处理](https://github.com/xfg0218/greenplum--summarize/tree/master/202201/CPU%E9%99%8D%E9%A2%91%E6%8E%92%E6%9F%A5)
 
-
+2、[greenplum在单机麒麟V10×86架构上安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202201/greenplum%E5%9C%A8%E9%BA%92%E9%BA%9FV10%C3%9786%E5%AE%89%E8%A3%85)
 
 
 ## 202112 月
