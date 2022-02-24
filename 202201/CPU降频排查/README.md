@@ -3,7 +3,7 @@
 1、centos 7.9 系统，x86_64
 2、CPU 32 C ,每个显示2.1GHz , 查看最高用到800MHz
 3、把CPU的运行频率设置为performance
-
+4、参考资料 https://billtian.github.io/digoal.blog/2018/06/02/01.html
 
 ```
 
@@ -66,8 +66,6 @@ cpu MHz         : 2699.981
 ********
 
 ```
-
-
 
 
 
