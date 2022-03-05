@@ -26,13 +26,11 @@
 	
 	
 	下载地址(永久有效):
-	链接：https://pan.baidu.com/s/1qxLyMKUBnrjL960TGzMcZg 
-	提取码：6pb9
+	链接: https://pan.baidu.com/s/1knGpbG0weJSNORxUSKiF6g 提取码: nd06
 	
 	
 	或者在作者已经编辑好的文件放在$GPHOME下对应的文件的路径即可
-	链接：https://pan.baidu.com/s/1r12_2hw6B8U0dAdwxTV7Iw 
-	提取码：8eh2
+	链接: https://pan.baidu.com/s/1dz1wi3ZD3eGLq0RSMuEUng 提取码: ij0r
 	
 # 2 在root和gpadmin用户下配置环境变量(主节点)
 ## 2.1 配置环境变量
