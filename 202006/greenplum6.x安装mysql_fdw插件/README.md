@@ -22,6 +22,10 @@
 	5、下载作者编译好的mysql_fdw插件
 	链接：https://pan.baidu.com/s/16faTozfXgD4l4lP0DGoknQ 
 	提取码：xcl8
+	6、libmysqlclient.so 文件下载
+	链接: https://pan.baidu.com/s/1EB-zWTS0shjMKB6iq2NWsw?pwd=k3m0 提取码: k3m0
+	
+	
 	
 	下载网站:
 	https://www.postgresql.org/ftp/source/
@@ -103,5 +107,38 @@
 	-- 删除信息
 	drop SERVER mysql_server CASCADE;
 
+# 6 greenplum 把数据写入到mysql
+	-- 创建有主键的mysql表
+	mysql> create table test1(t1 int,t2 int,primary key(t1));
 
 
+	-- greenplum创建表
+	create table t1(t1 int,t2 int);
+	
+	-- 生成大量的数据
+	insert into t1 select id as t1,id as t2 from generate_series(1,10000000) t(id);
+
+	-- 把greenplum表导入到mysql中
+	insert into test1 select * from t1;
+
+
+# 7 常见问题
+##  找不到 libmysqlclient.so 库
+        -- 问题描述
+	postgres=# create extension mysql_fdw;
+	psql: ERROR:  failed to load the mysql query:
+	libmysqlclient.so: cannot open shared object file: No such file or directory
+	HINT:  Export LD_LIBRARY_PATH to locate the library.
+	
+	-- 解答
+	链接: https://pan.baidu.com/s/1EB-zWTS0shjMKB6iq2NWsw?pwd=k3m0 提取码: k3m0
+	
+	ln -s /usr/lib64/mysql/libmysqlclient.so  /usr/lib64/libmysqlclient.so
+	
+##  远程插入数据不支持
+	-- 问题描述
+	postgres=# insert into test1 select id as t1,id as t2 from generate_series(1,10) t(id);
+	psql: ERROR:  first column of remote table must be unique for INSERT/UPDATE/DELETE operation
+ 
+ 	-- 解答
+	在mysql数据库上创建有主键的表
