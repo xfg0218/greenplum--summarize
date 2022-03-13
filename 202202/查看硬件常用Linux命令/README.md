@@ -194,6 +194,101 @@ v:详细输出模式
 ```
 
 
+## 常用分析命令
+```
+1、查看内存的使用率
+cat /proc/meminfo |grep Comm
+
+2、查看客户端的IP地址
+netstat -anop | grep 客户端ip
+客户端：
+netstat -anop | grep 数据库ip
+
+3、查看TCP连接
+lsof |grep postgres |grep TCP |wc -l 
+
+
+4、查看进程的复用情况
+sudo yum install sysstat
+sar -w 1
+
+
+6、查看新创建的进程
+# Trace new processes, until Ctrl-C:
+perf record -e sched:sched_process_exec -a
+
+perf report
+
+--------------
+
+perf record -e sched:sched_process_exec -a -o perf.exec.2
+
+perf report -i ./perf.exec.2
+
+perf top --call-graph graph，路径概率为绝对值，加起来为该函数的热度。
+
+perf stat用于运行指令，并分析其统计结果。
+
+
+7、stapsh 进程分析
+stapsh -p 5807
+
+
+8、查看tcp之间的信息
+
+tcpdump -i eth0 tcp port 7851 -s 0 -w  tcpdump-yaceji.txt
+
+ 
+
+9、查看丢包情况
+ping 127.0.0.1 -c 10 -s 1024 -i 0.5
+
+-c 次数
+-s 数据包大小(返回会加8个字节)
+-i 发包的间隔(秒)
+
+packet loss 为丢包情况
+
+
+10、快速过滤postgres的进程
+ps -ef|grep -- -D
+
+
+11、查看PID的子进程
+timeout 10  strace -f -p  PID -o  savefile
+
+
+12、查看进程的子进程
+ps -ef|grep postgres
+
+pstree -p 23496
+
+
+ps -axjf | grep postgres
+
+ 
+
+13、进程跟踪工具
+Strace是一个动态追踪进程系统调用的工具（进程跟操作系统内核的交互)
+
+strace -T -f -ff -y -yy -p PID
+
+pstack可以纵向打印出来某个确定时间点上进程的Call Stack 信息
+pstack PID
+
+while true; do date; pstack <pid>; sleep 20; done;
+
+14、查看磁盘的信息
+查看磁盘的读写速度和tps
+
+iostat -m -d vdd 1
+
+
+查看磁盘的详细信息
+iostat -x -k -d vdd 1
+
+
+```
 
 
 
