@@ -1,3 +1,5 @@
+[toc]
+
 # 系统基本信息
 ```
 查看系统的版本
@@ -102,11 +104,96 @@ Settings for bond0:
 ```
 
 # 查案硬件信息相关命令
+## htop命令
+```
+在线安装
+htop
+yum install -y htop
+
+
+离线安装
+htop官网：http://hisham.hm/htop/
+下载地址：https://sourceforge.net/projects/htop/
+ncurses-devel下载地址：http://pkgs.org/download/ncurses-devel
+
+http://ftp.gnu.org/gnu/ncurses/
+
+
+安装ncurses-devel
+rpm -ivh ncurses-devel-5.7-4.20090207.el6.x86_64.rpm
+
+解压缩htop安装包
+tar zxvf htop-2.0.1.tar.gz
+
+安装htop
+sudo ./configure
+sudo make
+sudo make install
+
+
+CPU处理器:
+蓝色=低优先级线程
+绿色=普通优先级线程
+红色=内核线程
+
+内存:
+绿色=已用内存
+蓝色=缓冲区
+黄色/橙色=缓存
+
+
 ```
 
+## nload 命令
+```
+在线安装
+yum install -y nload
+
+
+离线安装
+wget http://www.roland-riegel.de/nload/nload-0.7.4.tar.gz
+tar zxvf nload-0.7.4.tar.gz
+cd nload-0.7.4
+./configure;make;make install
+
+
+```
+
+## iotop 命令
+```
+在线安装
+yum install -y iotop
+
+
+离线安装
+wget http://mirror.centos.org/altarch/7/os/aarch64/Packages/iotop-0.6-4.el7.noarch.rpm
+rpm -ivh iotop-0.6-4.el7.noarch.rpm
+
+
 ```
 
 
+## nmon 命令
+```
+安装方式
+wget https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/n/nmon-16g-3.el7.x86_64.rpm
+rpm -ivh nmon-16g-3.el7.x86_64.rpm
+
+q:停止并退出Nmon
+h:查看帮助信息
+c:查看 CPU 统计信息
+m:查看内存统计信息
+d:查看磁盘统计信息
+k:查看内核统计信息
+n:查看网络统计信息
+N:查看 NFS 统计信息
+j:查看文件系统统计信息
+t:查看 Top 进程统计信息
+V:查看虚拟内存统计信息
+v:详细输出模式
+
+
+```
 
 
 
