@@ -78,6 +78,13 @@
 
 # 历史greenplum知识点介绍
 
+## 202202 月
+
+1、[磁盘操作相关的命令](https://github.com/xfg0218/greenplum--summarize/tree/master/202202/%E7%A3%81%E7%9B%98%E6%93%8D%E4%BD%9C%E7%9B%B8%E5%85%B3%E7%9A%84%E5%91%BD%E4%BB%A4)
+
+2、[查看硬件常用Linux命令](https://github.com/xfg0218/greenplum--summarize/tree/master/202202/%E6%9F%A5%E7%9C%8B%E7%A1%AC%E4%BB%B6%E5%B8%B8%E7%94%A8Linux%E5%91%BD%E4%BB%A4)
+
+
 ## 202201 月
 
 1、[CPU降频处理](https://github.com/xfg0218/greenplum--summarize/tree/master/202201/CPU%E9%99%8D%E9%A2%91%E6%8E%92%E6%9F%A5)
