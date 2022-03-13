@@ -13,25 +13,31 @@
 
 1、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
-2、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
-  
-3、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
+2、[Greenlum配置参数](https://gp-docs-cn.github.io/docs/ref_guide/config_params/guc-list.html#add_missing_from)
 
-4、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
+3、[Memory calculator](https://greenplum.org/calc/)
 
-5、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
+4、[不同数据库SQL相互转换](http://www.sqlines.com/online)
 
-6、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
+5、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
 
-7、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
+6、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
 
-8、[greenplum-syscat-ref 系统表关系可视化图](https://stephendotcarter.github.io/greenplum-syscat-ref/diagram.html)
+7、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
 
-9、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
+8、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
 
-10、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+9、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
 
-11、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
+10、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
+
+11、[greenplum-syscat-ref 系统表关系可视化图](https://stephendotcarter.github.io/greenplum-syscat-ref/diagram.html)
+
+12、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
+
+13、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+
+14、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
 
 # 常用Greenplum客户端链接工具
 
@@ -50,7 +56,6 @@
 | DataGrip | 商业 | GPDB5/6 | 支持 | 支持良好 | 支持 | 较好 | 较大 |
 | Navicat | 商业 | GPDB5/6 | 支持 | 支持一般 | 不支持 | 很好 | 一般 |
 | HHDBCS  | 开源 | GPDB5/6 | 支持 | 支持良好 | 支持 | 很好 | 一般 |
-
 
 # 常用Greenplum学习PDF资料
 
