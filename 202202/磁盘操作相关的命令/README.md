@@ -142,8 +142,25 @@ time dd if=/data/test of=/dev/zero bs=8k count=10000
 time dd if=/data/test of=/dev/zero bs=8k count=10000 oflag=dsync
 
 
+# 测试最接近真实的文件写速度
+dd if=/dev/zero of=test bs=50M count=100  conv=fdatasync
+
+# 测试cache写缓存速度
+dd if=/dev/zero of=/sdcard/test bs=1M count=100
+
+# 跳过了内存缓存
+dd if=/dev/zero of=test bs=1M count=128  oflag=direct
+
+
 ```
 
+# 参考资料
+```
+
+性能测试中问题反思和心得
+https://mp.weixin.qq.com/s/z2CFj827FMJE7qCK5k3KoA
+
+```
 
 
 
