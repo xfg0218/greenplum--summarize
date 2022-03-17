@@ -154,12 +154,14 @@ dd if=/dev/zero of=test bs=1M count=128  oflag=direct
 
 ## fio 测试磁盘的读写
 ```
+在线安装
+yum install -y fio
+
 
 或者下载打包的软件
 链接: https://pan.baidu.com/s/1DPMJbbP8PNstwf9fFirUHA?pwd=5vja 提取码: 5vja
 
-
-下载并编译软件
+离线安装
 wget http://brick.kernel.dk/snaps/fio-2.2.5.tar.gz
 yum install -y libaio-devel gcc  
 tar -zxvf fio-2.2.5.tar.gz
@@ -170,21 +172,20 @@ make install
 
 
 随机写
-# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=randread -ioengine=psync -bs=8k -size=30G -numjobs=10 -runtime=600 -group_reporting -name=mytest
+# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=randwrite -ioengine=psync -bs=8k -size=3G -numjobs=10 -runtime=600 -group_reporting -name=mytest
 
 顺序写
-# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=write -ioengine=psync -bs=16k -size=30G -numjobs=10 -runtime=600 -group_reporting -name=mytest
+# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=write -ioengine=psync -bs=8k -size=10G -numjobs=10 -runtime=600 -group_reporting -name=mytest
 
 随机读
-# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=randread -ioengine=psync -bs=16k -size=30G -numjobs=10 -runtime=600 -group_reporting -name=mytest
-
+# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=randread -ioengine=psync -bs=8k -size=10G -numjobs=10 -runtime=600 -group_reporting -name=mytest
 
 顺序读
-# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=read -ioengine=psync -bs=16k -size=30G -numjobs=10 -runtime=60 -group_reporting -name=mytest
+# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=read -ioengine=psync -bs=8k -size=10G -numjobs=10 -runtime=60 -group_reporting -name=mytest
 
 
 混合随机读写
-# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=randrw -rwmixread=70 -ioengine=psync -bs=16k -size=30G -numjobs=10 -runtime=600 -group_reporting -name=mytest -ioscheduler=noop
+# fio -filename=/data00/file.txt -direct=1 -iodepth 1 -thread -rw=randrw -rwmixread=70 -ioengine=psync -bs=8k -size=10G -numjobs=10 -runtime=600 -group_reporting -name=mytest -ioscheduler=noop
 
 
 
@@ -221,10 +222,13 @@ https://www.365seal.com/y/w7VjRgq4V3.html
 原文连接
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/performance_tuning_guide/sect-red_hat_enterprise_linux-performance_tuning_guide-storage_and_file_systems-configuration_tools
 
+磁盘IO性能优化方式
+https://www.bookstack.cn/read/KeKe-Li-linux-notes/src-chapter11-01.0.md
+
+
 
 
 ```
-
 
 
 
@@ -234,6 +238,11 @@ https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/pe
 
 性能测试中问题反思和心得
 https://mp.weixin.qq.com/s/z2CFj827FMJE7qCK5k3KoA
+
+
+Linux性能调优之 IO
+https://lework.github.io/2020/01/11/io/
+
 
 ```
 
