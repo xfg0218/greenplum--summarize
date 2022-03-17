@@ -190,17 +190,18 @@ make install
 
 说明：
 filename=/dev/sdb1       测试文件名称，通常选择需要测试的盘的data目录。
-direct=1                 测试过程绕过机器自带的buffer。使测试结果更真实。
-rw=randwrite             测试随机写的I/O
-rw=randrw                测试随机写和读的I/O
+direct=1                 测试过程绕过机器自带的buffer。设置为1，就表示跳过系统缓存。
+iodepth                  表示使用异步 I/O（asynchronous I/O，简称 AIO）时，同时发出的 I/O 请求上限。
+rw                       表示 I/O 模式。我的示例中， read/write 分别表示顺序读 / 写，而randread/randwrite 则分别表示随机读 / 写。
 bs=16k                   单次io的块文件大小为16k
 bsrange=512-2048         同上，提定数据块的大小范围
-size=5g    本次的测试文件大小为5g，以每次4k的io进行测试。
+size=5g                  本次的测试文件大小为5g，以每次4k的io进行测试。
 numjobs=30               本次的测试线程为30.
 runtime=1000             测试时间为1000秒，如果不写则一直将5g文件分4k每次写完为止。
-ioengine=psync           io引擎使用pync方式
+ioengine                 表示 I/O 引擎，它支持同步（sync）、异步（libaio）、内存映射（mmap）、网络（net）等各种 I/O 引擎。
 rwmixwrite=30            在混合读写的模式下，写占30%
 group_reporting          关于显示结果的，汇总每个进程的信息。
+
 
 此外
 lockmem=1g               只使用1g内存进行测试。
