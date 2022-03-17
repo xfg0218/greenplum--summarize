@@ -228,7 +228,9 @@ https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/pe
 https://www.bookstack.cn/read/KeKe-Li-linux-notes/src-chapter11-01.0.md
 
 
-
+RAID 的不同的模式会影响性能
+wt=Write Through
+wb=Write Back
 
 ```
 
