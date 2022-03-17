@@ -130,6 +130,7 @@ of 写到
 
 顺序写
 time dd if=/dev/zero of=/data/test  bs=8k count=10000
+
 随机写
 time dd if=/dev/zero of=/data/test  bs=8k count=10000 oflag=dsync
 
@@ -137,6 +138,7 @@ time dd if=/dev/zero of=/data/test  bs=8k count=10000 oflag=dsync
 测试目录/data 的存读的速度
 顺序读
 time dd if=/data/test of=/dev/zero bs=8k count=10000
+
 随机读
 time dd if=/data/test of=/dev/zero bs=8k count=10000 oflag=dsync
 
