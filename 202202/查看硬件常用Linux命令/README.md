@@ -12,6 +12,20 @@ Linux mdw 3.10.0-1127.el7.x86_64 #1 SMP Tue Mar 31 23:36:51 UTC 2020 x86_64 x86_
 
 ```
 
+# 查看RAID 信息
+```
+查看做的RAID
+dmesg |grep -i raid
+
+
+显示RAID的和每个磁盘的详细信息
+cat /proc/scsi/scsi
+
+```
+
+
+
+
 
 # CPU 相关的命令
 ```
