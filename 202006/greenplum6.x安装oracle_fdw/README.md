@@ -15,7 +15,13 @@
 	10 删除关联的内表
 	11 同步数据实例
 	12 oracle数据库字段与PG字段类型的对比
-	
+
+
+# 配置mysql5.7版本的lib
+	1、下载mysql-5.7-lib.zip文件，上传到服务器的/usr/lib64/进行解压
+	2、建立软件界到greenplum中，ln -s /usr/lib64/mysql/libmysqlclient.so.18 /usr/local/greenplum/lib/libmysqlclient.so
+
+
 	
 # 1 下载oracle客户端,放到/data目录下(主节点)
 	instantclient-basic-linux.x64-12.2.0.1.0.zip 
