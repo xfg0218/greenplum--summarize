@@ -51,10 +51,12 @@
 # 3 编译mysql_fdw插件
 ## 3.1 建立libmysqlclient.so的软连接
 	ln -s /usr/lib/mysql/libmysqlclient.so.20  /usr/lib/mysql/libmysqlclient.so
-	
 	或
-	
 	sudo yum install libmysqlclient-dev
+	或
+	yum install -y mysql-libs
+	ln -s /usr/lib64/mysql/libmysqlclient.so.18 /usr/local/matrixdb/lib/libmysqlclient.so
+
 
 ## 3.2 导入环境变量
 	export PATH=/home/postgresql-9.5.0/src/bin:$PATH
