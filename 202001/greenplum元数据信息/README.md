@@ -227,7 +227,7 @@
 	vacuum freeze tablename;
 	
 ### 8.3 查看分区表信息
-	```
+```
 	create view tablename_test as select relname,substring(boundary,19,19)::date starttime,substring(boundary,46,19)::date endtime from (
 SELECT
   relname AS relname,
@@ -254,4 +254,4 @@ create table siwei.day1_group_vin as select vin,count(*) from tablename where da
 
 select *  from tablename where daq_time >='2022-04-13 00:00:0' and daq_time <='2022-04-13 23:59:59' and vin = 'LFCDKE6P2L1008422' limit 100;
 
-	```
+```
