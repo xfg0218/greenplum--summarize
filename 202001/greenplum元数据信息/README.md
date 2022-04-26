@@ -225,3 +225,33 @@
 	
 	set vacuum_freeze_min_age = 0;  
 	vacuum freeze tablename;
+	
+### 8.3 查看分区表信息
+	```
+	create view tablename_test as select relname,substring(boundary,19,19)::date starttime,substring(boundary,46,19)::date endtime from (
+SELECT
+  relname AS relname,
+  pg_catalog.pg_get_expr(relpartbound, 0) AS boundary
+FROM pg_class
+WHERE oid in(
+SELECT
+    child.oid
+FROM
+    pg_inherits JOIN pg_class parent
+        ON pg_inherits.inhparent = parent.oid JOIN pg_class child
+        ON pg_inherits.inhrelid = child.oid JOIN pg_namespace nmsp_parent
+        ON nmsp_parent.oid = parent.relnamespace JOIN pg_namespace nmsp_child
+        ON nmsp_child.oid = child.relnamespace
+WHERE
+    parent.relname = 'tablename') and relname !~ 'lastyear' order by relname desc) childtable where boundary!='DEFAULT'
+    order by starttime desc ;
+
+
+-- 获取最新的分区信息及相差的天数
+select relname,endtime,endtime::timestamp,endtime + interval '12 hour' as hour12,endtime + interval '24 hour' as hour48,endtime::date - current_date as diff_date from tablename limit 1
+
+create table siwei.day1_group_vin as select vin,count(*) from tablename where daq_time >='2022-04-13 00:00:00' and daq_time <='2022-04-13 23:59:59' group by vin;
+
+select *  from tablename where daq_time >='2022-04-13 00:00:0' and daq_time <='2022-04-13 23:59:59' and vin = 'LFCDKE6P2L1008422' limit 100;
+
+	```
