@@ -61,7 +61,7 @@ cd /usr/local/mongodb/bin
 use mongo_test
 db.mongo_test.insert({"warehouse_id" : NumberInt(1),"warehouse_name" : "UPS","warehouse_created" : ISODate("2014-12-12T07:12:10Z")} );
 db.mongo_test.find() 
-``
+```
 
 
 # greenplum 访问mongo数据
