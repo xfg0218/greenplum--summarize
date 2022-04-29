@@ -1,5 +1,18 @@
 # greenplum 通过mongo_fdw访问mongo数据
 
+## mongo 文件下载
+```
+https://github.com/xfg0218/greenplum--summarize/blob/master/document/file/mongo_fdw_file.zip
+
+cp mongo_fdw_file/mongo_fdw.so  /usr/local/greenplum/lib/postgresql
+cp mongo_fdw.control /usr/local/greenplum/share/postgresql/extension
+cp *.sql /usr/local/greenplum/share/postgresql/extension
+
+
+```
+
+
+
 ## MongoDB 提供了 linux 各发行版本 64 位的安装包，你可以在官网下载安装包
 ```
 curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.2.12.tgz
