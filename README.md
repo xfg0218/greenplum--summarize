@@ -244,6 +244,9 @@
 
 5、[greenplum6.x安装mysql_fdw插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006)
 
+6、[greenplum6.x安装mongo_fdw插件](https://github.com/xfg0218/greenplum--summarize/tree/master/202006/greenplum6.x%E5%AE%89%E8%A3%85mongo_fdw%E6%8F%92%E4%BB%B6)
+
+
 ## 202005月
 
 1、[postgresql常用索引](https://github.com/xfg0218/greenplum--summarize/tree/master/202005/postgresql%E7%B4%A2%E5%BC%95)
