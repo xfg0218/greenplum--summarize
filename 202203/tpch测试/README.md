@@ -50,18 +50,177 @@ TPC-H查询包含8张数据表、22条复杂的SQL查询，大多数查询包含
 | 22 | Q22 | 全球销售机会查询 | Q22语句查询获得消费者可能购买的地理分布。 | Q22语句的特点是：带有分组、排序、聚集、EXISTS子查询、NOT EXISTS子查询操作并存的四表连接操作。 | 
 
 
+# TPCH安装
+
+
+## 解压软件
+```
+$ tar -zxvf TPC-H.tar.gz
+
+
+```
+
+## 配置TPCH软件
+
+### 配置环境变量
+```
+
+-- 编辑配置文件
+$ vi tpch_variables.sh 
+
+REPO_URL="https://github.com/ymatrix-data/TPC-H"
+# 执行的用户
+ADMIN_USER="mxadmin"
+# 配置TPCH的路径
+INSTALL_DIR="/home/mxadmin/TPC-H-master"
+EXPLAIN_ANALYZE="false"
+RANDOM_DISTRIBUTION="false"
+MULTI_USER_COUNT="1"
+
+#生成数据量的大小，1代表生成1GB的数据量
+GEN_DATA_SCALE="1024"   
+
+#单用户模式下，运行SQL迭代次数   
+SINGLE_USER_ITERATIONS="1"
+
+#编译gen,保持true即可，这一步骤会生成segment_hosts.txt文件，否则报错找不到这个文件 
+RUN_COMPILE_TPCH="true"    
+
+#是否生成数据，true 生成，false 不生成
+RUN_GEN_DATA="true"      
+
+#是否执行初始化，再次运行的时候，不需要重新初始化，就置为false  
+RUN_INIT="true"
+
+#是否加载ddl            
+RUN_DDL="true" 
+
+#是否加载数据            
+RUN_LOAD="true"   
+
+#是否执行SQL         
+RUN_SQL="false"     
+
+#是否生成报告       
+RUN_SINGLE_USER_REPORT="false"  
+
+#是否运行多用户
+RUN_MULTI_USER="false"     
+RUN_MULTI_USER_REPORT="false"
+GREENPLUM_PATH="/usr/local/matrixdb/greenplum_path.sh"
+SMALL_STORAGE="" # For region/nation, empty means heap
+MEDIUM_STORAGE="with(appendonly=true, orientation=column)" # For customer/part/partsupp/supplier, eg: with(appendonly=true, orientation=column), empty means heap
+LARGE_STORAGE="with(appendonly=true, orientation=column,  compresstype=zstd, COMPRESSLEVEL=1)" # For lineitem, eg: with(appendonly=true, orientation=column, compresstype=1z4), empty means heap
+OPTIMIZER="off"
+GEN_DATA_DIR="/home/mxadmin/TPC-H-master/generated"
+EXT_HOST_DATA_DIR="~"
 
 
 
+-- 增加执行权限
+$ chmod +x tpch_variables.sh
+
+-- 创建数据库
+$ createdb mxadmin;
 
 
+#运行,第一次运行使用root会安装一些需要的软件
+$ nohup ./tpch.sh > tpch.log 2>&1 &
+
+```
 
 
+### 添加主外键约束
+```
+添加主外键约束
+
+psql -f 04_load/foreignkeys/059.gpdb.foreignkeys.sql 
+
+```
 
 
+### 运行查看
+
+```
+
+-- 手工执行一下统计信息收集
+psql -d mxadmin -c "vacuum analyse;"
+
+-- 再次修改配置参数，使SQL运行查询并生成查询报告
+vi tpch_variables.sh
+
+RUN_COMPILE_TPCH="false"   #编译gen
+RUN_GEN_DATA="false"       #运行生成数据
+RUN_INIT="false"           #执行初始化，再次运行的时候，不需要重新初始化，就置为false
+RUN_DDL="false"            #加载ddl
+RUN_LOAD="false"           #加载数据
+RUN_SQL="true"             #执行SQL
+RUN_SINGLE_USER_REPORT="true"  #是否生成报告
+RUN_MULTI_USER="false"     #是否运行多用户
+RUN_MULTI_USER_REPORT="false"
+
+-- 再次运行，运行完之后即可查询报告
+nohup ./tpch.sh > tpch.log 2>&1 &
 
 
+```
+
+### 查看运行的结果报告
+
+```
+mxadmin=# \dn
+    List of schemas
+     Name     |  Owner  
+--------------+---------
+ ext_tpch     | mxadmin
+ gp_toolkit   | mxadmin
+ public       | mxadmin
+ tpch         | mxadmin
+ tpch_reports | mxadmin
+ tpch_testing | mxadmin
+(6 rows)
+
+mxadmin=# set seqrch_path to tpch_reports;
+
+mxadmin=# \dt
+                    List of relations
+    Schema    |     Name     | Type  |  Owner  | Storage
+--------------+--------------+-------+---------+---------
+ tpch_reports | compile_tpch | table | mxadmin | heap
+ tpch_reports | ddl          | table | mxadmin | heap
+ tpch_reports | gen_data     | table | mxadmin | heap
+ tpch_reports | init         | table | mxadmin | heap
+ tpch_reports | load         | table | mxadmin | heap
+ tpch_reports | sql          | table | mxadmin | heap
+(6 rows)
 
 
+-- 查看每个SQL运行的耗时报告
+mxadmin=# select * from sql order by id ;
+ id  | description | tuples |    duration
+-----+-------------+--------+-----------------
+ 101 | tpch.01     |      4 | 00:02:00.120332
+ 102 | tpch.02     |    100 | 00:00:57.57254
+ 103 | tpch.03     |     10 | 00:02:26.146764
+ 104 | tpch.04     |      5 | 00:01:06.66708
+ 105 | tpch.05     |      5 | 00:04:24.264684
+ 106 | tpch.06     |      1 | 00:00:04.4965
+ 107 | tpch.07     |      4 | 00:01:38.98724
+ 108 | tpch.08     |      2 | 00:00:58.58781
+ 109 | tpch.09     |    175 | 00:04:55.295413
+ 110 | tpch.10     |     20 | 00:01:57.117659
+ 111 | tpch.11     |      0 | 00:00:17.17446
+ 112 | tpch.12     |      2 | 00:00:49.49295
+ 113 | tpch.13     |     29 | 00:00:57.57334
+ 114 | tpch.14     |      1 | 00:00:07.7818
+ 115 | tpch.15     |      1 | 00:00:29.29081
+ 116 | tpch.16     |  27840 | 00:00:25.25266
+ 117 | tpch.17     |      1 | 00:01:56.116548
+ 118 | tpch.18     |    100 | 00:08:11.491717
+ 119 | tpch.19     |      1 | 00:00:28.28176
+ 120 | tpch.20     | 113661 | 00:00:45.45653
+ 121 | tpch.21     |    100 | 00:03:57.237783
+ 122 | tpch.22     |      7 | 00:00:19.19021
+(22 rows)
 
 
