@@ -87,7 +87,7 @@
 
 ## 202203 月
 
-1、[TPCH测试](https://github.com/xfg0218/greenplum--summarize/tree/master/202203/tpch%E6%B5%8B%E8%AF%95)
+1、[TPCH测试](https://github.com/xfg0218/greenplum--summarize/tree/master/202203/TPCH%E6%B5%8B%E8%AF%95)
 
 2、[TPC-H_HIVE测试](https://github.com/xfg0218/greenplum--summarize/tree/master/202203/TPC-H_HIVE)
 
