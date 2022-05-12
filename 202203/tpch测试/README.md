@@ -57,7 +57,6 @@ TPC-H查询包含8张数据表、22条复杂的SQL查询，大多数查询包含
 ```
 $ tar -zxvf TPC-H.tar.gz
 
-
 ```
 
 ## 配置TPCH软件
