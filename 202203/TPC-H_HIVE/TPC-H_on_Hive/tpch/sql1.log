@@ -1,0 +1,19 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/hdp/3.1.5.0-152/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/hdp/3.1.5.0-152/hadoop/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Connecting to jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2181/default;password=hive;serviceDiscoveryMode=zooKeeper;user=hive;zooKeeperNamespace=hiveserver2
+22/05/07 11:33:28 [main]: INFO jdbc.HiveConnection: Connected to sdw21:10000
+Connected to: Apache Hive (version 3.1.0.3.1.5.0-152)
+Driver: Hive JDBC (version 3.1.0.3.1.5.0-152)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> No rows affected (0.359 seconds)
+0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> No rows affected (0.185 seconds)
+0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> No rows affected (0.202 seconds)
+0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> No rows affected (0.174 seconds)
+0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> No rows affected (0.012 seconds)
+0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2> . . . . . . . . . . . . . . . . . . . . . . .> . . . . . . . . . . . . . . . . . . . . . . .> . . . . . . . . . . . . . . . . . . . . . . .> . . . . . . . . . . . . . . . . . . . . . . .> . . . . . . . . . . . . . . . . . . . . . . .> . . . . . . . . . . . . . . . . . . . . . . .> . . . . . . . . . . . . . . . . . . . . . . .> . . . . . . . . . . . . . . . . . . . . . . .> ERROR : Application application_1651893301196_0005 was killed by user hive at 192.168.100.32
+ERROR : FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.tez.TezTask. Application application_1651893301196_0005 was killed by user hive at 192.168.100.32
+Error: Error while processing statement: FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.tez.TezTask. Application application_1651893301196_0005 was killed by user hive at 192.168.100.32 (state=08S01,code=1)
+Closing: 0: jdbc:hive2://sdw18:2181,sdw19:2181,sdw20:2181/default;password=hive;serviceDiscoveryMode=zooKeeper;user=hive;zooKeeperNamespace=hiveserver2

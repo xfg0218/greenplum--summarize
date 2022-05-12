@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+	<property>
+		<name>dfs.balance.bandwidthPerSec</name>
+		<value>10485760</value>
+		<description>
+		Specifies the maximum amount of bandwidth that each datanode
+		can utilize for the balancing purpose in term of
+		the number of bytes per second.
+		</description>
+	</property>
+
+	<property>
+		<name>dfs.name.dir</name>
+		<value>/dfs.metadata</value>
+	</property>
+
+	<property>
+		<name>fs.default.name</name>
+		<value>hdfs://namenode.example.com:8020</value>
+	</property>
+
+	<property>
+		<name>mapred.job.tracker</name>
+		<value>jobtracker.example.com:50029</value>
+	</property>
+
+	<property>
+		<name>mapred.min.split.size</name>
+		<value>65536</value>
+	</property>
+
+	<property>
+		<name>dfs.replication</name>
+		<value>3</value>
+	</property>
+
+	<property>
+		<name>mapred.reduce.copy.backoff</name>
+		<value>5</value>
+	</property>
+    <property>
+        <name>io.sort.factor</name>
+        <value>100</value>
+    </property>
+    <property>
+        <name>mapred.reduce.parallel.copies</name>
+        <value>25</value>
+    </property>
+	<property>
+		<name>io.sort.mb</name>
+		<value>200</value>
+	</property>
+    <property>
+		<name>dfs.data.dir</name>
+		<value>/hdfs</value>
+    </property>
+    <property>
+        <name>mapred.local.dir</name>
+        <value>/mapred/local</value>
+    </property>
+    <property>
+		<name>dfs.namenode.handler.count</name>
+		<value>40</value>
+    </property>
+    <property>
+        <name>io.file.buffer.size</name>
+        <value>32768</value>
+    </property>
+    <property>
+        <name>dfs.datanode.du.reserved</name>
+        <value>1024000000</value>
+    </property>
+    <property>
+        <name>fs.trash.root</name>
+        <value>/Trash</value>
+    </property>
+    <property>
+		<name>fs.trash.interval</name>
+		<value>1440</value>
+    </property>
+
+    <property>
+       <name>mapred.linerecordreader.maxlength</name>
+       <value>1000000</value>
+    </property>
+    <property>
+       <name>dfs.block.size</name>
+       <value>134217728</value>
+    </property>
+    <property>
+        <name>mapred.tasktracker.dns.interface</name>
+        <value>eth0</value>
+    </property>
+    <property>
+        <name>dfs.datanode.dns.interface</name>
+        <value>eth0</value>
+    </property>
+    <property>
+        <name>webinterface.private.actions</name>
+        <value>true</value>
+    </property>
+    <!-- Properties that are expected to be overriden by users -->
+    <property>
+        <name>mapred.reduce.tasks.speculative.execution</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>mapred.speculative.map.gap</name>
+        <value>0.9</value>
+    </property>
+    <property>
+        <name>mapred.child.java.opts</name>
+        <value>-Xmx1024m -Djava.net.preferIPv4Stack=true</value>
+    </property>
+    <!-- Deprecated, but .. -->
+    <property>
+        <name>mapred.speculative.execution</name>
+        <value>false</value>
+    </property>
+
+    <property>
+      <name>dfs.safemode.threshold.pct</name>
+      <value>1</value>
+      <description>
+        Specifies the percentage of blocks that should satisfy
+        the minimal replication requirement defined by dfs.replication.min.
+        Values less than or equal to 0 mean not to start in safe mode.
+        Values greater than 1 will make safe mode permanent.
+      </description>
+    </property>
+
+    <property>
+     <name>dfs.permissions</name>
+     <value>false</value>
+     <description>
+       If "true", enable permission checking in HDFS.
+       If "false", permission checking is turned off,
+       but all other behavior is unchanged.
+       Switching from one parameter value to the other does not change the mode,
+       owner or group of files or directories.
+     </description>
+    </property>
+
+<property>  
+  <name>mapred.output.compress</name>  
+  <value>false</value> 
+</property> 
+
+<property>
+  <name>mapred.compress.map.output</name>
+  <value>true</value>
+  <description>Should the outputs of the maps be compressed before being
+               sent across the network. Uses SequenceFile compression.
+  </description>
+</property>
+
+<property>
+  <name>mapred.map.output.compression.type</name>
+  <value>BLOCK</value>
+  <description>If the map outputs are to compressed, how should they
+               be compressed? Should be one of NONE, RECORD or BLOCK.
+  </description>
+</property>
+
+<property>
+  <name>mapred.output.compression.codec</name>
+  <value>org.apache.hadoop.io.compress.GzipCodec</value>
+</property>
+
+<property>
+  <name>mapred.output.compression.type</name>
+  <value>BLOCK</value>
+</property>
+
+<property>
+  <name>mapred.map.output.compression.codec</name>
+  <value>org.apache.hadoop.io.compress.LzoCodec</value>
+  <description>If the job outputs are compressed, how should they be compressed?
+  </description>
+</property>
+
+<property>
+  <name>mapred.tasktracker.map.tasks.maximum</name>
+  <value>4</value>
+  <description>The maximum number of map tasks that will be run
+  simultaneously by a task tracker.
+  </description>
+</property>
+
+<property>
+  <name>mapred.tasktracker.reduce.tasks.maximum</name>
+  <value>4</value>
+  <description>The maximum number of reduce tasks that will be run
+  simultaneously by a task tracker.
+  </description>
+</property>
+
+<property>
+  <name>fs.checkpoint.dir</name>
+  <value>/dfs/namesecondary</value>
+  <description>Determines where on the local filesystem the DFS secondary
+      name node should store the temporary images and edits to merge.
+  </description>
+</property>
+
+<property>
+  <name>mapred.system.dir</name>
+  <value>/mapred/system/prod</value>
+  <description>The shared HDFS directory where MapReduce stores control files.
+  </description>
+</property>     
+                
+<property>
+  <name>mapred.temp.dir</name>
+  <value>mapred/temp</value>
+  <description>A shared HDFS directory for temporary files.
+  </description>
+</property>
+
+<property>
+  <name>mapred.jobtracker.completeuserjobs.maximum</name>
+  <value>10</value>
+  <description>The maximum number of complete jobs per user to keep around before delegating them to the job history.
+  </description>
+</property>
+
+
+  <property>
+    <name>hadoop.job.history.user.location</name>
+    <value>none</value>
+    <description>
+    User can specify a location to store the history files of
+    a particular job. If nothing is specified, the logs are stored in
+    output directory. The files are stored in "_logs/history/" in the directory.
+    User can stop logging by giving the value "none".
+    </description>
+  </property>
+
+  <property>
+    <name>mapred.jobtracker.taskScheduler</name>
+    <value>org.apache.hadoop.mapred.FairScheduler</value>
+  </property>
+
+  <property>
+    <name>mapred.fairscheduler.weightadjuster</name>
+    <value>org.apache.hadoop.mapred.NewJobWeightBooster</value>
+  </property>
+
+  <property>
+    <name>mapred.newjobweightbooster.factor</name>
+    <value>3</value>
+    <description>Priority boost factor for new jobs</description>
+  </property>
+
+  <property>
+    <name>mapred.newjobweightbooster.duration</name>
+    <value>300000</value>
+    <description>Priority boost duration (in milliseconds)</description>
+  </property>
+
+  <property>
+    <name>mapred.fairscheduler.poolnameproperty</name>
+    <value>user.name</value>
+    <description>Which jobconf property is used to determine a job's pool name</description>
+  </property>
+
+  <property>
+    <name>mapred.fairscheduler.assignmultiple</name>
+    <value>true</value>
+    <description>Allow the scheduler to assign both a map and a reduce in the same heartbeat</description>
+  </property>
+
+  <property>
+    <name>dfs.http.address</name>
+    <value>namenode.example.come:50070</value>
+    <description>
+      The address and the base port where the dfs namenode web ui will listen on.
+      If the port is 0 then the server will start on a free port.
+      This is used by the secondary namenode to communicate with the primary namenode.
+    </description>
+  </property>
+
+  <property>
+    <name>mapred.jobtracker.mintime.before.retirejob</name>
+    <value>60000</value>
+    <description>
+      The minimum time (in ms) before a completed job can be retired.
+    </description>
+  </property>
+
+ <property>
+  <name>mapred.jobtracker.maxtasks.per.job</name>
+  <value>30000</value>
+  <description>The maximum number of tasks for a single job.
+  A value of -1 indicates that there is no maximum.  </description>
+</property>
+
+ <property>
+  <name>mapred.throttle.threshold.percent</name>
+  <value>90</value>
+  <description>Throttle job submissions if the heap size on the JobTracker
+  exceeds this specified percentage.  A value of 100 indicates that
+  job submissions are not throttled.  </description>
+</property>
+<property>
+  <name>ipc.client.timeout</name>
+  <value>600000</value>
+  <description>Defines the timeout for IPC calls in milliseconds.</description>
+</property>
+
+</configuration>
