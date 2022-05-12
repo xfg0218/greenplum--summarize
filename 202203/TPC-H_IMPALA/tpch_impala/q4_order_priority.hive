@@ -1,0 +1,24 @@
+DROP TABLE q4_order_priority_tmp;
+DROP TABLE q4_order_priority;
+
+-- create the target table
+CREATE TABLE q4_order_priority_tmp (O_ORDERKEY INT);
+CREATE TABLE q4_order_priority (O_ORDERPRIORITY STRING, ORDER_COUNT INT);
+
+set mapred.min.split.size=536870912;
+-- the query
+INSERT  INTO  TABLE q4_order_priority_tmp 
+select 
+  DISTINCT l_orderkey 
+from 
+  lineitem 
+where 
+  l_commitdate < l_receiptdate;
+INSERT  INTO  TABLE q4_order_priority 
+select o_orderpriority, count(1) as order_count 
+from 
+  orders o join q4_order_priority_tmp t 
+  on 
+o.o_orderkey = t.o_orderkey and o.o_orderdate >= '1993-07-01' and o.o_orderdate < '1993-10-01' 
+group by o_orderpriority 
+order by o_orderpriority;
