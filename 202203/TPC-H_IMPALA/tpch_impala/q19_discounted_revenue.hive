@@ -1,11 +1,8 @@
-DROP TABLE q19_discounted_revenue;
+DROP TABLE IF EXISTS  q19_discounted_revenue;
 
 
 -- create the result table
 create table q19_discounted_revenue(revenue double);
-
-set mapred.min.split.size=268435456;
-set hive.exec.reducers.bytes.per.reducer=1040000000;
 
 -- the query
 insert  into  table q19_discounted_revenue

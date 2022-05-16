@@ -1,8 +1,8 @@
-DROP TABLE q13_customer_distribution;
+DROP TABLE IF EXISTS  q13_customer_distribution;
 
 
 -- create the result table
-create table q13_customer_distribution (c_count int, custdist int);
+create table q13_customer_distribution (c_count BIGINT, custdist int);
 
 -- the query
 insert  into  table q13_customer_distribution

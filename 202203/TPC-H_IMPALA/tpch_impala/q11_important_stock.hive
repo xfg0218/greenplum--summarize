@@ -1,6 +1,6 @@
-DROP TABLE q11_important_stock;
-DROP TABLE q11_part_tmp;
-DROP TABLE q11_sum_tmp;
+DROP TABLE IF EXISTS  q11_important_stock;
+DROP TABLE IF EXISTS  q11_part_tmp;
+DROP TABLE IF EXISTS  q11_sum_tmp;
 
 
 -- create the target table

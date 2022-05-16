@@ -1,10 +1,7 @@
-DROP TABLE q9_product_type_profit;
+DROP TABLE IF EXISTS  q9_product_type_profit;
 
 -- create the result table
-create table q9_product_type_profit (nation string, o_year string, sum_profit double);
-
-set mapred.min.split.size=536870912;
-set hive.exec.reducers.bytes.per.reducer=1024000000;
+create table q9_product_type_profit (nation string, o_year INT, sum_profit double);
 
 -- the query
 insert  into  table q9_product_type_profit

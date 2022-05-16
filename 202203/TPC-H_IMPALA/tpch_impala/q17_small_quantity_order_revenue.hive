@@ -1,5 +1,5 @@
-DROP TABLE q17_small_quantity_order_revenue;
-DROP TABLE lineitem_tmp;
+DROP TABLE IF EXISTS  q17_small_quantity_order_revenue;
+DROP TABLE IF EXISTS  lineitem_tmp;
 
 -- create the result table
 create table q17_small_quantity_order_revenue (avg_yearly double);

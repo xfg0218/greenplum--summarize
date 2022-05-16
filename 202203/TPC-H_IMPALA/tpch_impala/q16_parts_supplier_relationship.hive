@@ -1,6 +1,6 @@
-DROP TABLE q16_parts_supplier_relationship;
-DROP TABLE q16_tmp;
-DROP TABLE supplier_tmp;
+DROP TABLE IF EXISTS  q16_parts_supplier_relationship;
+DROP TABLE IF EXISTS  q16_tmp;
+DROP TABLE IF EXISTS  supplier_tmp;
 
 -- create the result table
 create table q16_parts_supplier_relationship(p_brand string, p_type string, p_size int, supplier_cnt int);

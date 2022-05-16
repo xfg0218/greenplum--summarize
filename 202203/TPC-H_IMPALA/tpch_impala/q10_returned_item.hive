@@ -1,10 +1,7 @@
-DROP TABLE q10_returned_item;
+DROP TABLE IF EXISTS  q10_returned_item;
 
 -- create the result table
-create table q10_returned_item (c_custkey int, c_name string, revenue double, c_acctbal string, n_name string, c_address string, c_phone string, c_comment string);
-
-set mapred.min.split.size=536870912;
-set hive.exec.reducers.bytes.per.reducer=1024000000;
+create table q10_returned_item (c_custkey int, c_name string, revenue double, c_acctbal DOUBLE, n_name string, c_address string, c_phone string, c_comment string);
 
 -- the query
 insert  into  table q10_returned_item

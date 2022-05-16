@@ -1,11 +1,10 @@
-DROP TABLE q4_order_priority_tmp;
-DROP TABLE q4_order_priority;
+DROP TABLE IF EXISTS  q4_order_priority_tmp;
+DROP TABLE IF EXISTS  q4_order_priority;
 
 -- create the target table
 CREATE TABLE q4_order_priority_tmp (O_ORDERKEY INT);
-CREATE TABLE q4_order_priority (O_ORDERPRIORITY STRING, ORDER_COUNT INT);
+CREATE TABLE q4_order_priority (O_ORDERPRIORITY STRING, ORDER_COUNT BIGINT);
 
-set mapred.min.split.size=536870912;
 -- the query
 INSERT  INTO  TABLE q4_order_priority_tmp 
 select 

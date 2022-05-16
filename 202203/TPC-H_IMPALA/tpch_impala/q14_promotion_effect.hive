@@ -1,10 +1,7 @@
-DROP TABLE q14_promotion_effect;
+DROP TABLE IF EXISTS  q14_promotion_effect;
 
 -- create the result table
 create table q14_promotion_effect(promo_revenue double);
-
-set mapred.min.split.size=536870912;
-set hive.exec.reducers.bytes.per.reducer=1040000000;
 
 -- the query
 insert  into  table q14_promotion_effect

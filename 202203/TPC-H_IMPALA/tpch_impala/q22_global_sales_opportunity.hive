@@ -1,7 +1,7 @@
-DROP TABLE q22_customer_tmp;
-DROP TABLE q22_customer_tmp1;
-DROP TABLE q22_orders_tmp;
-DROP TABLE q22_global_sales_opportunity;
+DROP TABLE IF EXISTS  q22_customer_tmp;
+DROP TABLE IF EXISTS  q22_customer_tmp1;
+DROP TABLE IF EXISTS  q22_orders_tmp;
+DROP TABLE IF EXISTS  q22_global_sales_opportunity;
 
 
 -- create target tables

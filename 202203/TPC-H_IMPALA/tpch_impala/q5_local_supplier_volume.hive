@@ -1,9 +1,7 @@
-DROP TABLE q5_local_supplier_volume;
+DROP TABLE IF EXISTS  q5_local_supplier_volume;
 
 -- create the target table
 create table q5_local_supplier_volume (N_NAME STRING, REVENUE DOUBLE);
-
-set mapred.min.split.size=536870912;
 
 -- the query
 insert  into  table q5_local_supplier_volume 
