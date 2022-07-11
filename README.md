@@ -85,6 +85,11 @@
 
 # 历史greenplum知识点介绍
 
+## 202204 月
+
+1、[麒麟操作系统](https://github.com/xfg0218/greenplum--summarize/tree/master/202204/%E9%BA%92%E9%BA%9F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
+
+
 ## 202203 月
 
 1、[TPCH测试](https://github.com/xfg0218/greenplum--summarize/tree/master/202203/TPCH%E6%B5%8B%E8%AF%95)
