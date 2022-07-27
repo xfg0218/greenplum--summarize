@@ -89,6 +89,7 @@
 
 1、[麒麟操作系统](https://github.com/xfg0218/greenplum--summarize/tree/master/202204/%E9%BA%92%E9%BA%9F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
 
+2、[greenplum在中标麒麟V7.0U6 x86_64上安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202204/greenplum%E5%9C%A8%E4%B8%AD%E6%A0%87%E9%BA%92%E9%BA%9FV7.0U6%E4%B8%8A%E5%AE%89%E8%A3%85)
 
 ## 202203 月
 
