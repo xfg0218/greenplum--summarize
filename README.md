@@ -13,33 +13,35 @@
 
 1、[PGTune](https://pgtune.leopard.in.ua/)
 
-2、[BiliBili学习地址](https://space.bilibili.com/489184136)
+2、[SQL审核工具](https://github.com/bytebase/bytebase)
 
-3、[Greenlum配置参数](https://gp-docs-cn.github.io/docs/ref_guide/config_params/guc-list.html#add_missing_from)
+3、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
-4、[Memory calculator](https://greenplum.org/calc/)
+4、[Greenlum配置参数](https://gp-docs-cn.github.io/docs/ref_guide/config_params/guc-list.html#add_missing_from)
 
-5、[不同数据库SQL相互转换](http://www.sqlines.com/online)
+5、[Memory calculator](https://greenplum.org/calc/)
 
-6、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
+6、[不同数据库SQL相互转换](http://www.sqlines.com/online)
 
-7、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
+7、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
 
-8、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
+8、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
 
-9、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
+9、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
 
-10、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
+10、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
 
-11、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
+11、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
 
-12、[greenplum-syscat-ref 系统表关系可视化图](https://stephendotcarter.github.io/greenplum-syscat-ref/diagram.html)
+12、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
 
-13、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
+13、[greenplum-syscat-ref 系统表关系可视化图](https://stephendotcarter.github.io/greenplum-syscat-ref/diagram.html)
 
-14、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+14、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
 
-15、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
+15、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+
+16、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
 
 # 常用Greenplum客户端链接工具
 
@@ -82,6 +84,11 @@
 5、[使用sqlines同步数据到Greenpum或MatrixDB中](https://github.com/dmtolpeko/sqlines)
 
 6、[dbswitch提供源端数据库向目的端数据的全量与增量迁移同步功能](https://dbswitch.gitee.io/docs-site/#/)
+
+# 常用分析资料
+
+1、[服务器中过多的TIME_WAIT分析](https://mp.weixin.qq.com/s/E2cr0sc9xvZqZgc-3cWDkw)
+
 
 # 历史greenplum知识点介绍
 
