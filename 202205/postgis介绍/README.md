@@ -124,11 +124,11 @@ GEOMETRYCOLLECTION(POINT(2 3),LINESTRING(2 3,3 4))
 – | 平移 | select box '((0,0),(1,1))' – point '(2.0,0)'; | (-1,1),(-2,0)
 * | 伸缩/旋转 | select box '((0,0),(1,1))' * point '(2.0,0)'; | (2,2),(0,0)
 / | 伸缩/旋转 | select box '((0,0),(2,2))' / point '(2.0,0)'; | (1,1),(0,0)
-# | 交点或者交面 | select box'((1,-1),(-1,1))' # box'((1,1),(-1,-1))'; | (1,1),(-1,-1)
-# | path或polygon的顶点数 | select #path'((1,1),(2,2),(2,1))'; | 3
+`#` | 交点或者交面 | select box'((1,-1),(-1,1))' # box'((1,1),(-1,-1))'; | (1,1),(-1,-1)
+`#` | path或polygon的顶点数 | select #path'((1,1),(2,2),(2,1))'; | 3
 @-@ | 长度或周长 | select @-@ path'((1,1),(2,2),(2,1))'; | 3.414213562
 @@ | 中心 | select @@ circle'<(0,0),1>'; | (0,0)
-## | 第一个操作数和第二个操作数的最近点 | select point '(0,0)' ## lseg '((2,0),(0,2))'; | (1,1)
+`##` | 第一个操作数和第二个操作数的最近点 | select point '(0,0)' ## lseg '((2,0),(0,2))'; | (1,1)
 <-> | 间距 | select circle '<(0,0),1>' <-> circle '<(5,0),1>'; | 3
 && | 是否有重叠 | select box '((0,0),(1,1))' && box '((0,0),(2,2))'; | t
 << | 是否严格在左 | select circle '((0,0),1)' << circle '((5,0),1)'; | t
@@ -297,7 +297,7 @@ taix=# select * from geometry_columns;
  taix            | public         | trip          | dropoff_geom      |               2 | 2163 | POINT
  taix            | public         | trip_1_prt_1  | pickup_geom       |               2 | 2163 | POINT
  taix            | public         | trip_1_prt_1  | dropoff_geom      |               2 | 2163 | POINT
- 
+
 ```
 
 
