@@ -92,6 +92,14 @@
 
 # 历史greenplum知识点介绍
 
+## 202205 月
+
+1、[PostGis介绍](https://github.com/xfg0218/greenplum--summarize/tree/master/202205/postgis%E4%BB%8B%E7%BB%8D)
+
+2、[PostGis安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202205/postgis%E5%AE%89%E8%A3%85)
+
+3、[PostGis案例介绍](https://github.com/xfg0218/greenplum--summarize/tree/master/202205/postgis%E6%A1%88%E4%BE%8B%E4%BB%8B%E7%BB%8D)
+
 ## 202204 月
 
 1、[麒麟操作系统](https://github.com/xfg0218/greenplum--summarize/tree/master/202204/%E9%BA%92%E9%BA%9F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
