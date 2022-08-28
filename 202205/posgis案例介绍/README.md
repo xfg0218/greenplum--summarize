@@ -124,6 +124,9 @@ select st_distance('linestring(-122.33 47.606, 0.0 51.5)'::geometry, 'point(-21.
 
 # 点在集合体内的案例
 ```
+中国国家基础地理信息数据下载
+http://gaohr.win/site/blogs/2017/2017-04-18-GIS-basic-data-of-China.html#County_pl
+
 -- 生成基础图层数据
 shp2pgsql -s 4326 $PATH/country.shp  public.table_shapefile > load.sql
 
