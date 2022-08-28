@@ -122,4 +122,33 @@ select st_distance('linestring(-122.33 47.606, 0.0 51.5)'::geometry, 'point(-21.
 
 ```
 
+# 点在集合体的案例
+```
+-- 生成基础图层数据
+shp2pgsql -s 4326 $PATH/country.shp  public.table_shapefile > load.sql
+
+-- 加载数据到数据库
+psql  -d database -f load.sql
+
+-- 查看矢量图的数量
+postgres =# select count(*) from table_shapefile;
+ count
+-------
+  3366
+(1 row)
+
+-- 查看点在制定的集合内（北京市通州区）
+SELECT count(*) FROM tablename WHERE
+(ST_intersects((select geom  from table_shapefile where adcode99= '110112'),tablename.point));
+
+-- 以下是把最新的经纬度生成一个点的信息,持续进行更新。
+last(ST_SetSRID(ST_MakePoint(lng, lat), 4326),time) as point
+
+-- 查看已知的集合图形内的点
+SELECT count(*) FROM tablename WHERE (ST_intersects(geometry('SRID=4326;Polygon((-31.8193460000999980 50.8630180000999990,23.4445540000999980 50.8630180000999990,23.4445540000999980 -0.0000000001000000,-31.8193460000999980 -0.0000000001000000,-31.8193460000999980 50.8630180000999990))'),tablename.point));
+
+
+```
+
+
 
