@@ -22,6 +22,10 @@ TPC-H查询包含8张数据表、22条复杂的SQL查询，大多数查询包含
 | 8 | region | 地区信息 |
 
 
+# TPCH表关系图
+![images](https://github.com/xfg0218/greenplum--summarize/blob/master/images/matrixdb-images/tpch.png)
+
+
 # TPCH 的22条SQL解释
 
 | 序号 | query | query定义 | query含义 | query特点 |
