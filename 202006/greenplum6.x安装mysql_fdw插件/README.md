@@ -24,7 +24,8 @@
 	提取码：xcl8
 	6、libmysqlclient.so 文件下载
 	链接: https://pan.baidu.com/s/1EB-zWTS0shjMKB6iq2NWsw?pwd=k3m0 提取码: k3m0
-	
+	7、rh-mysql57-mysql需要的rpm
+        链接: https://pan.baidu.com/s/1T8vsXYNnRsE9r-EE1Yw-wg 提取码: q5l0
 	
 	
 	下载网站:
