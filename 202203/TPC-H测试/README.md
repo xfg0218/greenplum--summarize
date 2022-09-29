@@ -141,6 +141,28 @@ psql -f 04_load/foreignkeys/059.gpdb.foreignkeys.sql
 
 ```
 
+### 对表执行vacuum和analyze
+
+```
+vacuum part;
+vacuum supplier;
+vacuum partsupp;
+vacuum customer;
+vacuum orders;
+vacuum lineitem;
+vacuum nation;
+vacuum region;
+
+analyze part;
+analyze supplier;
+analyze partsupp;
+analyze customer;
+analyze orders;
+analyze lineitem;
+analyze nation;
+analyze region;
+```
+
 
 ### 运行查看
 
