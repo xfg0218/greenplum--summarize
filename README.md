@@ -45,15 +45,17 @@
 
 # 常用Greenplum客户端链接工具
 
-1、[客户端管理工具datagrip下载](https://www.jetbrains.com/datagrip/)
+1、[pgadmin客户端](https://www.pgadmin.org/)
 
-2、[客户端管理工具dbeaver下载](https://dbeaver.io/)
+2、[客户端管理工具datagrip下载](https://www.jetbrains.com/datagrip/)
 
-3、[客户端管理工具navicat下载](http://www.navicat.com.cn/download/navicat-for-postgresql)
+3、[客户端管理工具dbeaver下载](https://dbeaver.io/)
 
-4、[HHDBCS 恒辉通用数据库管理桌面软件](https://www.deskui.com/)
+4、[客户端管理工具navicat下载](http://www.navicat.com.cn/download/navicat-for-postgresql)
 
-5、各自的特点比较
+5、[HHDBCS 恒辉通用数据库管理桌面软件](https://www.deskui.com/)
+
+6、各自的特点比较
 | 产品名称 | 版权 | 兼容性 | 是否支持开源版本 | 函数 | 分区表 | 流畅性 | 资源占用 |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | DBeaver | 商业/开源 | GPDB5/6 | 支持 | 支持良好 | 支持 | 一般 | 较大 |
