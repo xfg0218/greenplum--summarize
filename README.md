@@ -45,7 +45,7 @@
 
 # 常用Greenplum客户端链接工具
 
-1、[pgadmin客户端](https://www.pgadmin.org/)
+1、[客户端管理工具pgadmin下载](https://www.pgadmin.org/)
 
 2、[客户端管理工具datagrip下载](https://www.jetbrains.com/datagrip/)
 
