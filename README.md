@@ -95,6 +95,10 @@
 
 2、[网络丢包问题分析](https://mp.weixin.qq.com/s/nYsKl0vW5boFkL7pEGMREA)
 
+3、[使用trace查看函数调用关系](https://mp.weixin.qq.com/s/bCvSe9TIWvxsM4c_AvAIKQ)
+
+4、[perf原理及使用](https://mp.weixin.qq.com/s/Vj418ZwVe6PxE1erDu8bkg)
+
 # 历史greenplum知识点介绍
 
 ## 202205 月
