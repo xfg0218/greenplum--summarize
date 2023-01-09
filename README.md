@@ -89,7 +89,7 @@
 
 6、[dbswitch提供源端数据库向目的端数据的全量与增量迁移同步功能](https://dbswitch.gitee.io/docs-site/#/)
 
-# 常用分析资料
+# 常用高级分析资料
 
 1、[服务器中过多的TIME_WAIT分析](https://mp.weixin.qq.com/s/E2cr0sc9xvZqZgc-3cWDkw)
 
