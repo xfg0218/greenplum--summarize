@@ -93,6 +93,7 @@
 
 1、[服务器中过多的TIME_WAIT分析](https://mp.weixin.qq.com/s/E2cr0sc9xvZqZgc-3cWDkw)
 
+2、[网络丢包问题分析](https://mp.weixin.qq.com/s/nYsKl0vW5boFkL7pEGMREA)
 
 # 历史greenplum知识点介绍
 
