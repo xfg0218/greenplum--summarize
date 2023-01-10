@@ -99,6 +99,10 @@
 
 4、[perf原理及使用](https://mp.weixin.qq.com/s/Vj418ZwVe6PxE1erDu8bkg)
 
+5、[深入了解I/O](https://mp.weixin.qq.com/s/TFZkwcNfUy425Nbh055qrg)
+
+6、[I/O原理](https://mp.weixin.qq.com/s/X7_aXicypwogK3vjAVmppw)
+
 # 历史greenplum知识点介绍
 
 ## 202205 月
