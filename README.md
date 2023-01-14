@@ -103,6 +103,8 @@
 
 6、[I/O原理](https://mp.weixin.qq.com/s/X7_aXicypwogK3vjAVmppw)
 
+7、[Out Of Memory机制](https://mp.weixin.qq.com/s/YgA4x6kmhvOpgYQtZ9_A0g)
+
 # 历史greenplum知识点介绍
 
 ## 202205 月
