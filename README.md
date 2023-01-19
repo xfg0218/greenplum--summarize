@@ -105,6 +105,12 @@
 
 7、[Out Of Memory机制](https://mp.weixin.qq.com/s/YgA4x6kmhvOpgYQtZ9_A0g)
 
+8、[一台服务器最大能支持多少条TCP连接](https://mp.weixin.qq.com/s/gYIH-sYT-L11G_hKdJ3ruA)
+
+9、[Linux下的TCP测试工具](https://mp.weixin.qq.com/s/-B0Z7D1HfjYzk0iHYbgDBA)
+
+
+
 # 历史greenplum知识点介绍
 
 ## 202205 月
