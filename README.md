@@ -91,23 +91,44 @@
 
 # 常用高级分析资料
 
+## CPU资料
+
+1、[CPU 三级缓存的秘密](https://mp.weixin.qq.com/s/oHsISqb-TUiu11q58ZDCmg)
+
+## IO资料
+
+1、[磁盘I/O是怎么工作的](https://mp.weixin.qq.com/s/hE6u0BpF8AUKBEyE93AvpA)
+
+2、[深入了解I/O](https://mp.weixin.qq.com/s/TFZkwcNfUy425Nbh055qrg)
+
+3、[I/O原理](https://mp.weixin.qq.com/s/X7_aXicypwogK3vjAVmppw)
+
+## 内存资料
+
+## 网络资料
+
+1、[网络丢包问题分析](https://mp.weixin.qq.com/s/nYsKl0vW5boFkL7pEGMREA)
+
+2、[Out Of Memory机制](https://mp.weixin.qq.com/s/YgA4x6kmhvOpgYQtZ9_A0g)
+
+## TCP && UDP
+
+1、[Linux下的TCP测试工具](https://mp.weixin.qq.com/s/-B0Z7D1HfjYzk0iHYbgDBA)
+
+2、[TCP协议-长连接和短连接](https://mp.weixin.qq.com/s/cXbRSq-_CKorK1x3qYYlyA)
+
+3、[一台服务器最大能支持多少条TCP连接](https://mp.weixin.qq.com/s/gYIH-sYT-L11G_hKdJ3ruA)
+
+
+## 常见工具
+
+1、[使用trace查看函数调用关系](https://mp.weixin.qq.com/s/bCvSe9TIWvxsM4c_AvAIKQ)
+
+2、[perf原理及使用](https://mp.weixin.qq.com/s/Vj418ZwVe6PxE1erDu8bkg)
+
+## 常见分析
+
 1、[服务器中过多的TIME_WAIT分析](https://mp.weixin.qq.com/s/E2cr0sc9xvZqZgc-3cWDkw)
-
-2、[网络丢包问题分析](https://mp.weixin.qq.com/s/nYsKl0vW5boFkL7pEGMREA)
-
-3、[使用trace查看函数调用关系](https://mp.weixin.qq.com/s/bCvSe9TIWvxsM4c_AvAIKQ)
-
-4、[perf原理及使用](https://mp.weixin.qq.com/s/Vj418ZwVe6PxE1erDu8bkg)
-
-5、[深入了解I/O](https://mp.weixin.qq.com/s/TFZkwcNfUy425Nbh055qrg)
-
-6、[I/O原理](https://mp.weixin.qq.com/s/X7_aXicypwogK3vjAVmppw)
-
-7、[Out Of Memory机制](https://mp.weixin.qq.com/s/YgA4x6kmhvOpgYQtZ9_A0g)
-
-8、[一台服务器最大能支持多少条TCP连接](https://mp.weixin.qq.com/s/gYIH-sYT-L11G_hKdJ3ruA)
-
-9、[Linux下的TCP测试工具](https://mp.weixin.qq.com/s/-B0Z7D1HfjYzk0iHYbgDBA)
 
 
 
