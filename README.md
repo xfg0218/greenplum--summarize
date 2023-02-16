@@ -91,6 +91,15 @@
 
 # 常用高级分析资料
 
+## 执行计划在线分析
+```
+https://explain.depesz.com/
+
+https://explain.dalibo.com/
+
+https://tatiyants.com/pev/#/plans/new
+```
+
 ## CPU资料
 
 1、[CPU 三级缓存的秘密](https://mp.weixin.qq.com/s/oHsISqb-TUiu11q58ZDCmg)
@@ -129,6 +138,8 @@
 ## 常见分析
 
 1、[服务器中过多的TIME_WAIT分析](https://mp.weixin.qq.com/s/E2cr0sc9xvZqZgc-3cWDkw)
+
+
 
 
 
