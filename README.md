@@ -91,6 +91,9 @@
 
 7、[Converting from other Databases to PostgreSQL](https://wiki.postgresql.org/wiki/Converting_from_other_Databases_to_PostgreSQL)
 
+8、[AWS SCT](https://docs.aws.amazon.com/zh_cn/SchemaConversionTool/latest/userguide/Welcome.html)
+
+
 # 常用高级分析资料
 
 ## 执行计划在线分析
