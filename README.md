@@ -89,6 +89,8 @@
 
 6、[dbswitch提供源端数据库向目的端数据的全量与增量迁移同步功能](https://dbswitch.gitee.io/docs-site/#/)
 
+7、[Converting from other Databases to PostgreSQL](https://wiki.postgresql.org/wiki/Converting_from_other_Databases_to_PostgreSQL)
+
 # 常用高级分析资料
 
 ## 执行计划在线分析
