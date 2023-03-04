@@ -137,6 +137,8 @@ https://tatiyants.com/pev/#/plans/new
 
 3、[一台服务器最大能支持多少条TCP连接](https://mp.weixin.qq.com/s/gYIH-sYT-L11G_hKdJ3ruA)
 
+4、[Linux的TCP连接数量最大不能超过65535,服务器是如何应对百万千万的并发的](https://mp.weixin.qq.com/s/jxgs03CM1UfHLuI6nu69FA)
+
 
 ## 常见工具
 
