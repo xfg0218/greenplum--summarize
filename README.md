@@ -9,6 +9,8 @@
 
 2、[当谈起Greenplum 7时,我们在谈什么?之内核篇](https://mp.weixin.qq.com/s/sI7Fk-up3VlufP2UJ-IRvQ)
 
+3、[Greenplum 7 Beta2版已正式发布及新特性解读](https://mp.weixin.qq.com/s/l_r7-Ws-_YPlG4XF7yQ0SA)
+
 #  常用Greenplum学习网站资料
 
 1、[PGTune](https://pgtune.leopard.in.ua/)
@@ -116,6 +118,8 @@ https://tatiyants.com/pev/#/plans/new
 2、[深入了解I/O](https://mp.weixin.qq.com/s/TFZkwcNfUy425Nbh055qrg)
 
 3、[I/O原理](https://mp.weixin.qq.com/s/X7_aXicypwogK3vjAVmppw)
+
+4、[Linux性能分析大全](https://mp.weixin.qq.com/s/2xtrVoG3RX5S06Vj21rt4A)
 
 ## 内存资料
 
