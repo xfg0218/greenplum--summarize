@@ -95,6 +95,20 @@
 
 8、[AWS SCT](https://docs.aws.amazon.com/zh_cn/SchemaConversionTool/latest/userguide/Welcome.html)
 
+# 常用PostgreSQL 学习资料
+
+1、[PostgreSQL技术内幕——原理探索](https://pg-internal.vonng.com/#/)
+
+2、[PostgreSQL 中文手册](http://postgres.cn/docs/12/index.html)
+
+3、[pgfans.cn](https://www.pgfans.cn/)
+
+4、[PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/index.htm)
+
+5、[pgxn](https://pgxn.org/)
+
+6、[在线SQL转换工具sqlines](http://www.sqlines.com/online)
+
 
 # 常用高级分析资料
 
@@ -164,6 +178,8 @@ https://tatiyants.com/pev/#/plans/new
 2、[PostGis安装](https://github.com/xfg0218/greenplum--summarize/tree/master/202205/postgis%E5%AE%89%E8%A3%85)
 
 3、[PostGis案例介绍](https://github.com/xfg0218/greenplum--summarize/tree/master/202205/postgis%E6%A1%88%E4%BE%8B%E4%BB%8B%E7%BB%8D)
+
+4、[空间数据库原理与PostGIS应用视频讲解](https://www.bilibili.com/video/BV1U7411c7wc/?spm_id_from=333.337.search-card.all.click&vd_source=b044629c2bdb73ada73a2a2b68911da2)
 
 ## 202204 月
 
