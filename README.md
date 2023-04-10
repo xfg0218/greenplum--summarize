@@ -11,6 +11,10 @@
 
 3、[Greenplum 7 Beta2版已正式发布及新特性解读](https://mp.weixin.qq.com/s/l_r7-Ws-_YPlG4XF7yQ0SA)
 
+4、[Greenplum 7.x Beta Release Notes](https://docs.vmware.com/en/VMware-Tanzu-Greenplum/7/greenplum-database/GUID-relnotes-release-notes.html#release-70-beta1-0)
+
+5、[Greenplum 7: What’s New](https://greenplum.org/partition-in-greenplum-7-whats-new/)
+
 #  常用Greenplum学习网站资料
 
 1、[PGTune](https://pgtune.leopard.in.ua/)
@@ -44,6 +48,8 @@
 15、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
 16、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
+
+17、[keepalived实现greenplum的自动切换高可用](https://blog.csdn.net/weixin_44385419/article/details/111550334)
 
 # 常用Greenplum客户端链接工具
 
