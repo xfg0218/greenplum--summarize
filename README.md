@@ -177,6 +177,8 @@ https://tatiyants.com/pev/#/plans/new
 
 # 历史greenplum知识点介绍
 
+## 202206 月
+
 1、[磁盘坏道检测](https://github.com/xfg0218/greenplum--summarize/tree/master/202206/%E7%A3%81%E7%9B%98%E5%9D%8F%E9%81%93%E6%A3%80%E6%B5%8B)
 
 2、[Greenplum7与Greenplum6的变化列表](https://github.com/xfg0218/greenplum--summarize/tree/master/202206/Greenplum7%E4%B8%8EGreenplum6%E7%9A%84%E6%94%B9%E5%8F%98)
