@@ -115,6 +115,11 @@
 
 6、[在线SQL转换工具sqlines](http://www.sqlines.com/online)
 
+# PostgreSQL 好文推荐
+
+1、[PostgreSQL中的空间膨胀与AutoVacuum](https://mp.weixin.qq.com/s/bJtmI1-lCayOzT8TRL_r0g) 
+
+
 
 # 常用高级分析资料
 
