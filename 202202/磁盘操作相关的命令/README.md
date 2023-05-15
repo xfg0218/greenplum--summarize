@@ -210,8 +210,6 @@ group_reporting          关于显示结果的，汇总每个进程的信息。
 lockmem=1g               只使用1g内存进行测试。
 zero_buffers             用0初始化系统buffer。
 
-
-
 ```
 
 

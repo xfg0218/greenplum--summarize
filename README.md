@@ -136,6 +136,9 @@ https://tatiyants.com/pev/#/plans/new
 
 1、[CPU 三级缓存的秘密](https://mp.weixin.qq.com/s/oHsISqb-TUiu11q58ZDCmg)
 
+2、[perf分析CPU占用高进程](https://mp.weixin.qq.com/s/2WppUu5SJl6z8e66UzJNEg)
+
+
 ## IO资料
 
 1、[磁盘I/O是怎么工作的](https://mp.weixin.qq.com/s/hE6u0BpF8AUKBEyE93AvpA)
