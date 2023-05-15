@@ -151,6 +151,8 @@ https://tatiyants.com/pev/#/plans/new
 
 ## 内存资料
 
+1、[linux内存性能优化总结](https://mp.weixin.qq.com/s/ZVA7F08NXUboxV8eljLDmA)
+
 ## 网络资料
 
 1、[网络丢包问题分析](https://mp.weixin.qq.com/s/nYsKl0vW5boFkL7pEGMREA)
