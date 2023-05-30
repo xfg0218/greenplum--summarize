@@ -176,6 +176,39 @@ postgres=# show auto_explain.log_min_duration ;
 Time: 0.545 ms
 ```
 
+# 对数据库设置时区
+```
+postgres=# show  timezone;
+     TimeZone
+------------------
+ America/New_York
+(1 row)
+
+Time: 0.488 ms
+postgres=# ALTER DATABASE postgres SET timezone = 'Asia/Shanghai';
+ALTER DATABASE
+Time: 6.605 ms
+
+
+postgres=# SET timezone = 'Asia/Shanghai';
+SET
+Time: 1.619 ms
+postgres=# show  timezone;
+   TimeZone
+---------------
+ Asia/Shanghai
+(1 row)
+
+Time: 0.403 ms
+
+
+
+```
+
+
+
+
+
 
 
 
