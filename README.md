@@ -181,8 +181,7 @@ https://tatiyants.com/pev/#/plans/new
 
 1、[服务器中过多的TIME_WAIT分析](https://mp.weixin.qq.com/s/E2cr0sc9xvZqZgc-3cWDkw)
 
-
-
+2、[剖析CPU性能火焰图生成的内部原理](https://mp.weixin.qq.com/s/A19RlLhSgbzw8UU4p1TZNA)
 
 
 # 历史greenplum知识点介绍
