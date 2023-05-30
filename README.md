@@ -186,6 +186,12 @@ https://tatiyants.com/pev/#/plans/new
 
 # 历史greenplum知识点介绍
 
+## 202207 月
+
+1、[PSQL客户端使用技巧](https://github.com/xfg0218/greenplum--summarize/tree/master/202207/greenplum%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7)
+
+2、[random函数使用案例](https://github.com/xfg0218/greenplum--summarize/blob/master/202207/greenplum%E7%9A%84random%E5%87%BD%E6%95%B0%E4%BD%BF%E7%94%A8/README.md)
+
 ## 202206 月
 
 1、[磁盘坏道检测](https://github.com/xfg0218/greenplum--summarize/tree/master/202206/%E7%A3%81%E7%9B%98%E5%9D%8F%E9%81%93%E6%A3%80%E6%B5%8B)
