@@ -20,7 +20,9 @@ Linux mdw 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64 x86_
 ```
 > gcc 在线安装方式
 ```
+
 https://blog.csdn.net/b_ingram/article/details/121569398
+
 ```
 
 ## 编译步骤
