@@ -177,6 +177,8 @@ https://tatiyants.com/pev/#/plans/new
 
 2、[perf原理及使用](https://mp.weixin.qq.com/s/Vj418ZwVe6PxE1erDu8bkg)
 
+3、[Perf性能分析指南](https://mp.weixin.qq.com/s/TJIy9fvCJPjeVwWzjkJyxw)
+
 ## 常见分析
 
 1、[服务器中过多的TIME_WAIT分析](https://mp.weixin.qq.com/s/E2cr0sc9xvZqZgc-3cWDkw)
