@@ -21,37 +21,39 @@
 
 1、[PGTune](https://pgtune.leopard.in.ua/)
 
-2、[SQL审核工具](https://github.com/bytebase/bytebase)
+2、[SQL-ER图](https://github.com/k1LoW/tbls)
 
-3、[BiliBili学习地址](https://space.bilibili.com/489184136)
+3、[SQL审核工具](https://github.com/bytebase/bytebase)
 
-4、[Greenlum配置参数](https://gp-docs-cn.github.io/docs/ref_guide/config_params/guc-list.html#add_missing_from)
+4、[BiliBili学习地址](https://space.bilibili.com/489184136)
 
-5、[Memory calculator](https://greenplum.org/calc/)
+5、[Greenlum配置参数](https://gp-docs-cn.github.io/docs/ref_guide/config_params/guc-list.html#add_missing_from)
 
-6、[不同数据库SQL相互转换](http://www.sqlines.com/online)
+6、[Memory calculator](https://greenplum.org/calc/)
 
-7、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
+7、[不同数据库SQL相互转换](http://www.sqlines.com/online)
 
-8、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
+8、[greenplum在github上的官网](https://github.com/greenplum-db/gpdb)
 
-9、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
+9、[greenplum-pxf-examples工具实例](https://github.com/kongyew/greenplum-pxf-examples)
 
-10、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
+10、[PostgreSQL Foreign data wrappers](https://wiki.postgresql.org/index.php?title=Foreign_data_wrappers&spm=a2c6h.12873639.0.0.68097480atbVAh)
 
-11、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
+11、[PGXN PostgreSQL Extension Network](https://pgxn.org/)
 
-12、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
+12、[greenplum官方网站最新版本下载地址](https://network.pivotal.io/products/pivotal-gpdb)
 
-13、[greenplum-syscat-ref 系统表关系可视化图](https://stephendotcarter.github.io/greenplum-syscat-ref/diagram.html)
+13、[Some Greenplum SQL commands for DBA's](https://github.com/faisaltheparttimecoder/Greenplum)
 
-14、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
+14、[greenplum-syscat-ref 系统表关系可视化图](https://stephendotcarter.github.io/greenplum-syscat-ref/diagram.html)
 
-15、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
+15、[greenplum往届活动演讲PPT,官方资料下载地址](https://cn.greenplum.org/download/)
 
-16、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
+16、[Ansible-Playbook自动化部署GreenPlum数据仓库](https://github.com/faer615/greenplum)
 
-17、[keepalived实现greenplum的自动切换高可用](https://blog.csdn.net/weixin_44385419/article/details/111550334)
+17、[gitee 常用学习资料，更新频次快，内容全，比较详细](https://gitee.com/ysys_95533/ysys/tree/master)
+
+18、[keepalived实现greenplum的自动切换高可用](https://blog.csdn.net/weixin_44385419/article/details/111550334)
 
 # 常用Greenplum客户端链接工具
 
