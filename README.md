@@ -134,6 +134,9 @@ https://explain.depesz.com/
 https://explain.dalibo.com/
 
 https://tatiyants.com/pev/#/plans/new
+
+https://explain.tensor.ru/
+
 ```
 
 ## CPU资料
