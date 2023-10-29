@@ -15,7 +15,10 @@
 
 5、[Greenplum 7: What’s New](https://greenplum.org/partition-in-greenplum-7-whats-new/)
 
-6、[Greenplum Database 7 Beta.4 版本已正式发布](https://mp.weixin.qq.com/s/SuF-0TYf3-rgnNlw90nu0Q)
+6、[Greenplum 7 新特性](https://tanzu.vmware.com/content/blog/vmware-greenplum-7-release)
+
+7、[Greenplum 7 快速体验](https://mp.weixin.qq.com/s/mIQROtHPmLiIUOLPedpfVA)
+
 
 #  常用Greenplum学习网站资料
 
