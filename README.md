@@ -19,6 +19,7 @@
 
 7、[Greenplum 7 快速体验](https://mp.weixin.qq.com/s/mIQROtHPmLiIUOLPedpfVA)
 
+8、[Greenplum 各版本及组件下载](https://network.pivotal.io/products/vmware-greenplum)
 
 #  常用Greenplum学习网站资料
 
