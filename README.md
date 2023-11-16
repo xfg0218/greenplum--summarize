@@ -122,6 +122,8 @@
 
 6、[在线SQL转换工具sqlines](http://www.sqlines.com/online)
 
+7、[SQL在线格式化](https://www.youtiy.com/sql/)
+
 # PostgreSQL 好文推荐
 
 1、[PostgreSQL中的空间膨胀与AutoVacuum](https://mp.weixin.qq.com/s/bJtmI1-lCayOzT8TRL_r0g) 
@@ -197,6 +199,12 @@ https://explain.tensor.ru/
 
 
 # 历史greenplum知识点介绍
+
+## 202210 月
+
+1、[Greenlum集成SM2国密算法](blob/master/202210/greenlum集成SM2国密算法/README.md)
+
+2、[Greenplum使用pgcrypto实现加解密](blob/master/202210/greenplum使用pgcrypto实现加解密/README.md)
 
 ## 202209 月
 
