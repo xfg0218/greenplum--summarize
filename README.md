@@ -207,7 +207,9 @@ https://explain.tensor.ru/
 
 2、[Greenlum集成SM4国密算法](blob/master/202210/greenplum实现SM4国密算法/README.md)
 
-3、[Greenplum使用pgcrypto实现加解密](blob/master/202210/greenplum使用pgcrypto实现加解密/README.md)
+3、[Greenlum集成SM3国密算法](blob/master/202210/greenplum实现SM3国密算法/README.md)
+
+4、[Greenplum使用pgcrypto实现加解密](blob/master/202210/greenplum使用pgcrypto实现加解密/README.md)
 
 
 ## 202209 月
