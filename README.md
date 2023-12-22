@@ -21,6 +21,8 @@
 
 8、[Greenplum 各版本及组件下载](https://network.pivotal.io/products/vmware-greenplum)
 
+9、[Greenplum 7 Docker镜像](https://hub.docker.com/r/lhrbest/greenplum/tags)
+
 #  常用Greenplum学习网站资料
 
 1、[PGTune](https://pgtune.leopard.in.ua/)
