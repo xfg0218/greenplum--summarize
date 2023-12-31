@@ -203,6 +203,13 @@ https://explain.tensor.ru/
 
 # 历史greenplum知识点介绍
 
+## 202211 月
+
+1、[pgpool使用](https://github.com/xfg0218/greenplum--summarize/tree/master/202211/pgpool%E4%BD%BF%E7%94%A8)
+
+2、[Greenplum7快速体验](https://github.com/xfg0218/greenplum--summarize/tree/master/202211/Greenplum7.0%E5%BF%AB%E9%80%9F%E4%BD%93%E9%AA%8C)
+
+
 ## 202210 月
 
 1、[Greenlum集成SM2国密算法](blob/master/202210/greenlum集成SM2国密算法/README.md)
