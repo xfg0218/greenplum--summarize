@@ -205,9 +205,9 @@ https://explain.tensor.ru/
 
 ## 202211 月
 
-1、[pgpool使用](https://github.com/xfg0218/greenplum--summarize/tree/master/202211/pgpool%E4%BD%BF%E7%94%A8)
+1、[pgpool使用](202211/pgpool%E4%BD%BF%E7%94%A8)
 
-2、[Greenplum7快速体验](https://github.com/xfg0218/greenplum--summarize/tree/master/202211/Greenplum7.0%E5%BF%AB%E9%80%9F%E4%BD%93%E9%AA%8C)
+2、[Greenplum7快速体验](202211/Greenplum7.0%E5%BF%AB%E9%80%9F%E4%BD%93%E9%AA%8C)
 
 
 ## 202210 月
