@@ -16,6 +16,7 @@ pgpool-II是一个功能强大的中间件，以pgpool-II 4.3.7为例，具有�
 pgpool-II子进程：接受 发送sql
 Work进程：检查延迟情况。
 Health Check：检查pg存活状态进程
+![images](images/ConceptMap.png)
 
 
 # pgpool-II 工作进程
@@ -26,7 +27,7 @@ pgpool-II子进程：接受 发送sql
 work进程：检查延迟情况。
 pgpool logger：记录日志
 health Check：检查pg存活状态进程
-
+![images](images/WorkProgress.png)
 
 # pgpool-II 安装使用
 ## pgpool-II下载地址
