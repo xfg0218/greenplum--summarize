@@ -14,19 +14,29 @@ pgpool-II是一个功能强大的中间件，以pgpool-II 4.3.7为例，具有�
 
 # pgpool-II 概念图
 pgpool-II子进程：接受 发送sql
+
 Work进程：检查延迟情况。
+
 Health Check：检查pg存活状态进程
+
 ![images](images/ConceptMap.png)
 
 
 # pgpool-II 工作进程
 pgpool-II 的服务进程。
+
 pcp进程：向pgpool发送管理命令的
+
 pgpool-II父进程：负责检查数据库健康
+
 pgpool-II子进程：接受 发送sql
+
 work进程：检查延迟情况。
+
 pgpool logger：记录日志
+
 health Check：检查pg存活状态进程
+
 ![images](images/WorkProgress.png)
 
 # pgpool-II 安装使用
@@ -418,12 +428,4 @@ https://www.pgpool.net/docs/pgpool-II-4.3.7/en/html/
 -- 查询缓存的介绍
 https://www.pgpool.net/docs/pgpool-II-4.3.7/en/html/runtime-in-memory-query-cache.html
 
-``
-
-
-
-
-
-
-
-
+```
