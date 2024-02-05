@@ -75,7 +75,9 @@
 
 6、[SmartSQL快捷的数据库DDL导出文档](https://github.com/TeslaFly01/SmartSqlT)
 
-7、各自的特点比较
+7、[DbVisualizer 客户端连接软件](https://www.dbvis.com/download/)
+
+8、各自的特点比较
 | 产品名称 | 版权 | 兼容性 | 是否支持开源版本 | 函数 | 分区表 | 流畅性 | 资源占用 |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | DBeaver | 商业/开源 | GPDB5/6 | 支持 | 支持良好 | 支持 | 一般 | 较大 |
