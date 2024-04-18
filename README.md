@@ -1,7 +1,11 @@
 # 更多关于Greenplum资料请查看以下链接
-	CSDN中关于Greenplum的资料 https://blog.csdn.net/xfg0218/article/category/7898386
+- [CSDN中关于Greenplum的资料](https://blog.csdn.net/xfg0218/article/category/7898386)
+- [腾讯云中关于Greenplum的资料](https://cloud.tencent.com/developer/column/72497)
 
-	腾讯云中关于Greenplum的资料 https://cloud.tencent.com/developer/column/72497
+# 公众号推荐
+- [PostgreSQL学徒](https://mp.weixin.qq.com/s/Z3hW5hCXRjwiZ8v4We3UtA)
+- [PostgreSQL中文社区](https://mp.weixin.qq.com/s/5DtdROwEpE516njBjq8maQ)
+- [CP的PostgreSQL厨房](https://mp.weixin.qq.com/s/of-bVRJ5Wko110qk-kt1VA)
 
 # Greenplum 7新版本特性
 
@@ -131,10 +135,13 @@
 
 7、[SQL在线格式化](https://www.youtiy.com/sql/)
 
+8、[PostgreSQL 巡检工具](https://mp.weixin.qq.com/s/6fZ58SUP8gIo8PfxOZzJfg)
+
 # PostgreSQL 好文推荐
 
 1、[PostgreSQL中的空间膨胀与AutoVacuum](https://mp.weixin.qq.com/s/bJtmI1-lCayOzT8TRL_r0g) 
 
+2、[SQL优化方法论与实战](https://mp.weixin.qq.com/s/Z3hW5hCXRjwiZ8v4We3UtA)
 
 
 # 常用高级分析资料
@@ -177,6 +184,8 @@ https://explain.tensor.ru/
 1、[网络丢包问题分析](https://mp.weixin.qq.com/s/nYsKl0vW5boFkL7pEGMREA)
 
 2、[Out Of Memory机制](https://mp.weixin.qq.com/s/YgA4x6kmhvOpgYQtZ9_A0g)
+
+3、[DBA必备技能之网络丢包分析总结](https://mp.weixin.qq.com/s/dF4juaW-ttI0Zn1j0z6tag)
 
 ## TCP && UDP
 
