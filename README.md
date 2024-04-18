@@ -61,6 +61,8 @@
 
 18、[keepalived实现greenplum的自动切换高可用](https://blog.csdn.net/weixin_44385419/article/details/111550334)
 
+19、[Greenplum DBA ](https://www.greenplumdba.com/)
+
 # 常用Greenplum客户端链接工具
 
 1、[客户端管理工具pgadmin下载](https://www.pgadmin.org/)
