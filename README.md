@@ -530,10 +530,6 @@ https://explain.tensor.ru/
 
 ## 201908月
 
-1、[Greenplum生产环境信息同步到test环境中](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/pro-to-test)
-
-2、[OracleClobToGreenplum 把Oracle的clob字段同步到Greenplum的java工具](https://github.com/xfg0218/greenplum--summarize/tree/master/201908/OracleClobToGreenplum)
-
 ## 201906 月
 1、[查看greenplum集群中表的倾斜率](https://github.com/xfg0218/greenplum--summarize/tree/master/201906/greenplum-table-percentage)
 
