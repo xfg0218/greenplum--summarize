@@ -7,6 +7,7 @@
 - [PostgreSQL中文社区](https://mp.weixin.qq.com/s/5DtdROwEpE516njBjq8maQ)
 - [CP的PostgreSQL厨房](https://mp.weixin.qq.com/s/of-bVRJ5Wko110qk-kt1VA)
 - [陈淼的Greenplum公众号](https://mp.weixin.qq.com/s/R6OpbGwhKfzV-lRpGXyIbw)
+- [红石PG](https://mp.weixin.qq.com/s/R9yxL1F7pl2QmgzPmjzDuA)
 
 # Greenplum 7新版本特性
 
