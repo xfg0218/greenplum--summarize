@@ -157,6 +157,8 @@ https://tatiyants.com/pev/#/plans/new
 
 https://explain.tensor.ru/
 
+https://github.com/ardentperf/dsef/
+
 ```
 
 ## CPU资料
