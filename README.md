@@ -121,6 +121,8 @@
 
 8、[AWS SCT](https://docs.aws.amazon.com/zh_cn/SchemaConversionTool/latest/userguide/Welcome.html)
 
+9、[DBSyncer 数据同步工具](https://gitee.com/ghi/dbsyncer/releases)
+
 # 常用PostgreSQL 学习资料
 
 1、[PostgreSQL技术内幕——原理探索](https://pg-internal.vonng.com/#/)
