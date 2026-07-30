@@ -235,6 +235,8 @@ https://explain.datadoghq.com/*?splat=
 
 2、[数据库发展研究报告_2026年](202607/数据库发展研究报告-2026年/数据库发展研究报告_2026年.pdf)
 
+3、[pg_turbovec：让 PostgreSQL 向量搜索存储直降 20 倍，还不掉召回](202607/pg_turbovec.md)
+
 ## 202606 月
 
 1、[postgresql19-beta1重磅发布](202606/postgresql19-beta1重磅发布)
