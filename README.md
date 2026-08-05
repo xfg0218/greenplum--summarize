@@ -229,6 +229,13 @@ https://explain.datadoghq.com/*?splat=
 
 # 历史greenplum知识点介绍
 
+## 202608 月
+
+1、[从RAG到多租户几条SQL搞定向量搜索](202608/从RAG到多租户几条SQL搞定向量搜索.md)
+
+2、[从turbovec到PostgreSQL向量量化检索](202608/从turbovec到PostgreSQL向量量化检索.md)
+
+
 ## 202607 月
 
 1、[《中国数据库产业图谱（2026年）》.jpg](202607/2026数据库中国数据库产业图谱/中国数据库产业图谱_2026年.jpg)
