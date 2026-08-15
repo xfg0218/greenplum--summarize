@@ -235,6 +235,8 @@ https://explain.datadoghq.com/*?splat=
 
 2、[从turbovec到PostgreSQL向量量化检索](202608/从turbovec到PostgreSQL向量量化检索.md)
 
+3、[PG19Beta3_AIO自调优_28 个CVE](202608/PG19Beta3_AIO自调优_28个CVE.md)
+
 
 ## 202607 月
 
