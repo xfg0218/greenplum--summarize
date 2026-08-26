@@ -237,6 +237,7 @@ https://explain.datadoghq.com/*?splat=
 
 3、[PG19Beta3_AIO自调优_28 个CVE](202608/PG19Beta3_AIO自调优_28个CVE.md)
 
+4、[PG19让逻辑复制failover真正可用](202608/PG19让逻辑复制failover真正可用.md)
 
 ## 202607 月
 
